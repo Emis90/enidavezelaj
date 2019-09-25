@@ -7,7 +7,7 @@ const Contact = () => {
      <h3>phone:8454538184</h3>
      <h3>email: enida.vezelaj@hotmail.it</h3>
      <div className="button">
-      <Link to='/'>Home</Link>
+      <Link className='linkhome' to='/'>Home</Link>
     </div>
     </div>
 
