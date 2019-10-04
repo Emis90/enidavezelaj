@@ -1,18 +1,16 @@
 #bodyHtml {
   text-align: center;
-
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
 }
 
 .rootDiv {
   position: absolute; top: 0; left: 0; height: 100%; width: 100%;
   justify-items: auto;
-  /* background-color: rgb(208, 174, 200); */
-  /* background: url("https://images.unsplash.com/photo-1516796181074-bf453fbfa3e6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"); */
-
-
 }
 
 .about {
+  display: flex 1;
   position: relative; top: 0; left: 0; height: 100%; width: 100%;
   justify-content: space-around;
   align-content: space-around;
@@ -23,26 +21,79 @@
 .projects {
   display: flex;
   position: relative; top: 0; left: 0; height: 100%; width: 100%;
-  justify-content: center;
-  align-content: center;
+  justify-content: space-around;
+  align-items: center;
   background-color: rgb(202, 240, 146);
-  /* background: url("https://images.unsplash.com/photo-1506808863525-303d40b69293?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2852&q=80"); */
 }
-#grace {
-  width:"300";
-  height:"300";
-  background-color: rgb(155, 32, 32);
+.skills {
+  display: flex;
+  position: relative; top: 0; left: 0; height: 100%; width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(155, 154, 213);
+
 }
-#gelato {
-  width:"300";
-  height:"300";
-  background-color: rgb(230, 66, 169);
+
+.gelato {
+  width: 300px;
+  height: 500px;
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  border-radius: 2%;
 }
-#cupcake {
-  width:"300";
-  height:"300";
-  background-color: rgb(245, 50, 50);
+.cupcake {
+  width: 300px;
+  height: 500px;
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  border-radius: 2%;
 }
+.grace {
+  width: 300px;
+  height: 500px;
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  border-radius: 2%;
+}
+.npmMatching {
+  width: 300px;
+  height: 500px;
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  border-radius: 2%;
+}
+#backend {
+  width: 300px;
+  height: 500px;
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  border-radius: 2%;
+  box-shadow: 5px;
+}
+#frontend {
+  width: 300px;
+  height: 500px;
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  border-radius: 2%;
+}
+#funstuff {
+  width: 300px;
+  height: 500px;
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  border-radius: 2%;
+}
+
+#familiar {
+  width: 300px;
+  height: 500px;
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  border-radius: 2%;
+}
+
+.projectGrace {
+  border-radius: 50%;
+  color: rgb(252, 8, 134);
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
 .projectGrace {
   width: 300px;
   height: 300px;
@@ -90,14 +141,10 @@
   align-self: center;
 
 }
-.skills {
-  position: relative; top: 0; left: 0; height: 100%; width: 100%;
-  background-color: rgb(155, 154, 213);
-  justify-content: space-around;
-  align-content: space-around;
-}
+
 .navigation {
   display: flex;
+  position: relative; top: 0; left: 0; height: 20%; width: 100%;
   justify-content: space-evenly;
   align-items: center;
   align-content: space-around;
@@ -105,6 +152,7 @@
   padding-top: 20px;
 }
 .home {
+  display: flex 1;
   position: relative; top: 0; left: 0; height: 100%; width: 100%;
   background-color: rgb(240, 196, 239);
   justify-content: center;
@@ -116,29 +164,6 @@
   cursor: pointer;
   background-color:white;
 }
-/* .button {
-  display: flex;
-  align-self: center;
-  justify-content: center;
-  padding: 10px;
-  background-color: palevioletred;
-  border-radius: 20%;
-  width: 40px;
-  height: 18px;
-} */
-/* .linkhome {
-  display: flex 1;
-  padding: 10px;
-  justify-content: baseline;
-  background-color: palevioletred;
-  border-radius: 20%;
-  width: 40px;
-  height: 18px;
-  color: pink;
-  text-decoration: none;
-  color: pink;
-  text-decoration: none;
-} */
 
 .rootLinks {
   color:palevioletred;
@@ -151,3 +176,15 @@
 }
 
 
+#frontend ,#backend, #familiar, #funstuff {
+  display: column;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  margin: 20px;
+}
+.description {
+  margin: 20px;
+  padding: 20px;
+}

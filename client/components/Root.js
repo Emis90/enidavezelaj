@@ -16,18 +16,16 @@ import {
 } from 'react-router-dom'
 
 
-
-
 const Root = () => {
 return (
   <Router>
-    <div className='rootDiv'>
+  <div className='rootDiv'>
     <nav className='navbar'>
       <Navbar />
       </nav>
       <Switch>
        <Route exact path='/' component={Home}/>
-       <Route exact path='/about' component={About}/>
+       <Route  path='/about' component={About}/>
        <Route exact path='/contact' component={Contact}/>
        <Route exact path='/projects' component={Projects}/>
        <Route exact path='/skills' component={Skills}/>

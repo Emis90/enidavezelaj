@@ -1,21 +1,72 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import { Window } from '@progress/kendo-react-dialogs';
 
-const Projects = () => {
-  return (
-  <div className="projects">
-   {/* <img id="baloons" src="https://images.unsplash.com/photo-1525268771113-32d9e9021a97?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" /> */}
-    <div id="grace">
-    <Link className="projectGrace" to="/graceinspace">Grace in space</Link>
-    </div>
-    <div id='gelato'>
-    <Link className="projectGelato" to="/gelatofinder">Gelato app</Link>
-    </div>
-    <div id='cupcake'>
-    <Link className="projectCupcake" to="/cupcakestore">Cupcake store</Link>
-    </div>
-  </div>
-  )
 
+
+
+class Projects extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            visible: false
+        };
+
+    }
+
+    render() {
+        return (
+          <div className="projects">
+
+              <div className="grace">
+              <img height="50" width="50" src="/images/ship.png" />
+              <div className="description">
+              <h3>Grace in space</h3>
+              <p>Mobile virtual reality game. The player can chose easy/medium/hard difficulties</p>
+              <p>save his scores by logging into his/her credentials.</p>
+              <h3>Stack:</h3>
+              <p>Viro, ReactNative, Redux, Firebase</p>
+              </div>
+              </div>
+
+              <div className='gelato'>
+              <img height="50" width="50" src="/images/gelato.png" />
+              <div className="description">
+              <h3>Gelato finder</h3>
+              <p>Find amazing sports in the city for your next gelato treat.</p>
+              <h3>Stack:</h3>
+              <p>ReactNative, Firebase</p>
+              </div>
+              </div>
+
+              <div className='cupcake'>
+              <img height="50" width="50" src="/images/cupcake.png" />
+              <div className="description">
+              <h3>Cupcake store</h3>
+              <p>E-commerce website for out of this world cupcakes</p>
+              <h3>Stack:</h3>
+              <p>Sequelize, Express, React, Redux</p>
+              </div>
+              </div>
+
+              <div className='npmMatching'>
+              <img src="/images/npm.png" />
+              <div className="description">
+              <h3>npm module</h3>
+              <p>Matching alorithm for two groups of people</p>
+              <p>Feel free to npm install matchingev-one and </p>
+              <p>pass two objects to the matching function!</p>
+              <h3>Tech used:</h3>
+              <p>Node.js</p>
+              </div>
+              </div>
+           </div>
+        );
+    }
 }
+
+
+
+
+
 export default Projects

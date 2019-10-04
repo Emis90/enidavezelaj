@@ -14,12 +14,10 @@ const Navbar = () => {
   <Link className='rootLinks' to='/projects'>Projects</Link>
   </div>
   <div>
-  <Link className='rootLinks' to='/contact'>Contact</Link>
-  </div>
-  <div>
   <Link className='rootLinks' to='/skills'>Skills</Link>
   </div>
   <div>
+  <Link className='rootLinks' to='/contact'>Contact</Link>
   </div>
   </div>
  )
