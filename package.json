@@ -4,7 +4,7 @@
   "description": "myportfolio",
   "main": "index.js",
   "scripts": {
-    "start:dev": "webpack -w & nodemon main.js -e html,js,css --ignore public",
+    "start": "webpack -w & nodemon main.js -e html,js,css --ignore public",
     "start:deve": "npm run build-client & npm run start-server",
     "start-server": "nodemon --watch server index.js -e html,js,css",
     "build-client": "webpack",
@@ -38,6 +38,7 @@
     "express-session": "^1.15.1",
     "history": "^4.9.0",
     "local-storage": "^2.0.0",
+    "matchingev-one": "^1.0.2",
     "morgan": "^1.9.1",
     "net": "^1.0.2",
     "passport": "^0.4.0",
