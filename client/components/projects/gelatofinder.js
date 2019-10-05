@@ -1,5 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+
+
 const Gelatofinder = () => {
   return(
     <div id="gelato">
@@ -12,3 +14,5 @@ const Gelatofinder = () => {
   )
 }
 export default Gelatofinder
+
+

@@ -1,24 +1,16 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import { Window } from '@progress/kendo-react-dialogs';
-
-
-
+import Gelatofinder from './projects/gelatofinder'
 
 class Projects extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            visible: false
-        };
 
-    }
+  render() {
+   return (
+    <div className="projects">
 
-    render() {
-        return (
-          <div className="projects">
-
-              <div className="grace">
+      <div className="grace">
+            <div className='inner'>
+            <div className='front'>
               <img height="50" width="50" src="/images/ship.png" />
               <div className="description">
               <h3>Grace in space</h3>
@@ -28,8 +20,15 @@ class Projects extends React.Component {
               <p>Viro, ReactNative, Redux, Firebase</p>
               </div>
               </div>
+              <div className="back">
+                <Link to="">Github</Link>
+              </div>
+              </div>
+      </div>
 
-              <div className='gelato'>
+      <div className='gelato'>
+           <div className='inner'>
+            <div className='front'>
               <img height="50" width="50" src="/images/gelato.png" />
               <div className="description">
               <h3>Gelato finder</h3>
@@ -38,8 +37,15 @@ class Projects extends React.Component {
               <p>ReactNative, Firebase</p>
               </div>
               </div>
+              <div className="back">
+                <Link to="">Github</Link>
+              </div>
+              </div>
+      </div>
 
-              <div className='cupcake'>
+     <div className='cupcake'>
+            <div className='inner'>
+            <div className='front'>
               <img height="50" width="50" src="/images/cupcake.png" />
               <div className="description">
               <h3>Cupcake store</h3>
@@ -48,8 +54,16 @@ class Projects extends React.Component {
               <p>Sequelize, Express, React, Redux</p>
               </div>
               </div>
+              <div className="back">
+                <Link to="">Github</Link>
+              </div>
+              </div>
 
-              <div className='npmMatching'>
+      </div>
+
+      <div className='npmMatching'>
+              <div className='inner'>
+              <div className='front'>
               <img src="/images/npm.png" />
               <div className="description">
               <h3>npm module</h3>
@@ -60,8 +74,15 @@ class Projects extends React.Component {
               <p>Node.js</p>
               </div>
               </div>
-           </div>
-        );
+              <div className="back">
+                <Link to="">Github</Link>
+              </div>
+              </div>
+
+      </div>
+
+          </div>
+         );
     }
 }
 
