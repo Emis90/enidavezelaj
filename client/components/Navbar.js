@@ -8,16 +8,13 @@ const Navbar = () => {
   <Link className='rootLinks' to='/'>Home</Link>
   </div>
   <div>
-  <Link className='rootLinks' to='/about'>About me</Link>
-  </div>
-  <div>
   <Link className='rootLinks' to='/projects'>Projects</Link>
   </div>
   <div>
   <Link className='rootLinks' to='/skills'>Skills</Link>
   </div>
   <div>
-  <Link className='rootLinks' to='/contact'>Contact</Link>
+  <Link className='rootLinks' to='/about'>Contact</Link>
   </div>
   </div>
  )

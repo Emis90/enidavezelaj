@@ -7,9 +7,8 @@ class Projects extends React.Component {
   render() {
    return (
     <div className="projects">
-
-      <div className="grace">
-            <div className='inner'>
+      <div className="proj">
+            <div className='card'>
             <div className='front'>
               <img height="50" width="50" src="/images/ship.png" />
               <div className="description">
@@ -19,15 +18,14 @@ class Projects extends React.Component {
               <h3>Stack:</h3>
               <p>Viro, ReactNative, Redux, Firebase</p>
               </div>
-              </div>
-              <div className="back">
+            </div>
+            <div className="back">
                 <Link to="">Github</Link>
-              </div>
-              </div>
+            </div>
+            </div>
       </div>
-
-      <div className='gelato'>
-           <div className='inner'>
+      <div className='proj'>
+           <div className='card'>
             <div className='front'>
               <img height="50" width="50" src="/images/gelato.png" />
               <div className="description">
@@ -43,8 +41,8 @@ class Projects extends React.Component {
               </div>
       </div>
 
-     <div className='cupcake'>
-            <div className='inner'>
+     <div className='proj'>
+            <div className='card'>
             <div className='front'>
               <img height="50" width="50" src="/images/cupcake.png" />
               <div className="description">
@@ -61,8 +59,8 @@ class Projects extends React.Component {
 
       </div>
 
-      <div className='npmMatching'>
-              <div className='inner'>
+      <div className='proj'>
+              <div className='card'>
               <div className='front'>
               <img src="/images/npm.png" />
               <div className="description">
