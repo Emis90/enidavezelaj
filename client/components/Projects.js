@@ -13,14 +13,17 @@ class Projects extends React.Component {
               <img height="50" width="50" src="/images/ship.png" />
               <div className="description">
               <h3>Grace in space</h3>
-              <p>Mobile virtual reality game. The player can chose easy/medium/hard difficulties</p>
-              <p>save his scores by logging into his/her credentials.</p>
-              <h3>Stack:</h3>
-              <p>Viro, ReactNative, Redux, Firebase</p>
+              <p>Mobile virtual reality game where the player collects items floating away in space.</p>
+              <p></p>
               </div>
             </div>
             <div className="back">
-                <Link to="">Github</Link>
+            <h3>Stack:</h3>
+              <p>Viro</p>
+              <p>ReactNative</p>
+              <p>Redux</p>
+              <p>Firebase</p>
+                <Link to="" className='rootLinks'>Github</Link>
             </div>
             </div>
       </div>
@@ -30,13 +33,14 @@ class Projects extends React.Component {
               <img height="50" width="50" src="/images/gelato.png" />
               <div className="description">
               <h3>Gelato finder</h3>
-              <p>Find amazing sports in the city for your next gelato treat.</p>
-              <h3>Stack:</h3>
-              <p>ReactNative, Firebase</p>
+              <p>Mobile application for finding the best spots in the city</p>
               </div>
               </div>
               <div className="back">
-                <Link to="">Github</Link>
+              <h3>Stack:</h3>
+              <p>React-Native</p>
+              <p>Firebase</p>
+                <Link to="" className='rootLinks'>Github</Link>
               </div>
               </div>
       </div>
@@ -47,15 +51,19 @@ class Projects extends React.Component {
               <img height="50" width="50" src="/images/cupcake.png" />
               <div className="description">
               <h3>Cupcake store</h3>
-              <p>E-commerce website for out of this world cupcakes</p>
+              <p>E-commerce website for out of this world cupcakes!</p>
+              </div>
+              </div>
+            <div className="back">
               <h3>Stack:</h3>
-              <p>Sequelize, Express, React, Redux</p>
+              <p>Sequelize</p>
+              <p>Express</p>
+              <p>React</p>
+              <p>Redux</p>
+                <Link to="" className='rootLinks'>Website</Link> <br/>
+                <Link to="" className='rootLinks'>Github</Link>
               </div>
-              </div>
-              <div className="back">
-                <Link to="">Github</Link>
-              </div>
-              </div>
+            </div>
 
       </div>
 
@@ -65,15 +73,20 @@ class Projects extends React.Component {
               <img src="/images/npm.png" />
               <div className="description">
               <h3>npm module</h3>
-              <p>Matching alorithm for two groups of people</p>
-              <p>Feel free to npm install matchingev-one and </p>
-              <p>pass two objects to the matching function!</p>
-              <h3>Tech used:</h3>
-              <p>Node.js</p>
+              <p>Matching alorithm for two sets of elements</p>
+              <p>Its base off ofthe stable <span href="https://en.wikipedia.org/wiki/Stable_marriage_problem">marriage alorithm</span></p>
               </div>
               </div>
               <div className="back">
-                <Link to="">Github</Link>
+                <h3>Stack:</h3>
+                <p>Node.js</p>
+                <p>Feel free to download it!</p>
+                <ul>
+                  <li>npm install matchingev-one</li>
+                  <li>have two sets of people with array of choises for the other team members each</li>
+                  <li>when needed call match(list1, list2)</li>
+                  <li>and voila! you will have pairs(or group of 3)</li>
+                </ul>
               </div>
               </div>
 
