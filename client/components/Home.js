@@ -20,7 +20,7 @@ class Home extends React.Component {
      return(
     <div className='about' >
     <div className='me'>
-    {/* <CSSTransition
+    <CSSTransition
       classNames="window"
       in={this.state.view}
       timeout={350}
@@ -28,7 +28,7 @@ class Home extends React.Component {
       appear
       >
     <h1>Enida Vezelaj</h1>
-    </CSSTransition> */}
+    </CSSTransition>
     <CSSTransition
       classNames="window"
       in={this.state.view}
@@ -36,7 +36,10 @@ class Home extends React.Component {
       unmountOnExit
       appear
       >
+      <div>
       <h3>About me</h3>
+      <img src='/images/heart.png' width='40' height='40'/>
+      </div>
       </CSSTransition>
       <CSSTransition
        classNames="window"
@@ -47,8 +50,8 @@ class Home extends React.Component {
        >
     <div className='slide'>
     <div id="text">
-      <p>I am a New York base software developer am experienced working with Java Script, NERD Stack (Node.js, Express, React, Databases using SQL). I have been learning how to code and solve algorithms on my own and decided to persue this carreer. I graduated from Grace Hopper at Fullsdtack Academy of code, where i got my most recent education. I have learned to build fully functioning applications. I ma pasionate about solving real world problems using my knowlege in OOP.
-      I am experienced building Postgres database with Sequelize, setting up routes and building REST apis with node and Express. I mostly worked with React on in the front end. I am good at working with people and I am focused on problem solving.</p>
+      <p>I am a New York based software developer. I have been learning how to code and solve algorithms on my own and decided to persue this carreer. I attended the Grace Hopper bootcamp at Fullsdtack Academy of code, where I got my most recent education.  I am experienced working with Java Script, NERD Stack (Node.js, Express, React, Databases). I love coming up with solutions and learning new ways to approach a problem, this is why I decided to do software development.
+      </p>
       </div>
       <div id="btn">
 
