@@ -23,7 +23,12 @@ class Projects extends React.Component {
               <p>ReactNative</p>
               <p>Redux</p>
               <p>Firebase</p>
-                <Link to="" className='rootLinks'>Github</Link>
+              <div>
+                <a href="">
+                  <img width="30" height="30" src="/images/github.png"/>
+                </a>
+
+                </div>
             </div>
             </div>
       </div>
@@ -40,7 +45,12 @@ class Projects extends React.Component {
               <h3>Stack:</h3>
               <p>React-Native</p>
               <p>Firebase</p>
-                <Link to="" className='rootLinks'>Github</Link>
+              <div>
+                <a href="">
+                  <img width="30" height="30" src="/images/github.png"/>
+                </a>
+
+                </div>
               </div>
               </div>
       </div>
@@ -60,8 +70,13 @@ class Projects extends React.Component {
               <p>Express</p>
               <p>React</p>
               <p>Redux</p>
-                <Link to="" className='rootLinks'>Website</Link> <br/>
-                <Link to="" className='rootLinks'>Github</Link>
+
+                <div>
+                <a href="">
+                  <img width="30" height="30" src="/images/github.png"/>
+                </a>
+
+                </div>
               </div>
             </div>
 
@@ -87,6 +102,12 @@ class Projects extends React.Component {
                   <li>when needed call match(list1, list2)</li>
                   <li>and voila! you will have pairs(or group of 3)</li>
                 </ul>
+                <div>
+                <a href="">
+                  <img width="30" height="30" src="/images/npm.png"/>
+                </a>
+
+                </div>
               </div>
               </div>
 
