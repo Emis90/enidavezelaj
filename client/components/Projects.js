@@ -103,7 +103,7 @@ class Projects extends React.Component {
                   <li>and voila! you will have pairs(or group of 3)</li>
                 </ul>
                 <div>
-                <a href="https://www.npmjs.com/package/matchingev-one">
+                <a href="https://www.npmjs.com/package/matchingev-">
                   <img width="30" height="30" src="/images/npm.png"/>
                 </a>
 
