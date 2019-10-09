@@ -191,15 +191,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
 
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-
 function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 
 
@@ -210,22 +208,9 @@ function (_React$Component) {
   _inherits(Home, _React$Component);
 
   function Home() {
-    var _this;
-
     _classCallCheck(this, Home);
 
-    _this = _possibleConstructorReturn(this, _getPrototypeOf(Home).call(this));
-
-    _defineProperty(_assertThisInitialized(_this), "show", function () {
-      _this.setState({
-        view: !_this.state.view
-      });
-    });
-
-    _this.state = {
-      view: true
-    };
-    return _this;
+    return _possibleConstructorReturn(this, _getPrototypeOf(Home).apply(this, arguments));
   }
 
   _createClass(Home, [{
@@ -235,35 +220,17 @@ function (_React$Component) {
         className: "about"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "me"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_transition_group__WEBPACK_IMPORTED_MODULE_1__["CSSTransition"], {
-        classNames: "window",
-        "in": this.state.view,
-        timeout: 350,
-        unmountOnExit: true,
-        appear: true
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Enida Vezelaj")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_transition_group__WEBPACK_IMPORTED_MODULE_1__["CSSTransition"], {
-        classNames: "window",
-        "in": this.state.view,
-        timeout: 600,
-        unmountOnExit: true,
-        appear: true
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "About me"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Enida Vezelaj"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "About me"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "/images/heart.png",
         width: "40",
         height: "40"
-      }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_transition_group__WEBPACK_IMPORTED_MODULE_1__["CSSTransition"], {
-        classNames: "window",
-        "in": this.state.view,
-        timeout: 1000,
-        unmountOnExit: true,
-        appear: true
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "slide"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "text"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "I am a New York based software developer. I have been learning how to code and solve algorithms on my own and decided to persue this carreer. I attended the Grace Hopper bootcamp at Fullsdtack Academy of code, where I got my most recent education.  I am experienced working with Java Script, NERD Stack (Node.js, Express, React, Databases). I love coming up with solutions and learning new ways to approach a problem, this is why I decided to do software development."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "My resume:")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "I am a New York based software developer. I have been learning how to code and solve algorithms on my own and decided to persue this carreer. I attended the Grace Hopper bootcamp at Fullsdtack Academy of code, where I got my most recent education.  I am experienced working with Java Script, NERD Stack (Node.js, Express, React, Databases). I love coming up with solutions and learning new ways to approach a problem, this is why I decided to do software development.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "btn"
-      })))));
+      }))));
     }
   }]);
 
@@ -377,7 +344,7 @@ function (_React$Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Grace in space"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Mobile virtual reality game where the player collects items floating away in space."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "back"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Stack:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Viro"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "ReactNative"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Redux"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Firebase"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: ""
+        href: "https://github.com/graceinspace/graceInSpace"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         width: "30",
         height: "30",
@@ -397,7 +364,7 @@ function (_React$Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Gelato finder"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Mobile application for finding the best spots in the city"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "back"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Stack:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "React-Native"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Firebase"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: ""
+        href: "https://github.com/Emis90/GelatoFinder"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         width: "30",
         height: "30",
@@ -417,7 +384,7 @@ function (_React$Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Cupcake store"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "E-commerce website for out of this world cupcakes!"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "back"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Stack:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Sequelize"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Express"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "React"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Redux"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: ""
+        href: "https://github.com/fantastic-four-grace-shopper/grace-shopper"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         width: "30",
         height: "30",
@@ -437,7 +404,7 @@ function (_React$Component) {
       }, "marriage alorithm")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "back"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Stack:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Node.js"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Feel free to download it!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "npm install matchingev-one"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "have two sets of people with array of choises for the other team members each"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "when needed call match(list1, list2)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "and voila! you will have pairs(or group of 3)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: ""
+        href: "https://www.npmjs.com/package/matchingev-"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         width: "30",
         height: "30",
@@ -11555,8 +11522,14 @@ const couple = (person) => {
 }
 
 const matching = (first, second) => {
-  firstHalf = first;
-  secondHalf = second;
+  if (Object.keys(first).length % 2 !== 0 && Object.keys(first).length % 2 === 0) {
+    firstHalf = second;
+    secondHalf = first
+  } else {
+    firstHalf = first;
+    secondHalf = second;
+  }
+
   init(first, firstFreeHalf);//working
   init(second, secondFreeHalf)
 
