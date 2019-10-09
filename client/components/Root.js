@@ -4,6 +4,7 @@ import Contact from './Contact'
 import Projects from './Projects'
 import Skills from './Skills'
 import Navbar from './Navbar'
+import Resume from './Resume'
 import {
   BrowserRouter as Router,
   Route,
@@ -21,7 +22,7 @@ return (
       <Switch>
        <Route exact path='/' component={Home}/>
        <Route exact path='/about' component={Contact}/>
-       {/* <Route exact path='/contact' component={Contact}/> */}
+       <Route exact path='/resume' component={Resume}/>
        <Route exact path='/projects' component={Projects}/>
        <Route exact path='/skills' component={Skills}/>
       </Switch>
