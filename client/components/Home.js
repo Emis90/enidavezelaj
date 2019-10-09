@@ -2,21 +2,8 @@ import React from 'react'
 import {CSSTransition} from 'react-transition-group'
 
 class Home extends React.Component {
-  constructor() {
-    super()
-    this.state = {
-      view: true
-    }
-  }
-
-  show = () => {
-    this.setState({
-      view: !this.state.view
-    })
-  }
 
   render(){
-
      return(
     <div className='about' >
     <div className='me'>
@@ -35,9 +22,8 @@ class Home extends React.Component {
       </div>
       </div>
       </div>
-
   )
-     }
+  }
 
 }
 export default Home
