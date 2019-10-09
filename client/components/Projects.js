@@ -24,7 +24,7 @@ class Projects extends React.Component {
               <p>Redux</p>
               <p>Firebase</p>
               <div>
-                <a href="">
+                <a href="https://github.com/graceinspace/graceInSpace">
                   <img width="30" height="30" src="/images/github.png"/>
                 </a>
 
@@ -46,7 +46,7 @@ class Projects extends React.Component {
               <p>React-Native</p>
               <p>Firebase</p>
               <div>
-                <a href="">
+                <a href="https://github.com/Emis90/GelatoFinder">
                   <img width="30" height="30" src="/images/github.png"/>
                 </a>
 
@@ -72,7 +72,7 @@ class Projects extends React.Component {
               <p>Redux</p>
 
                 <div>
-                <a href="">
+                <a href="https://github.com/fantastic-four-grace-shopper/grace-shopper">
                   <img width="30" height="30" src="/images/github.png"/>
                 </a>
 
@@ -103,7 +103,7 @@ class Projects extends React.Component {
                   <li>and voila! you will have pairs(or group of 3)</li>
                 </ul>
                 <div>
-                <a href="">
+                <a href="https://www.npmjs.com/package/matchingev-one">
                   <img width="30" height="30" src="/images/npm.png"/>
                 </a>
 
