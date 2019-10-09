@@ -20,7 +20,7 @@ class Home extends React.Component {
      return(
     <div className='about' >
     <div className='me'>
-    <CSSTransition
+
       classNames="window"
       in={this.state.view}
       timeout={350}
@@ -28,8 +28,7 @@ class Home extends React.Component {
       appear
       >
     <h1>Enida Vezelaj</h1>
-    </CSSTransition>
-    <CSSTransition
+
       classNames="window"
       in={this.state.view}
       timeout={600}
@@ -40,8 +39,7 @@ class Home extends React.Component {
       <h3>About me</h3>
       <img src='/images/heart.png' width='40' height='40'/>
       </div>
-      </CSSTransition>
-      <CSSTransition
+
        classNames="window"
        in={this.state.view}
        timeout={1000}
@@ -59,7 +57,6 @@ class Home extends React.Component {
 
       </div>
       </div>
-      </CSSTransition>
       </div>
       </div>
 
