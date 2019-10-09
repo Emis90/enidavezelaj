@@ -14,9 +14,9 @@ class Contact extends React.Component {
   render() {
     return(
       <div className="contact">
+      <div className="contactstuff">
       <h1>Enida Vezelaj</h1>
       <h3>Software engineer | NY</h3>
-
       <div id="icons">
       <a href='https://github.com/Emis90'>
       <img width="50" height="50" src="/images/github.png"/>
@@ -27,6 +27,7 @@ class Contact extends React.Component {
       <a href="mailto:enida.vezelaj@gmail.com">
       <img width="50" height="50" src="/images/email-icon.png"/>
       </a>
+      </div>
       </div>
       </div>
 
