@@ -1,6 +1,5 @@
 import React from "react"
 import {matching} from 'matchingev-one'
-import Gelatofinder from "./projects/gelatofinder";
 
 
 

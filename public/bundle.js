@@ -99,7 +99,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var matchingev_one__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! matchingev-one */ "./node_modules/matchingev-one/index.js");
 /* harmony import */ var matchingev_one__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(matchingev_one__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _projects_gelatofinder__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./projects/gelatofinder */ "./client/components/projects/gelatofinder.js");
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -117,7 +116,6 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
 
 
 
@@ -220,7 +218,7 @@ function (_React$Component) {
         className: "about"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "text"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Enida Vezelaj"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "About me"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "I am a New York based software developer. I have been learning how to code and solve algorithms on my own and decided to persue this carreer. I attended the Grace Hopper bootcamp at Fullsdtack Academy of code, where I got my most recent education.  I am experienced working with Java Script, NERD Stack (Node.js, Express, React, Databases). I love coming up with solutions and learning new ways to approach a problem, this is why I decided to do software development.")));
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Enida Vezelaj"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "About me"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "I am a New York based software developer. I have been learning how to code and solve algorithms on my own for the past couple of years and finally decided to persue this carreer. I gradauted from Grace Hopper at Fullsdtack Academy of code and learned to work as a fullstack developer. I am experienced with Java Script, React, NERD Stack (Node.js, Express, React, Databases) and I know how to teach myself new technologies. I am passionate about what I do and I am motivated by new challanges. Feel free to checkout some of my projects or contact me with any questions.")));
     }
   }]);
 
@@ -282,8 +280,6 @@ var Navbar = function Navbar() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var _projects_gelatofinder__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./projects/gelatofinder */ "./client/components/projects/gelatofinder.js");
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -301,8 +297,6 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-
 
 
 
@@ -637,31 +631,6 @@ function (_React$Component) {
 }(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
 
 /* harmony default export */ __webpack_exports__["default"] = (Skills);
-
-/***/ }),
-
-/***/ "./client/components/projects/gelatofinder.js":
-/*!****************************************************!*\
-  !*** ./client/components/projects/gelatofinder.js ***!
-  \****************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-
-
-
-var Gelatofinder = function Gelatofinder() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    id: "gelato"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "gelatofinder!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "description and stack used"));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Gelatofinder);
 
 /***/ }),
 

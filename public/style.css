@@ -1,8 +1,9 @@
 #bodyHtml {
   text-align: center;
-  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
-  font-family: 'Bree Serif', serif;
   font-size: 20px;
+}
+* {
+  font-family: 'Open Sans', sans-serif;
 }
 
 .rootDiv {
@@ -35,7 +36,7 @@
 }
 
 #text {
-  position: relative; top: -25%; left: 0; height: auto; width: 40%;
+  position: relative; top: -20%; left: 0; height: auto; width: 40%;
   padding-left: 10px;
   padding-right: 10px;
   width: 800px;

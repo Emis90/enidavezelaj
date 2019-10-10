@@ -1,6 +1,5 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
-import Gelatofinder from './projects/gelatofinder'
+
 
 class Projects extends React.Component {
 
