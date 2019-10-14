@@ -5,6 +5,7 @@ import Projects from './Projects'
 import Skills from './Skills'
 import Navbar from './Navbar'
 import Resume from './Resume'
+import Play from './Play'
 import {
   BrowserRouter as Router,
   Route,
@@ -25,6 +26,7 @@ return (
        <Route exact path='/resume' component={Resume}/>
        <Route exact path='/projects' component={Projects}/>
        <Route exact path='/skills' component={Skills}/>
+       <Route exact path='/play' component={Play}/>
       </Switch>
     </div>
 </Router>
@@ -35,3 +37,6 @@ return (
 export default Root
 
 
+
+
+// For anyone else ending up here with the same question. Make sure you build your client code before you push. I had the exact same problem, spent hours debugging only to realize i had forgotten to run ng-build -prod before pushing. My local changes was pushed but my client production code was obviously still the same. ;(
