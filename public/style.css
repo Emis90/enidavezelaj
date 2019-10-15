@@ -36,7 +36,7 @@
 }
 
 #text {
-  position: relative; top: -20%; left: 0; height: auto; width: 40%;
+  position: relative; top: -20%; left: -1000px; height: auto; width: 40%;
   padding-left: 10px;
   padding-right: 10px;
   width: 800px;
@@ -45,6 +45,13 @@
   background-color: rgb(184, 220, 242, 0.7);
   border-radius: 1%;
   opacity: 0.8;
+  animation: run 1s ease forwards;
+}
+@keyframes run{
+  0%{}
+  70%{ transform:  translateX(1200px)}
+  100%{ transform: translateX(1000px)}
+
 }
 #text h1 {
   text-align: center;
@@ -267,17 +274,10 @@ animation: movecloud 30s linear infinite reverse;
   height: 50px;
   padding: 10px;
 }
-.j {
-  display: flex;
-  flex-direction: row ;
-  align-content: center;
-  background-color: rgb(103, 193, 213);
-  width: 50px;
-  height: 50px;
-  padding: 10px;
-  margin: 1px;
-}
 .grid {
-
-  background-color: lightgray;
+  width: 25px;
+  height: 25px;
+  outline: 1px solid gray;
+  display: inline-block;
 }
+

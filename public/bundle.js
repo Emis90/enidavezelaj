@@ -305,25 +305,49 @@ var Play =
 function (_React$Component) {
   _inherits(Play, _React$Component);
 
-  function Play() {
+  function Play(props) {
+    var _this;
+
     _classCallCheck(this, Play);
 
-    return _possibleConstructorReturn(this, _getPrototypeOf(Play).call(this));
+    _this = _possibleConstructorReturn(this, _getPrototypeOf(Play).call(this, props));
+    _this.state = {
+      nodes: []
+    };
+    return _this;
   }
 
   _createClass(Play, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      var nodes = [];
+
+      for (var row = 0; row < 15; row++) {
+        var currentRow = [];
+
+        for (var col = 0; col < 50; col++) {
+          currentRow.push([]);
+        }
+
+        nodes.push(currentRow);
+      }
+
+      this.setState({
+        nodes: nodes
+      });
+    }
+  }, {
     key: "render",
     value: function render() {
+      var nodes = this.state.nodes;
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "grid"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "This is the play page"), [0, 1, 2, 3, 4, 5, 6].map(function (ele, i) {
+      }, nodes.map(function (row, rowIdx) {
         return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-          className: "i",
-          key: i
-        }, [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 7, 8, 9, 20, 21, 22, 23, 24].map(function (ele, j) {
+          key: rowIdx
+        }, row.map(function (node, nodeIdx) {
           return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-            className: "j",
-            key: j
+            key: nodeIdx
           });
         }));
       }));
@@ -697,7 +721,7 @@ function (_React$Component) {
         src: "/images/face.png"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "stack"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Problem solving"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Communication"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Team work"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Creativity"))));
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Problem solving"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Communication"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Team work"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Creativity"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Hard working"))));
     }
   }]);
 
@@ -39751,7 +39775,7 @@ function warning(message) {
 /*!***************************************************************!*\
   !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
   \***************************************************************/
-/*! exports provided: BrowserRouter, HashRouter, Link, NavLink, MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext */
+/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext, BrowserRouter, HashRouter, Link, NavLink */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

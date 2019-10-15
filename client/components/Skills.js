@@ -47,6 +47,7 @@ render(){
      <p>Communication</p>
      <p>Team work</p>
      <p>Creativity</p>
+     <p>Hard working</p>
    </div>
    </div>
    </div>
