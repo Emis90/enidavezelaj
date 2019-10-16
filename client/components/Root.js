@@ -6,6 +6,7 @@ import Skills from './Skills'
 import Navbar from './Navbar'
 import Resume from './Resume'
 import Play from './Play'
+import NotFound from './NotFound'
 import {
   BrowserRouter as Router,
   Route,
@@ -27,6 +28,7 @@ return (
        <Route exact path='/projects' component={Projects}/>
        <Route exact path='/skills' component={Skills}/>
        <Route exact path='/play' component={Play}/>
+       <Route exact path="*" component={NotFound} />
       </Switch>
     </div>
 </Router>
