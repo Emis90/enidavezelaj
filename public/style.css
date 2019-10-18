@@ -1,13 +1,11 @@
 body {
   text-align: center;
   font-size: 20px;
-  /* background-image: url('./images/city.jpg'); */
-  background-size: inherit;
-  background-repeat: no-repeat;
 }
 * {
   font-family: 'Open Sans', sans-serif;
 }
+
 
 .rootDiv {
   position: absolute; height: 100%; width: 100%;
@@ -18,7 +16,6 @@ body {
   position: relative; top: 0%; height: 100%; width: 100%;
   justify-content: center;
   align-content: center;
-  /* background-image: url('./images/city.jpg'); */
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -29,7 +26,6 @@ body {
   margin-top: 0px;
   justify-content: center;
   align-self: center;
-  /* background-image: url('./images/city.jpg'); */
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -67,34 +63,60 @@ body {
 @media (orientation: landscape){
   iframe {
   transform: scale(0.9);
-  max-width: 80%;
-  max-height: 80%;
-  zoom: 1;
+  max-width: 90%;
+  min-width: 80%;
+  zoom: .8;
   }
   #backend, #frontend, #general {
     transform: scale(1);
     flex-direction: row;
   }
+  .skills, .projects, .contact{
+    background-image: url('./images/city.jpg');
+    min-height: 300%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .contact{
+    background-image: url('./images/city.jpg');
+    max-height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .about {
+    background-image: url('./images/city.jpg');
+    max-height: 100%;
+    background-size: cover;
+  }
+  #text {
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
 
 }
 
 @media (orientation: portrait){
   .skills {
-    min-width: 300px;
-    max-width: 480px;
-    min-height: 600px;
-    max-height: 700px;
+    min-width: 90%;
+    max-width: 98%;
+    min-height: 300%;
+    background-image: url('./images/city.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     }
   .projects {
-    min-width: 300px;
-    max-width: 480px;
-    min-height: 400px;
-    max-height: 600px;
-  }
-  .proj,  #backend, #frontend, #general{
+    min-width: 90%;
+    max-width: 98%;
+    min-height: 330%;
+    background-image: url('./images/city.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+  .card, .back ,.front,.proj,  #backend, #frontend, #general{
     transform: scale(.95);
   }
-
   .navigation {
     flex-direction: row;
     flex-wrap: wrap;
@@ -105,18 +127,32 @@ body {
     margin-right: 10px;
     padding: 5px;
   }
+  .about {
+    min-width: 90%;
+    max-width: 98%;
+    background-image: url('./images/city.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .contact{
+    background-image: url('./images/city.jpg');
+    max-height: 100%;
+    min-width: 90%;
+    max-width: 98%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 0%;
+  }
   .resume {
-    zoom: 0.5;
+    zoom: 0.4;
   }
   iframe {
     transform: scale(0.9);
-    min-width: 450px;
-    min-height: 620px;
-    align-content: center;
-    align-self: center;
-    zoom: 1;
-  }
+    zoom: 1.2;
+    }
 }
+
+
 .projects {
   display: flex;
   flex-wrap: wrap;
@@ -126,9 +162,9 @@ body {
 .skills {
   display: flex;
   flex-wrap: wrap;
-  position: relative; top: 0%; right: 0; height: 100%; width: 100%;
+  position: relative; top: 0; left: 0; height: 100%; width: 100%;
   justify-content: space-around;
-
+  margin: 0;
 }
 .navigation {
   display: flex;
