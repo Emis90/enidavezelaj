@@ -352,13 +352,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
 
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 
 
@@ -373,6 +375,11 @@ function (_React$Component) {
     _classCallCheck(this, Play);
 
     _this = _possibleConstructorReturn(this, _getPrototypeOf(Play).call(this, props));
+
+    _defineProperty(_assertThisInitialized(_this), "renderCells", function () {});
+
+    _defineProperty(_assertThisInitialized(_this), "renderOneCell", function () {});
+
     _this.state = {
       nodes: []
     };
@@ -380,39 +387,12 @@ function (_React$Component) {
   }
 
   _createClass(Play, [{
-    key: "componentDidMount",
-    value: function componentDidMount() {
-      var nodes = [];
-
-      for (var row = 0; row < 15; row++) {
-        var currentRow = [];
-
-        for (var col = 0; col < 50; col++) {
-          currentRow.push([]);
-        }
-
-        nodes.push(currentRow);
-      }
-
-      this.setState({
-        nodes: nodes
-      });
-    }
-  }, {
     key: "render",
     value: function render() {
       var nodes = this.state.nodes;
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "grid"
-      }, nodes.map(function (row, rowIdx) {
-        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-          key: rowIdx
-        }, row.map(function (node, nodeIdx) {
-          return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-            key: nodeIdx
-          });
-        }));
-      }));
+      });
     }
   }]);
 
@@ -610,8 +590,9 @@ function (_React$Component) {
         className: "resume"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
         src: "/images/EnidaVezelajResume.pdf",
-        width: "750",
-        height: "950"
+        height: "100%",
+        width: "100%",
+        frameborder: "1"
       }));
     }
   }]);
@@ -39843,7 +39824,7 @@ function warning(message) {
 /*!***************************************************************!*\
   !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
   \***************************************************************/
-/*! exports provided: BrowserRouter, HashRouter, Link, NavLink, MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext */
+/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext, BrowserRouter, HashRouter, Link, NavLink */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

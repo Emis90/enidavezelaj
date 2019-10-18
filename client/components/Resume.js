@@ -8,9 +8,7 @@ class Resume extends React.Component{
   return(
     <div className='resume'>
       <iframe
-      src='/images/EnidaVezelajResume.pdf'
-        width='750'
-        height='950'
+      src='/images/EnidaVezelajResume.pdf' height="100%" width="100%" frameborder="1"
       />
     </div>
   )
