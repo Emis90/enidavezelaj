@@ -277,11 +277,11 @@ img {
 }
 
 .rootLinks {
+  color: rgb(0, 50, 97);
   text-decoration: none;
-  color: rgb(0, 16, 31);
 }
 .rootLinks:hover {
-  color: rgb(0, 50, 97);
+  color: rgb(53, 158, 255);
 }
 
 .window-enter, .window-appear {
