@@ -6,7 +6,6 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-
 .rootDiv {
   position: absolute; height: 100%; width: 100%;
   color: rgb(0, 16, 31);
@@ -16,6 +15,7 @@ body {
   position: relative; top: 0%; height: 100%; width: 100%;
   justify-content: center;
   align-content: center;
+  background-image: url('./images/city.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -23,9 +23,9 @@ body {
 .contact {
   display: flex;
   position: relative; top: 0; left: 0; height: 100%; width: 100%;
-  margin-top: 0px;
   justify-content: center;
   align-self: center;
+  background-image: url('./images/city.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -60,7 +60,7 @@ body {
   margin-top: 0;
 }
 
-@media (orientation: landscape){
+@media only screen and (max-device-width: 480px){
   iframe {
   transform: scale(0.9);
   max-width: 90%;
@@ -71,7 +71,7 @@ body {
     transform: scale(1);
     flex-direction: row;
   }
-  .skills, .projects, .contact{
+  .skills, .projects {
     background-image: url('./images/city.jpg');
     min-height: 300%;
     background-size: cover;
@@ -93,8 +93,6 @@ body {
     margin-left: 5%;
     margin-right: 5%;
   }
-
-
 }
 
 @media (orientation: portrait){
@@ -158,6 +156,9 @@ body {
   flex-wrap: wrap;
   position: relative; top: 0; left: 0; height: 100%; width: 100%;
   justify-content: space-around;
+  background-image: url('./images/city.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .skills {
   display: flex;
@@ -165,6 +166,9 @@ body {
   position: relative; top: 0; left: 0; height: 100%; width: 100%;
   justify-content: space-around;
   margin: 0;
+  background-image: url('./images/city.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .navigation {
   display: flex;
@@ -318,34 +322,6 @@ button {
   transition: 1s ease;
 }
 
-#truck{
- position: absolute;
- transition: 1s;
- animation-name: moveon;
- animation-duration: 20s;
- animation-fill-mode: both;
- animation-iteration-count: infinite;
- animation-timing-function: linear;
-}
-#truck {
-  transform: rotate(360deg);
-  transition: 1s;
-}
-#cloud {
-opacity: 0.5;
-position: absolute;
-animation: movecloud 15s linear infinite reverse;
-}
-#cloud:nth-child(1) {
-opacity: 0.8;
-top: 0;
-animation: movecloud 30s linear infinite reverse;
-}
-
-@keyframes moveon {
-  from {transform: translateX(-100px)}
-  to {transform: translateX(1500px)}
-}
 
 .i {
   display: flex;
