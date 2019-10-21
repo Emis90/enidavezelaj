@@ -16,10 +16,12 @@ render(){
      </div>
      <div className='stack'>
      <p>Node.js</p>
+     <p>Webpack</p>
+     <p>Babel</p>
      <p>Express.js</p>
      <p>Sequelize</p>
      <p>SQL</p>
-     <p>npm</p>
+     <p>PosgresQL</p>
      <p>Firebase</p>
      <p>Firestore</p>
      </div>
@@ -32,10 +34,10 @@ render(){
      <p>JavaScript</p>
      <p>HTML5</p>
      <p>CSS3</p>
-     <p>Viro(vr/ar)</p>
      <p>React</p>
      <p>React Native</p>
      <p>Redux</p>
+     <p>Viro(vr/ar)</p>
      </div>
    </div>
    <div id='general'>
