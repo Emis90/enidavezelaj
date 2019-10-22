@@ -462,9 +462,11 @@ function (_React$Component) {
         src: "/images/ship.png"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Grace in space"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Mobile virtual reality game where the player collects items floating away in space."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Grace in space"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Mobile virtual reality game where the player collects items floating away in space."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "back"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Stack:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Viro"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "ReactNative"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Redux"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Firebase"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Stack:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Viro, ReactNative, Redux Firebase/firestore"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Contribution:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "contribution"
+      }, "I planned the game and the features and directed coworkers on what approach to take on buidling the app. Most importantlu I buit the navigation between different Technologies to allow going from virtual reality back to static React page. I also worked on the database and the saving scores for each user."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://github.com/graceinspace/graceInSpace"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         width: "30",
@@ -484,7 +486,9 @@ function (_React$Component) {
         className: "description"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Gelato finder"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Mobile application for finding the best spots in the city"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "back"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Stack:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "React-Native"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Firebase"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Stack:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "React-Native, Firebase"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Contribution:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "contribution"
+      }, "I built this application on my own and focuses on making an ios app. I set up map and located stores in the city using a public api. I set up firestore so users can create a personal account and I set up a  database for logged in users to save their favorite destinations."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://github.com/Emis90/GelatoFinder"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         width: "30",
@@ -504,7 +508,11 @@ function (_React$Component) {
         className: "description"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Cupcake store"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "E-commerce website for out of this world cupcakes!"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "back"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Stack:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Sequelize"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Express"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "React"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Redux"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Stack:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Sequelize, Express, React, Redux"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Contribution"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "contribution"
+      }, "I contributed on every aspect of the project from building the database and setting relationships between tables to working on the front end writing components for the products to buiding the server side for guest users."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "https://fantasticsweetcupcakes.herokuapp.com"
+      }, "Buy some cupcakes!")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://github.com/fantastic-four-grace-shopper/grace-shopper"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         width: "30",
@@ -524,7 +532,15 @@ function (_React$Component) {
         href: "https://en.wikipedia.org/wiki/Stable_marriage_problem"
       }, "marriage alorithm")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "back"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Stack:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Node.js"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Feel free to download it!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "npm install matchingev-one"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "have two sets of people with array of choises for the other team members each"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "when needed call match(list1, list2)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "and voila! you will have pairs(or group of 3)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Stack:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Node.js"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "listBullet"
+      }, "npm install matchingev-one"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "listBullet"
+      }, "have two sets of people with array of choises for the other team members each"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "listBullet"
+      }, "when needed call match(list1, list2)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "listBullet"
+      }, "and voila! you will have pairs(or group of 3)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://www.npmjs.com/package/matchingev-"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         width: "30",
@@ -589,7 +605,7 @@ function (_React$Component) {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
-        src: "/images/EnidaVezelaj.pdf",
+        src: "/images/enida.pdf",
         height: "100%",
         width: "100%",
         frameborder: "1",
@@ -697,15 +713,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
 
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-
 function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 
 
@@ -715,25 +729,9 @@ function (_React$Component) {
   _inherits(Skills, _React$Component);
 
   function Skills() {
-    var _getPrototypeOf2;
-
-    var _this;
-
     _classCallCheck(this, Skills);
 
-    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    _this = _possibleConstructorReturn(this, (_getPrototypeOf2 = _getPrototypeOf(Skills)).call.apply(_getPrototypeOf2, [this].concat(args)));
-
-    _defineProperty(_assertThisInitialized(_this), "expand", function (event) {
-      event.item.opened = !event.item.opened;
-
-      _this.forceUpdate();
-    });
-
-    return _this;
+    return _possibleConstructorReturn(this, _getPrototypeOf(Skills).apply(this, arguments));
   }
 
   _createClass(Skills, [{
@@ -751,7 +749,7 @@ function (_React$Component) {
         src: "/images/database.png"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "stack"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Node.js"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Express.js"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Sequelize"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "SQL"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "npm"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Firebase"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Firestore"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Node.js"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Webpack"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Babel"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Express.js"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Sequelize"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "SQL"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "PosgresQL"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Firebase/Firestore"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "frontend"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "title"
@@ -761,7 +759,7 @@ function (_React$Component) {
         src: "/images/computer.png"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "stack"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "JavaScript"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "HTML5"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "CSS3"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Viro(vr/ar)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "React"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "React Native"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Redux"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "JavaScript"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "HTML5"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "CSS3"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "React"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "React Native"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Redux"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Viro(vr/ar)"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "general"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "title"
@@ -771,7 +769,7 @@ function (_React$Component) {
         src: "/images/face.png"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "stack"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Problem solving"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Communication"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Team work"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Creativity"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Hard working"))));
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Problem solver"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Great at communicating"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Great team worker"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Creative"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Hard working"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Passionate"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Driven"))));
     }
   }]);
 
@@ -39825,7 +39823,7 @@ function warning(message) {
 /*!***************************************************************!*\
   !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
   \***************************************************************/
-/*! exports provided: BrowserRouter, HashRouter, Link, NavLink, MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext */
+/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext, BrowserRouter, HashRouter, Link, NavLink */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

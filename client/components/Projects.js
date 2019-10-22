@@ -13,20 +13,18 @@ class Projects extends React.Component {
               <div className="description">
               <h3>Grace in space</h3>
               <p>Mobile virtual reality game where the player collects items floating away in space.</p>
-              <p></p>
               </div>
             </div>
             <div className="back">
-            <h3>Stack:</h3>
-              <p>Viro</p>
-              <p>ReactNative</p>
-              <p>Redux</p>
-              <p>Firebase</p>
+            <h4>Stack:</h4>
+              <p>Viro, ReactNative, Redux Firebase/firestore</p>
+              <h4>Contribution:</h4>
+              <p className='contribution'>I planned the game and the features and directed coworkers on what approach to take on buidling the app.
+              Most importantlu I buit the navigation between different Technologies to allow going from virtual reality back to static React page. I also worked on the database and the saving scores for each user.</p>
               <div>
                 <a href="https://github.com/graceinspace/graceInSpace">
                   <img width="30" height="30" src="/images/github.png"/>
                 </a>
-
                 </div>
             </div>
             </div>
@@ -41,14 +39,15 @@ class Projects extends React.Component {
               </div>
               </div>
               <div className="back">
-              <h3>Stack:</h3>
-              <p>React-Native</p>
-              <p>Firebase</p>
+              <h4>Stack:</h4>
+              <p>React-Native, Firebase</p>
+              <h4>Contribution:</h4>
+              <p className='contribution'>I built this application on my own and focuses on making an ios app. I set up map and located stores in the city using
+              a public api. I set up firestore so users can create a personal account and I set up a  database for logged in users to save their favorite destinations.</p>
               <div>
                 <a href="https://github.com/Emis90/GelatoFinder">
                   <img width="30" height="30" src="/images/github.png"/>
                 </a>
-
                 </div>
               </div>
               </div>
@@ -64,23 +63,21 @@ class Projects extends React.Component {
               </div>
               </div>
             <div className="back">
-              <h3>Stack:</h3>
-              <p>Sequelize</p>
-              <p>Express</p>
-              <p>React</p>
-              <p>Redux</p>
-
+              <h4>Stack:</h4>
+              <p>Sequelize, Express, React, Redux</p>
+              <h4>Contribution</h4>
+              <p className='contribution'>I contributed on every aspect of the project from building the database and setting relationships between tables to working on the front end writing components for the products to buiding the server side for guest users.</p>
+              <div>
+              <a href="https://fantasticsweetcupcakes.herokuapp.com">Buy some cupcakes!</a>
+              </div>
                 <div>
                 <a href="https://github.com/fantastic-four-grace-shopper/grace-shopper">
                   <img width="30" height="30" src="/images/github.png"/>
                 </a>
-
                 </div>
               </div>
             </div>
-
       </div>
-
       <div className='proj'>
               <div className='card'>
               <div className='front'>
@@ -92,20 +89,18 @@ class Projects extends React.Component {
               </div>
               </div>
               <div className="back">
-                <h3>Stack:</h3>
+                <h4>Stack:</h4>
                 <p>Node.js</p>
-                <p>Feel free to download it!</p>
                 <ul>
-                  <li>npm install matchingev-one</li>
-                  <li>have two sets of people with array of choises for the other team members each</li>
-                  <li>when needed call match(list1, list2)</li>
-                  <li>and voila! you will have pairs(or group of 3)</li>
+                  <li className='listBullet'>npm install matchingev-one</li>
+                  <li className='listBullet'>have two sets of people with array of choises for the other team members each</li>
+                  <li className='listBullet'>when needed call match(list1, list2)</li>
+                  <li className='listBullet'>and voila! you will have pairs(or group of 3)</li>
                 </ul>
                 <div>
                 <a href="https://www.npmjs.com/package/matchingev-">
                   <img width="30" height="30" src="/images/npm.png"/>
                 </a>
-
                 </div>
               </div>
               </div>

@@ -340,3 +340,15 @@ iframe {
   width: 850px;
 }
 
+.contribution {
+  text-align: justify;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 18px;
+}
+.listBullet {
+  text-align: justify;
+  padding-left: 28px;
+  padding-right: 28px;
+  font-size: 16px;
+}

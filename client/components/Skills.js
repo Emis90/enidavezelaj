@@ -2,11 +2,6 @@ import React from 'react'
 
 
 class Skills extends React.Component{
-expand = (event) => {
-event.item.opened = !event.item.opened;
-this.forceUpdate();
-}
-
 render(){
   return (
    <div className='skills'>
@@ -22,8 +17,7 @@ render(){
      <p>Sequelize</p>
      <p>SQL</p>
      <p>PosgresQL</p>
-     <p>Firebase</p>
-     <p>Firestore</p>
+     <p>Firebase/Firestore</p>
      </div>
    </div>
    <div id='frontend'>
@@ -45,11 +39,13 @@ render(){
        <img width='40' height='40' src='/images/face.png'/>
        </div>
    <div className='stack'>
-     <p>Problem solving</p>
-     <p>Communication</p>
-     <p>Team work</p>
-     <p>Creativity</p>
+     <p>Problem solver</p>
+     <p>Great at communicating</p>
+     <p>Great team worker</p>
+     <p>Creative</p>
      <p>Hard working</p>
+     <p>Passionate</p>
+     <p>Driven</p>
    </div>
    </div>
    </div>
