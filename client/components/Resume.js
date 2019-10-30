@@ -1,14 +1,13 @@
 import React from 'react'
 
 
-
 class Resume extends React.Component{
 
   render(){
   return(
     <div className='resume'>
       <iframe
-      src='/images/enidav.pdf' height="100%" width="100%" frameborder="1"
+      src='/images/enivezelaj.pdf' height="100%" width="100%" frameborder="1"
       allowFullScreen
       />
     </div>
