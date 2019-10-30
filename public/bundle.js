@@ -811,7 +811,7 @@ function (_React$Component) {
         className: "back"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Stack:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Viro, ReactNative, Redux Firebase/firestore"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Contribution:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         className: "contribution"
-      }, "I planned the game and the features and directed coworkers on what approach to take on buidling the app. Most importantlu I buit the navigation between different Technologies to allow going from virtual reality back to static React page. I also worked on the database and the saving scores for each user."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      }, "I planned the game and the features and directed coworkers on what approach to take on buidling the app. I buit the navigation between pages going from VR back to static React page. Last I set up the database to save user scores."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://github.com/graceinspace/graceInSpace"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         width: "30",

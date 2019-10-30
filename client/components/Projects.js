@@ -19,8 +19,7 @@ class Projects extends React.Component {
             <h4>Stack:</h4>
               <p>Viro, ReactNative, Redux Firebase/firestore</p>
               <h4>Contribution:</h4>
-              <p className='contribution'>I planned the game and the features and directed coworkers on what approach to take on buidling the app.
-              Most importantlu I buit the navigation between different Technologies to allow going from virtual reality back to static React page. I also worked on the database and the saving scores for each user.</p>
+              <p className='contribution'>I planned the game and the features and directed coworkers on what approach to take on buidling the app. I buit the navigation between pages going from VR back to static React page. Last I set up the database to save user scores.</p>
               <div>
                 <a href="https://github.com/graceinspace/graceInSpace">
                   <img width="30" height="30" src="/images/github.png"/>
