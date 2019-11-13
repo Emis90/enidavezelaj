@@ -950,7 +950,7 @@ function (_React$Component) {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
-        src: "/images/enivezelaj.pdf",
+        src: "/images/enidavezelaj.pdf",
         height: "100%",
         width: "100%",
         frameborder: "1",
@@ -1008,7 +1008,7 @@ var Root = function Root() {
     component: _Home__WEBPACK_IMPORTED_MODULE_1__["default"]
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_9__["Route"], {
     exact: true,
-    path: "/about",
+    path: "/contact",
     component: _Contact__WEBPACK_IMPORTED_MODULE_2__["default"]
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_9__["Route"], {
     exact: true,
