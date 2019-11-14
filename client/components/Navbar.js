@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Navbar = () => {
+const Navbar = React.memo( () => {
  return (
   <div className='navigation'>
   <div>
@@ -25,6 +25,6 @@ const Navbar = () => {
   </div>
   </div>
  )
-}
-
+ }
+)
 export default Navbar

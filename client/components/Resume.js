@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-class Resume extends React.Component{
+class Resume extends React.PureComponent{
 
   render(){
   return(

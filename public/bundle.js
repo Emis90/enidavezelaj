@@ -411,8 +411,8 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 var Contact =
 /*#__PURE__*/
-function (_React$Component) {
-  _inherits(Contact, _React$Component);
+function (_React$PureComponent) {
+  _inherits(Contact, _React$PureComponent);
 
   function Contact() {
     _classCallCheck(this, Contact);
@@ -452,7 +452,7 @@ function (_React$Component) {
   }]);
 
   return Contact;
-}(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
+}(react__WEBPACK_IMPORTED_MODULE_0___default.a.PureComponent);
 
 /* harmony default export */ __webpack_exports__["default"] = (Contact);
 
@@ -491,8 +491,8 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 var Home =
 /*#__PURE__*/
-function (_React$Component) {
-  _inherits(Home, _React$Component);
+function (_React$PureComponent) {
+  _inherits(Home, _React$PureComponent);
 
   function Home() {
     _classCallCheck(this, Home);
@@ -512,7 +512,7 @@ function (_React$Component) {
   }]);
 
   return Home;
-}(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
+}(react__WEBPACK_IMPORTED_MODULE_0___default.a.PureComponent);
 
 /* harmony default export */ __webpack_exports__["default"] = (Home);
 
@@ -532,8 +532,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
 
 
-
-var Navbar = function Navbar() {
+var Navbar = react__WEBPACK_IMPORTED_MODULE_0___default.a.memo(function () {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "navigation"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
@@ -552,8 +551,7 @@ var Navbar = function Navbar() {
     className: "rootLinks",
     to: "/about"
   }, "Contact")));
-};
-
+});
 /* harmony default export */ __webpack_exports__["default"] = (Navbar);
 
 /***/ }),
@@ -781,8 +779,8 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 var Projects =
 /*#__PURE__*/
-function (_React$Component) {
-  _inherits(Projects, _React$Component);
+function (_React$PureComponent) {
+  _inherits(Projects, _React$PureComponent);
 
   function Projects() {
     _classCallCheck(this, Projects);
@@ -896,7 +894,7 @@ function (_React$Component) {
   }]);
 
   return Projects;
-}(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
+}(react__WEBPACK_IMPORTED_MODULE_0___default.a.PureComponent);
 
 /* harmony default export */ __webpack_exports__["default"] = (Projects);
 
@@ -935,8 +933,8 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 var Resume =
 /*#__PURE__*/
-function (_React$Component) {
-  _inherits(Resume, _React$Component);
+function (_React$PureComponent) {
+  _inherits(Resume, _React$PureComponent);
 
   function Resume() {
     _classCallCheck(this, Resume);
@@ -960,7 +958,7 @@ function (_React$Component) {
   }]);
 
   return Resume;
-}(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
+}(react__WEBPACK_IMPORTED_MODULE_0___default.a.PureComponent);
 
 /* harmony default export */ __webpack_exports__["default"] = (Resume);
 
@@ -1070,8 +1068,8 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 var Skills =
 /*#__PURE__*/
-function (_React$Component) {
-  _inherits(Skills, _React$Component);
+function (_React$PureComponent) {
+  _inherits(Skills, _React$PureComponent);
 
   function Skills() {
     _classCallCheck(this, Skills);
@@ -1119,7 +1117,7 @@ function (_React$Component) {
   }]);
 
   return Skills;
-}(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
+}(react__WEBPACK_IMPORTED_MODULE_0___default.a.PureComponent);
 
 /* harmony default export */ __webpack_exports__["default"] = (Skills);
 

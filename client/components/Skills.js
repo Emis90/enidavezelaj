@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-class Skills extends React.Component{
+class Skills extends React.PureComponent{
 render(){
   return (
    <div className='skills'>

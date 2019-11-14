@@ -4,7 +4,7 @@ import {matching} from 'matchingev-one'
 
 
 
-class Contact extends React.Component {
+class Contact extends React.PureComponent {
   constructor() {
     super()
 
