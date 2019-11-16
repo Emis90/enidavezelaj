@@ -951,7 +951,7 @@ function (_React$PureComponent) {
         src: "/images/enidavezelaj.pdf",
         height: "100%",
         width: "100%",
-        frameborder: "1",
+        frameBorder: "1",
         allowFullScreen: true
       }));
     }
