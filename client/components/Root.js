@@ -12,6 +12,7 @@ import {
   Route,
   Switch,
 } from 'react-router-dom'
+import Palindrome from "./Palindrome";
 
 
 const Root = () => {
@@ -27,7 +28,7 @@ return (
        <Route exact path='/resume' component={Resume}/>
        <Route exact path='/projects' component={Projects}/>
        <Route exact path='/skills' component={Skills}/>
-       <Route exact path='/play' component={Play}/>
+       <Route exact path='/palindrome' component={Palindrome}/>
        <Route exact path="*" component={NotFound} />
       </Switch>
     </div>
