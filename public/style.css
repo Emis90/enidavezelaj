@@ -352,3 +352,29 @@ iframe {
   padding-right: 28px;
   font-size: 16px;
 }
+
+
+
+.palindromeContainer {
+  height: 100%;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  background-color: lightcyan;
+
+}
+#palindromeTitle {
+  color: pink;
+}
+#input{
+  padding: 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+#submitButton {
+  color: greenyellow;
+}
+#resultBox {
+  margin-top:50px;;
+  color: rgb(120, 120, 220);
+}

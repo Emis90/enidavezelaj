@@ -21,7 +21,7 @@ const Navbar = React.memo( () => {
   </div>
 
   <div>
-  <Link className='rootLinks' to='/about'>Contact</Link>
+  <Link className='rootLinks' to='/contact'>Contact</Link>
   </div>
   </div>
  )

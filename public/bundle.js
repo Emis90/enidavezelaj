@@ -549,7 +549,7 @@ var Navbar = react__WEBPACK_IMPORTED_MODULE_0___default.a.memo(function () {
     to: "/resume"
   }, "Resume")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     className: "rootLinks",
-    to: "/about"
+    to: "/contact"
   }, "Contact")));
 });
 /* harmony default export */ __webpack_exports__["default"] = (Navbar);
@@ -635,6 +635,8 @@ function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (O
 
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(source, true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(source).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
@@ -651,9 +653,71 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-
+ // class Palindrome extends React.Component {
+//   constructor() {
+//     super()
+//     this.state = {
+//       word: '',
+//       isPalindrome: 'check if its palindrome'
+//     }
+//   }
+//  onChange = (event) => {
+//    this.setState({
+//      ...this.state,
+//      word: event.target.value
+//    })
+//    console.log(this.state)
+//  }
+//  onSubmit = (event) => {
+//    console.log(this.isPalindrome(this.state.word),' <<palindrome')
+//   event.preventDefault()
+//    if (this.isPalindrome(this.state.word)) {
+//      this.setState({
+//        word: '', isPalindrome: `Yes! ${this.state.word} is a palindrome`
+//      })
+//    } else if(this.state.word === '') {
+//      return;
+//    } else {
+//     this.setState({
+//      word: '', isPalindrome: `Oopsie! ${this.state.word} is not a palindrome`
+//     })
+//    }
+//  }
+//  isPalindrome = (word) => {
+//    if (word.length < 2) {
+//      return false
+//    }
+//    if (word.length === 2) {
+//      if (word[0] === word[1]) {
+//        return true
+//      } else {
+//        return false
+//      }
+//    }
+//    for (let i = 0; i < Math.ceil(word.length / 2); i++) {
+//      let first = word[i];
+//      let last = word[word.length - 1 - i];
+//      if (first !== last) {
+//        return false
+//      }
+//    }
+//    return true
+//  }
+//   render() {
+//     return (
+//       <div className='palindromeContainer'>
+//        <form onSubmit={this.onSubmit}>
+//        <div>
+//        <h3 id='palindromeTitle'>Palindrome Checker</h3>
+//        </div>
+//         <div id='input'><input name="word" value={this.state.word} onChange={this.onChange}></input></div>
+//         <div id='submitButton'><button>Submit</button></div>
+//         <div id='resultBox'>{this.state.isPalindrome}</div>
+//        </form>
+//       </div>
+//     )
+//   }
+// }
 
 var Palindrome =
 /*#__PURE__*/
@@ -666,76 +730,71 @@ function (_React$Component) {
     _classCallCheck(this, Palindrome);
 
     _this = _possibleConstructorReturn(this, _getPrototypeOf(Palindrome).call(this));
-
-    _defineProperty(_assertThisInitialized(_this), "onChange", function (event) {
-      _this.setState(_objectSpread({}, _this.state, {
-        word: event.target.value
-      }));
-
-      console.log(_this.state);
-    });
-
-    _defineProperty(_assertThisInitialized(_this), "onSubmit", function (event) {
-      console.log(_this.isPalindrome(_this.state.word), ' <<palindrome');
-      event.preventDefault();
-
-      if (_this.isPalindrome(_this.state.word)) {
-        _this.setState({
-          word: '',
-          isPalindrome: "Yes! ".concat(_this.state.word, " is a palindrome")
-        });
-      } else if (_this.state.word === '') {
-        return;
-      } else {
-        _this.setState({
-          word: '',
-          isPalindrome: "Oopsie! ".concat(_this.state.word, " is not a palindrome")
-        });
-      }
-    });
-
-    _defineProperty(_assertThisInitialized(_this), "isPalindrome", function (word) {
-      if (word.length < 2) {
-        return false;
-      }
-
-      if (word.length === 2) {
-        if (word[0] === word[1]) {
-          return true;
-        } else {
-          return false;
-        }
-      }
-
-      for (var i = 0; i < Math.ceil(word.length / 2); i++) {
-        var first = word[i];
-        var last = word[word.length - 1 - i];
-
-        if (first !== last) {
-          return false;
-        }
-      }
-
-      return true;
-    });
-
     _this.state = {
-      word: '',
-      isPalindrome: ''
+      input: "",
+      value: "Enter text and press the button!"
     };
+    _this.handleChange = _this.handleChange.bind(_assertThisInitialized(_this));
+    _this.checkValue = _this.checkValue.bind(_assertThisInitialized(_this));
+    _this.handleSubmit = _this.handleSubmit.bind(_assertThisInitialized(_this));
     return _this;
   }
 
   _createClass(Palindrome, [{
+    key: "handleChange",
+    value: function handleChange(event) {
+      this.setState(_objectSpread({}, this.state, {
+        input: event.target.value
+      }));
+    }
+  }, {
+    key: "handleSubmit",
+    value: function handleSubmit(event) {
+      event.preventDefault();
+      var result = this.checkValue(this.state.input); //either true or false
+
+      if (result === true) {
+        this.setState({
+          input: "",
+          value: "Hooray! It's a Palindrome!"
+        });
+      } else {
+        this.setState({
+          input: "",
+          value: "Sorry, not a Palindrome"
+        });
+      }
+    }
+  }, {
+    key: "checkValue",
+    value: function checkValue(input) {
+      var start = 0;
+      var end = input.length - 1;
+
+      while (start <= end) {
+        if (input[start] !== input[end]) {
+          //ciao
+          return false;
+        }
+
+        start++;
+        end--;
+      }
+
+      return true;
+    }
+  }, {
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
-        onSubmit: this.onSubmit
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Palindrome Checker")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
-        name: "word",
-        value: this.state.word,
-        onChange: this.onChange
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", null, "Submit")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, this.state.isPalindrome)));
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "App"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Check if it's a Palindrome!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+        onSubmit: this.handleSubmit
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+        type: "text",
+        value: this.state.input,
+        onChange: this.handleChange
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", null, "submit")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, this.state.value));
     }
   }]);
 
@@ -42254,7 +42313,7 @@ function warning(message) {
 /*!***************************************************************!*\
   !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
   \***************************************************************/
-/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext, BrowserRouter, HashRouter, Link, NavLink */
+/*! exports provided: BrowserRouter, HashRouter, Link, NavLink, MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
