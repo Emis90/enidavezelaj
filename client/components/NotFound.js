@@ -6,12 +6,8 @@ class NotFound extends React.Component{
 
   render(){
   return(
-    <div className='notfound'>
-      <iframe
-      src='/images/EnidaVezelajResume.pdf'
-        width='750'
-        height='950'
-      />
+    <div className='notfound' style={{alignself: 'center'}}>
+      <p>Page not found</p>
     </div>
   )
   }

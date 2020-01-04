@@ -1,6 +1,7 @@
 body {
   text-align: center;
   font-size: 20px;
+ background-color: rgb(19, 30, 55);
 }
 * {
   font-family: 'Open Sans', sans-serif;
@@ -9,15 +10,18 @@ body {
 .rootDiv {
   position: absolute; height: 100%; width: 100%;
   color: rgb(0, 16, 31);
+  background-image: url('./images/city.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .about{
   display: flex;
   position: relative; top: 0%; height: 100%; width: 100%;
   justify-content: center;
   align-content: center;
-  background-image: url('./images/city.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
+  /* background-image: url('./images/city.jpg'); */
+  /* background-size: cover;
+  background-repeat: no-repeat; */
 
 }
 .contact {
@@ -25,16 +29,16 @@ body {
   position: relative; top: 0; left: 0; height: 100%; width: 100%;
   justify-content: center;
   align-self: center;
-  background-image: url('./images/city.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
+  /* background-image: url('./images/city.jpg'); */
+  /* background-size: cover;
+  background-repeat: no-repeat; */
 }
 .contactstuff {
   position: relative; top: 20%; left: 0; height: 100%; width: 100%;
 }
 
 #text {
-  position: relative; top: -10%; left: -1000px; height: auto; width: 40%;
+  position: relative; top: -10%; right: -1000px; height: auto; width: 40%;
   padding-left: 10px;
   padding-right: 10px;
   width: 800px;
@@ -48,9 +52,8 @@ body {
 
 @keyframes run{
   0%{}
-  70%{ transform:  translateX(1200px)}
-  100%{ transform: translateX(1000px)}
-
+  70%{ transform:  translateX(-1200px)}
+  100%{ transform: translateX(-1000px)}
 }
 #text h1 {
   text-align: center;
@@ -150,15 +153,21 @@ body {
     }
 }
 
+.resume {
+  display: flex;
+  position: relative; top: 0%; height: 100%; width: 100%;
+  justify-content: center;
+  align-content: center;
+}
 
 .projects {
   display: flex;
   flex-wrap: wrap;
   position: relative; top: 0; left: 0; height: 100%; width: 100%;
   justify-content: space-around;
-  background-image: url('./images/city.jpg');
+  /* background-image: url('./images/city.jpg');
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 .skills {
   display: flex;
@@ -166,9 +175,9 @@ body {
   position: relative; top: 0; left: 0; height: 100%; width: 100%;
   justify-content: space-around;
   margin: 0;
-  background-image: url('./images/city.jpg');
+  /* background-image: url('./images/city.jpg');
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 .navigation {
   display: flex;
@@ -336,8 +345,8 @@ button {
   background: black;
 }
 iframe {
-  height: 1100px;
-  width: 850px;
+  height: 900px;
+  width: 720px;
 }
 
 .contribution {
@@ -354,18 +363,6 @@ iframe {
 }
 
 
-
-.palindromeContainer {
-  height: 100%;
-  display:flex;
-  flex-direction:column;
-  justify-content: center;
-  background-color: lightcyan;
-
-}
-#palindromeTitle {
-  color: pink;
-}
 #input{
   padding: 20px;
   margin: 8px 0;

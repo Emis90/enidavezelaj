@@ -5,14 +5,14 @@ import Projects from './Projects'
 import Skills from './Skills'
 import Navbar from './Navbar'
 import Resume from './Resume'
-import Play from './Play'
+
 import NotFound from './NotFound'
 import {
   BrowserRouter as Router,
   Route,
   Switch,
 } from 'react-router-dom'
-import Palindrome from "./Palindrome";
+
 
 
 const Root = () => {
@@ -28,9 +28,9 @@ return (
        <Route exact path='/resume' component={Resume}/>
        <Route exact path='/projects' component={Projects}/>
        <Route exact path='/skills' component={Skills}/>
-       <Route exact path='/palindrome' component={Palindrome}/>
        <Route exact path="*" component={NotFound} />
       </Switch>
+
     </div>
 </Router>
 
