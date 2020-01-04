@@ -678,7 +678,7 @@ function (_React$PureComponent) {
         src: "/images/computer.png"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "stack"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "JavaScript"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "HTML5"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "CSS3"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "React"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "React Native"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Redux"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Viro(vr/ar)"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "JavaScript"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "HTML5"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "CSS3"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "React"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "React Native"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Redux"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Viro(VR/AR)"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "general"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "title"

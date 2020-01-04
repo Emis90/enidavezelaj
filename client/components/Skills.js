@@ -31,7 +31,7 @@ render(){
      <p>React</p>
      <p>React Native</p>
      <p>Redux</p>
-     <p>Viro(vr/ar)</p>
+     <p>Viro(VR/AR)</p>
      </div>
    </div>
    <div id='general'>
