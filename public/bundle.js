@@ -143,20 +143,20 @@ function (_React$PureComponent) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://github.com/Emis90"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        width: "50",
-        height: "50",
+        width: "70",
+        height: "70",
         src: "/images/github.png"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://www.linkedin.com/in/enida-vezelaj/"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        width: "50",
-        height: "50",
+        width: "70",
+        height: "70",
         src: "/images/linked.png"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "mailto:enida.vezelaj@gmail.com"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        width: "50",
-        height: "50",
+        width: "70",
+        height: "70",
         src: "/images/email-icon.png"
       })))));
     }
@@ -218,7 +218,9 @@ function (_React$PureComponent) {
         className: "about"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "text"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Enida Vezelaj"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "About me"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "I am a New York based software developer. I have been learning how to code and solve algorithms on my own for the past couple of years and finally decided to persue this carreer. I gradauted from Grace Hopper at Fullsdtack Academy of code and learned to work as a fullstack developer. I am experienced with Java Script, React, NERD Stack (Node.js, Express, React, Databases) and I know how to teach myself new technologies. I am passionate about what I do and I am motivated by new challanges. Feel free to checkout some of my projects or contact me with any questions.")));
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "softdev"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Enida Vezelaj"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Software engineer | NY")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "I am a New York based software developer. I have been learning how to code and solve algorithms on my own for the past couple of years and finally decided to persue this carreer. I gradauted from Grace Hopper at Fullsdtack Academy of code and learned to work as a fullstack developer. I am experienced with Java Script, React, NERD Stack (Node.js, Express, React, Databases) and I know how to teach myself new technologies. I am passionate about what I do and I am motivated by new challanges. Feel free to checkout some of my projects or contact me with any questions.")));
     }
   }]);
 
@@ -376,7 +378,8 @@ function (_React$PureComponent) {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "projects"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "proj"
+        className: "proj",
+        id: "graceinspace"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "card"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -398,7 +401,8 @@ function (_React$PureComponent) {
         height: "30",
         src: "/images/github.png"
       })))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "proj"
+        className: "proj",
+        id: "gelatofinder"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "card"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -420,7 +424,8 @@ function (_React$PureComponent) {
         height: "30",
         src: "/images/github.png"
       })))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "proj"
+        className: "proj",
+        id: "cupcakestore"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "card"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -444,7 +449,8 @@ function (_React$PureComponent) {
         height: "30",
         src: "/images/github.png"
       })))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "proj"
+        className: "proj",
+        id: "matchinev"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "card"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -39740,7 +39746,7 @@ function warning(message) {
 /*!***************************************************************!*\
   !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
   \***************************************************************/
-/*! exports provided: BrowserRouter, HashRouter, Link, NavLink, MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext */
+/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext, BrowserRouter, HashRouter, Link, NavLink */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

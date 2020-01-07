@@ -18,13 +18,13 @@ class Contact extends React.PureComponent {
       <h3>Software engineer | NY</h3>
       <div id="icons">
       <a href='https://github.com/Emis90'>
-      <img width="50" height="50" src="/images/github.png"/>
+      <img width="70" height="70" src="/images/github.png"/>
       </a>
       <a href="https://www.linkedin.com/in/enida-vezelaj/">
-      <img width="50" height="50" src="/images/linked.png"/>
+      <img width="70" height="70" src="/images/linked.png"/>
       </a>
       <a href="mailto:enida.vezelaj@gmail.com">
-      <img width="50" height="50" src="/images/email-icon.png"/>
+      <img width="70" height="70" src="/images/email-icon.png"/>
       </a>
       </div>
       </div>

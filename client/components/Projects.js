@@ -6,7 +6,7 @@ class Projects extends React.PureComponent {
   render() {
    return (
     <div className="projects">
-      <div className="proj">
+      <div className="proj" id='graceinspace'>
             <div className='card'>
             <div className='front'>
               <img height="50" width="50" src="/images/ship.png" />
@@ -28,7 +28,7 @@ class Projects extends React.PureComponent {
             </div>
             </div>
       </div>
-      <div className='proj'>
+      <div className='proj' id='gelatofinder'>
            <div className='card'>
             <div className='front'>
               <img height="50" width="50" src="/images/gelato.png" />
@@ -52,7 +52,7 @@ class Projects extends React.PureComponent {
               </div>
       </div>
 
-     <div className='proj'>
+     <div className='proj' id='cupcakestore'>
             <div className='card'>
             <div className='front'>
               <img height="50" width="50" src="/images/cupcake.png" />
@@ -77,7 +77,7 @@ class Projects extends React.PureComponent {
               </div>
             </div>
       </div>
-      <div className='proj'>
+      <div className='proj' id='matchinev'>
               <div className='card'>
               <div className='front'>
               <img src="/images/npm.png" />
