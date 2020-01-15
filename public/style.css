@@ -12,7 +12,12 @@ body {
   background-repeat: no-repeat;
 }
 
-
+/* .navigation {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  : 100px;
+} */
 .rootDiv {
   position: absolute; height: 100%; width: 100%;
   color: rgb(0, 16, 31);
@@ -215,11 +220,13 @@ img {
 .description {
   margin: 20px;
   padding: 20px;
+  border-radius: 50%;
 }
-.icons img{
+.icons img {
   display: inline;
   border-radius: 50%;
 }
+
 
 .proj {
   position: relative;
@@ -262,6 +269,7 @@ img {
   background-color: #000000;
   background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
   border-radius: 5%;
+  overflow: scroll;
   -webkit-transform:rotateY(180deg);
     -moz-transform:rotateY(180deg);
     -o-transform:rotateY(180deg);

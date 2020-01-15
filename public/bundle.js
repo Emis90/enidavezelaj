@@ -220,7 +220,7 @@ function (_React$PureComponent) {
         id: "text"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "softdev"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Enida Vezelaj"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Software engineer | NY")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "I am a New York based software developer. I have been learning how to code and solve algorithms on my own for the past couple of years and finally decided to persue this carreer. I gradauted from Grace Hopper at Fullsdtack Academy of code and learned to work as a fullstack developer. I am experienced with Java Script, React, NERD Stack (Node.js, Express, React, Databases) and I know how to teach myself new technologies. I am passionate about what I do and I am motivated by new challanges. Feel free to checkout some of my projects or contact me with any questions.")));
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Enida Vezelaj"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Software engineer | NY")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "I am a New York based Software Developer. I taugh myself how to code for a couple of years until and I finally decided to persue this carreer and attend Grace Hopper at Fullstack Academy, where I obtained the foundations of frontend and backend development. I am experienced with Java Script, React, NERD Stack (Node.js, Express, React, Databases) and I know how to teach myself new technologies. I am passionate about what I do and I am motivated by new challanges.")));
     }
   }]);
 
@@ -379,6 +379,32 @@ function (_React$PureComponent) {
         className: "projects"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "proj",
+        id: "museum"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "card"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "front"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        className: "icons",
+        height: "50",
+        width: "50",
+        src: "/images/museum.jpg"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "description"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Real Estate Website"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Fullstck developemt to mimic a regular real estate website where users can find a cool museum"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "back"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Stack:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Node.js, Sequelize, Express, React"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "contribution"
+      }, "On the backend I used a public api of museums in NYC to seeded my Postgres databse, I added new info like rating, description, price and ghost presence. I set up the routes to get/change status of sold or available museums and used Passport.js for user authentication. I used React on the frontend and purposly kept all the components and map on the same page to let the client se changes in real time while searching based on preference."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "https://museumsofnyc.herokuapp.com"
+      }, "Get your own museum!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "https://github.com/Emis90/castelli"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        width: "30",
+        height: "30",
+        src: "/images/github.png"
+      })))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "proj",
         id: "graceinspace"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "card"
@@ -390,11 +416,11 @@ function (_React$PureComponent) {
         src: "/images/ship.png"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Grace in space"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Mobile virtual reality game where the player collects items floating away in space."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Grace in space"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Mobile VR game where the player collects items floating away in space."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "back"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Stack:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Viro, ReactNative, Redux Firebase/firestore"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Contribution:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Stack:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Viro, ReactNative, Redux, Firebase, firestore"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Contribution:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         className: "contribution"
-      }, "I planned the game and the features and directed coworkers on what approach to take on buidling the app. I buit the navigation between pages going from VR back to static React page. Last I set up the database to save user scores."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      }, "I planned the game and the features and directed coworkers on what approach to take on buidling the app. I buit the navigation between pages going from VR back to static React page. I set up the redux store for a better data state management. Last I set up user authentication with Firebase and worked on Firestore to save each player's points."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://github.com/graceinspace/graceInSpace"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         width: "30",
@@ -413,11 +439,11 @@ function (_React$PureComponent) {
         src: "/images/gelato.png"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Gelato finder"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Mobile application for finding the best spots in the city"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Gelato finder"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Mobile application for finding the best sweet spots in the city"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "back"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Stack:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "React-Native, Firebase"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Contribution:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         className: "contribution"
-      }, "I built this application on my own and focuses on making an ios app. I set up map and located stores in the city using a public api. I set up firestore so users can create a personal account and I set up a  database for logged in users to save their favorite destinations."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      }, "I built this application on my own and focuses on making an IOS app. I set up map and located stores in the city using a public api. I set up firestore so users can create a personal account and I set up a  database for logged in users to save their favorite destinations."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://github.com/Emis90/GelatoFinder"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         width: "30",
@@ -39746,7 +39772,7 @@ function warning(message) {
 /*!***************************************************************!*\
   !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
   \***************************************************************/
-/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext, BrowserRouter, HashRouter, Link, NavLink */
+/*! exports provided: BrowserRouter, HashRouter, Link, NavLink, MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
