@@ -1,6 +1,6 @@
 * {
-  font-family: 'Gruppo', cursive;
-  font-weight: bold;
+  font-family: 'Bitter', serif ;
+  /* font-weight: bold; */
 }
 
 body {
@@ -68,7 +68,9 @@ body {
   text-align: center;
   margin-top: 0;
 }
-
+a {
+  color: white;
+}
 
 .resume {
   display: flex;
