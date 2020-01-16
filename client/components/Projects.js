@@ -32,7 +32,7 @@ class Projects extends React.PureComponent {
       <div className="proj" id='graceinspace'>
             <div className='card'>
             <div className='front'>
-              <img height="50" width="50" src="/images/ship.png" />
+              <img className='proj-icon' height="50" width="50" src="/images/ship.png" />
               <div className="description">
               <h3>Grace in space</h3>
               <p>Mobile VR game where the player collects items floating away in space.</p>
@@ -54,7 +54,7 @@ class Projects extends React.PureComponent {
       <div className='proj' id='gelatofinder'>
            <div className='card'>
             <div className='front'>
-              <img height="50" width="50" src="/images/gelato.png" />
+              <img className='proj-icon' height="50" width="50" src="/images/gelato.png" />
               <div className="description">
               <h3>Gelato finder</h3>
               <p>Mobile application for finding the best sweet spots in the city</p>
@@ -78,7 +78,7 @@ class Projects extends React.PureComponent {
      <div className='proj' id='cupcakestore'>
             <div className='card'>
             <div className='front'>
-              <img height="50" width="50" src="/images/cupcake.png" />
+              <img className='proj-icon' height="50" width="50" src="/images/cupcake.png" />
               <div className="description">
               <h3>Cupcake store</h3>
               <p>E-commerce website for out of this world cupcakes!</p>
@@ -103,11 +103,10 @@ class Projects extends React.PureComponent {
       <div className='proj' id='matchinev'>
               <div className='card'>
               <div className='front'>
-              <img src="/images/npm.png" />
+              <img className='proj-icon' src="/images/npm.png" />
               <div className="description">
               <h3>npm module</h3>
-              <p>Matching alorithm for two sets of elements</p>
-              <p>Its base off ofthe stable <span href="https://en.wikipedia.org/wiki/Stable_marriage_problem">marriage alorithm</span></p>
+              <p>Matching alorithm for two sets of elements base off of the stable marriage alorithm</p>
               </div>
               </div>
               <div className="back">
@@ -121,7 +120,7 @@ class Projects extends React.PureComponent {
                 </ul>
                 <div>
                 <a href="https://www.npmjs.com/package/matchingev-">
-                  <img width="30" height="30" src="/images/npm.png"/>
+                  <img  width="30" height="30" src="/images/npm.png"/>
                 </a>
                 </div>
               </div>

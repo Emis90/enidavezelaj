@@ -413,6 +413,7 @@ function (_React$PureComponent) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "front"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        className: "proj-icon",
         height: "50",
         width: "50",
         src: "/images/ship.png"
@@ -436,6 +437,7 @@ function (_React$PureComponent) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "front"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        className: "proj-icon",
         height: "50",
         width: "50",
         src: "/images/gelato.png"
@@ -459,6 +461,7 @@ function (_React$PureComponent) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "front"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        className: "proj-icon",
         height: "50",
         width: "50",
         src: "/images/cupcake.png"
@@ -484,12 +487,11 @@ function (_React$PureComponent) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "front"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        className: "proj-icon",
         src: "/images/npm.png"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "npm module"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Matching alorithm for two sets of elements"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Its base off ofthe stable ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        href: "https://en.wikipedia.org/wiki/Stable_marriage_problem"
-      }, "marriage alorithm")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "npm module"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Matching alorithm for two sets of elements base off of the stable marriage alorithm"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "back"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Stack:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Node.js"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "listBullet"
