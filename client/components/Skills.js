@@ -36,7 +36,7 @@ render(){
    </div>
    <div id='general'>
        <div className='title'>
-       <img width='40' height='40' src='/images/face.png'/>
+       <img width='50' height='50' src='/images/face.png'/>
        </div>
    <div className='stack'>
      <p>Problem solver</p>

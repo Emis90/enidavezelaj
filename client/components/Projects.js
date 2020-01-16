@@ -9,7 +9,7 @@ class Projects extends React.PureComponent {
           <div className="proj" id='museum'>
             <div className='card'>
             <div className='front'>
-              <img className='icons' height="50" width="50" src="/images/museum.jpg" />
+              <img className='proj-icon' height="50" width="50" src="/images/museum.jpg" />
               <div className="description">
               <h3>Real Estate Website</h3>
               <p>Fullstck developemt to mimic a regular real estate website where users can find a cool museum</p>
@@ -126,8 +126,7 @@ class Projects extends React.PureComponent {
                 </div>
               </div>
               </div>
-
-      </div>
+           </div>
 
           </div>
          );
