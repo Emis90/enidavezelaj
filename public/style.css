@@ -222,11 +222,12 @@ body {
   /* border-radius: 50%; */
 }
 
-.proj-icon {
+.proj-icon, .contact-img{
   margin: 20px;
   display: inline;
   border-radius: 50%;
 }
+
 
 
 .proj {
