@@ -16,14 +16,13 @@ class Projects extends React.PureComponent {
               </div>
             </div>
             <div className="back">
-            <h4>Stack:</h4>
-              <p>Node.js, Sequelize, Express, React</p>
-              <p className='contribution'>On the backend I used a public api of museums in NYC to seeded my Postgres databse, I added new info like rating, description, price and ghost presence. I set up the routes to get/change status of sold or available museums and used Passport.js for user authentication.
+              <p className='contribution'>Made a one time call to a public museum api, seeded my postgres database, added new info like rating, description, price and ghost presence. I set up the routes to get/change status of sold or available museums and used Passport.js for user authentication.
               I used React on the frontend and purposly kept all the components and map on the same page to let the client se changes in real time while searching based on preference.</p>
+              <p>Node.js, Sequelize, Express, React</p>
               <a href="https://museumsofnyc.herokuapp.com">Get your own museum!</a>
               <div>
                 <a href="https://github.com/Emis90/castelli">
-                  <img width="30" height="30" src="/images/github.png"/>
+                 GitHub
                 </a>
                 </div>
             </div>
@@ -39,13 +38,11 @@ class Projects extends React.PureComponent {
               </div>
             </div>
             <div className="back">
-            <h4>Stack:</h4>
+              <p className='contribution'>Set up initial stack, buit the navigation from dynamic VR component and static React component. I set up the redux store as state management system to allow better data passing throghout the app and fix the memory leakage. Lastly I implemented user authentication with Firebase and Firestore for database to store user points.</p>
               <p>Viro, ReactNative, Redux, Firebase, firestore</p>
-              <h4>Contribution:</h4>
-              <p className='contribution'>I planned the game and the features and directed coworkers on what approach to take on buidling the app. I buit the navigation between pages going from VR back to static React page. I set up the redux store for a better data state management. Last I set up user authentication with Firebase and worked on Firestore to save each player's points.</p>
               <div>
                 <a href="https://github.com/graceinspace/graceInSpace">
-                  <img width="30" height="30" src="/images/github.png"/>
+                GitHub
                 </a>
                 </div>
             </div>
@@ -61,14 +58,11 @@ class Projects extends React.PureComponent {
               </div>
               </div>
               <div className="back">
-              <h4>Stack:</h4>
+              <p className='contribution'>Build a React Native application using a public api for fetching name and location coordinates of sweet spots in NYC. I used a tab type navigation and I implemented Firebase user authentication and Firestore badabase for saving notes.</p>
               <p>React-Native, Firebase</p>
-              <h4>Contribution:</h4>
-              <p className='contribution'>I built this application on my own and focuses on making an IOS app. I set up map and located stores in the city using
-              a public api. I set up firestore so users can create a personal account and I set up a  database for logged in users to save their favorite destinations.</p>
               <div>
                 <a href="https://github.com/Emis90/GelatoFinder">
-                  <img width="30" height="30" src="/images/github.png"/>
+                GitHub
                 </a>
                 </div>
               </div>
@@ -85,16 +79,14 @@ class Projects extends React.PureComponent {
               </div>
               </div>
             <div className="back">
-              <h4>Stack:</h4>
-              <p>Sequelize, Express, React, Redux</p>
-              <h4>Contribution</h4>
-              <p className='contribution'>I contributed on every aspect of the project from building the database and setting relationships between tables to working on the front end writing components for the products to buiding the server side for guest users.</p>
+              <p className='contribution'>I planned the schema for database tables and set up relationships between users and orders. I seeded the database with data and set up routes. I wrote routes for a non-logged user shopping experience and lastly used Flexbox for styling.</p>
+              <p>Node.js React, Redux, Flexbox</p>
               <div>
               <a href="https://fantasticsweetcupcakes.herokuapp.com">Buy some cupcakes!</a>
               </div>
                 <div>
                 <a href="https://github.com/fantastic-four-grace-shopper/grace-shopper">
-                  <img width="30" height="30" src="/images/github.png"/>
+                GitHub
                 </a>
                 </div>
               </div>
@@ -110,17 +102,11 @@ class Projects extends React.PureComponent {
               </div>
               </div>
               <div className="back">
-                <h4>Stack:</h4>
-                <p>Node.js</p>
-                <ul>
-                  <li className='listBullet'>npm install matchingev-one</li>
-                  <li className='listBullet'>have two sets of people with array of choises for the other team members each</li>
-                  <li className='listBullet'>when needed call match(list1, list2)</li>
-                  <li className='listBullet'>and voila! you will have pairs(or group of 3)</li>
-                </ul>
+                <p className='contribution'>Wrote and published to npm a matching algorith that will pair one group of people to the next based on each others preferene on each other.</p>
+                <p>Node.js, npm</p>
                 <div>
                 <a href="https://www.npmjs.com/package/matchingev-">
-                  <img  width="30" height="30" src="/images/npm.png"/>
+                GitHub
                 </a>
                 </div>
               </div>

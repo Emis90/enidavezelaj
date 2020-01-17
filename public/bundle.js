@@ -398,17 +398,13 @@ function (_React$PureComponent) {
         className: "description"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Real Estate Website"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Fullstck developemt to mimic a regular real estate website where users can find a cool museum"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "back"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Stack:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Node.js, Sequelize, Express, React"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         className: "contribution"
-      }, "On the backend I used a public api of museums in NYC to seeded my Postgres databse, I added new info like rating, description, price and ghost presence. I set up the routes to get/change status of sold or available museums and used Passport.js for user authentication. I used React on the frontend and purposly kept all the components and map on the same page to let the client se changes in real time while searching based on preference."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      }, "Made a one time call to a public museum api, seeded my postgres database, added new info like rating, description, price and ghost presence. I set up the routes to get/change status of sold or available museums and used Passport.js for user authentication. I used React on the frontend and purposly kept all the components and map on the same page to let the client se changes in real time while searching based on preference."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Node.js, Sequelize, Express, React"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://museumsofnyc.herokuapp.com"
       }, "Get your own museum!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://github.com/Emis90/castelli"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        width: "30",
-        height: "30",
-        src: "/images/github.png"
-      })))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "GitHub"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "proj",
         id: "graceinspace"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -424,15 +420,11 @@ function (_React$PureComponent) {
         className: "description"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Grace in space"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Mobile VR game where the player collects items floating away in space."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "back"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Stack:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Viro, ReactNative, Redux, Firebase, firestore"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Contribution:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         className: "contribution"
-      }, "I planned the game and the features and directed coworkers on what approach to take on buidling the app. I buit the navigation between pages going from VR back to static React page. I set up the redux store for a better data state management. Last I set up user authentication with Firebase and worked on Firestore to save each player's points."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      }, "Set up initial stack, buit the navigation from dynamic VR component and static React component. I set up the redux store as state management system to allow better data passing throghout the app and fix the memory leakage. Lastly I implemented user authentication with Firebase and Firestore for database to store user points."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Viro, ReactNative, Redux, Firebase, firestore"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://github.com/graceinspace/graceInSpace"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        width: "30",
-        height: "30",
-        src: "/images/github.png"
-      })))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "GitHub"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "proj",
         id: "gelatofinder"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -448,15 +440,11 @@ function (_React$PureComponent) {
         className: "description"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Gelato finder"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Mobile application for finding the best sweet spots in the city"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "back"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Stack:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "React-Native, Firebase"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Contribution:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         className: "contribution"
-      }, "I built this application on my own and focuses on making an IOS app. I set up map and located stores in the city using a public api. I set up firestore so users can create a personal account and I set up a  database for logged in users to save their favorite destinations."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      }, "Build a React Native application using a public api for fetching name and location coordinates of sweet spots in NYC. I used a tab type navigation and I implemented Firebase user authentication and Firestore badabase for saving notes."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "React-Native, Firebase"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://github.com/Emis90/GelatoFinder"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        width: "30",
-        height: "30",
-        src: "/images/github.png"
-      })))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "GitHub"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "proj",
         id: "cupcakestore"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -472,17 +460,13 @@ function (_React$PureComponent) {
         className: "description"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Cupcake store"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "E-commerce website for out of this world cupcakes!"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "back"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Stack:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Sequelize, Express, React, Redux"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Contribution"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         className: "contribution"
-      }, "I contributed on every aspect of the project from building the database and setting relationships between tables to working on the front end writing components for the products to buiding the server side for guest users."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      }, "I planned the schema for database tables and set up relationships between users and orders. I seeded the database with data and set up routes. I wrote routes for a non-logged user shopping experience and lastly used Flexbox for styling."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Node.js React, Redux, Flexbox"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://fantasticsweetcupcakes.herokuapp.com"
       }, "Buy some cupcakes!")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://github.com/fantastic-four-grace-shopper/grace-shopper"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        width: "30",
-        height: "30",
-        src: "/images/github.png"
-      })))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "GitHub"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "proj",
         id: "matchinev"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -496,21 +480,11 @@ function (_React$PureComponent) {
         className: "description"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "npm module"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Matching alorithm for two sets of elements base off of the stable marriage alorithm"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "back"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Stack:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Node.js"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "listBullet"
-      }, "npm install matchingev-one"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "listBullet"
-      }, "have two sets of people with array of choises for the other team members each"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "listBullet"
-      }, "when needed call match(list1, list2)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "listBullet"
-      }, "and voila! you will have pairs(or group of 3)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "contribution"
+      }, "Wrote and published to npm a matching algorith that will pair one group of people to the next based on each others preferene on each other."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Node.js, npm"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://www.npmjs.com/package/matchingev-"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        width: "30",
-        height: "30",
-        src: "/images/npm.png"
-      })))))));
+      }, "GitHub"))))));
     }
   }]);
 
@@ -39779,7 +39753,7 @@ function warning(message) {
 /*!***************************************************************!*\
   !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
   \***************************************************************/
-/*! exports provided: BrowserRouter, HashRouter, Link, NavLink, MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext */
+/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext, BrowserRouter, HashRouter, Link, NavLink */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
