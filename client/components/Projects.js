@@ -58,7 +58,7 @@ class Projects extends React.PureComponent {
               </div>
               </div>
               <div className="back">
-              <p className='contribution'>Build a React Native application using a public api for fetching name and location coordinates of sweet spots in NYC. I used a tab type navigation and I implemented Firebase user authentication and Firestore badabase for saving notes.</p>
+              <p className='contribution'>This was my first React Native project where I used api a public for fetching name and location coordinates of sweet spots in NYC to display on a google map. I used a tab type navigation and I implemented Firebase user authentication and Firestore badabase for saving notes.</p>
               <p>React-Native, Firebase</p>
               <div>
                 <a href="https://github.com/Emis90/GelatoFinder">

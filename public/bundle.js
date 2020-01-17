@@ -442,7 +442,7 @@ function (_React$PureComponent) {
         className: "back"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         className: "contribution"
-      }, "Build a React Native application using a public api for fetching name and location coordinates of sweet spots in NYC. I used a tab type navigation and I implemented Firebase user authentication and Firestore badabase for saving notes."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "React-Native, Firebase"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      }, "This was my first React Native project where I used api a public for fetching name and location coordinates of sweet spots in NYC to display on a google map. I used a tab type navigation and I implemented Firebase user authentication and Firestore badabase for saving notes."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "React-Native, Firebase"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://github.com/Emis90/GelatoFinder"
       }, "GitHub"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "proj",
@@ -39753,7 +39753,7 @@ function warning(message) {
 /*!***************************************************************!*\
   !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
   \***************************************************************/
-/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext, BrowserRouter, HashRouter, Link, NavLink */
+/*! exports provided: BrowserRouter, HashRouter, Link, NavLink, MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
