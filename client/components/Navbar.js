@@ -20,9 +20,9 @@ const Navbar =  function() {
   <Link className='rootLinks' to='/resume'>Resume</Link>
   </div>
 
-  <div>
+  {/* <div>
   <Link className='rootLinks' to='/contact'>Contact</Link>
-  </div>
+  </div> */}
   </div>
  )
  }

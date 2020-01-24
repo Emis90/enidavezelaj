@@ -26,18 +26,20 @@ body {
   padding-right: 20px;
 
 }
-.contact {
+/* .contact {
   position: relative; top: 0%; height: 100%; width: 100%;
   justify-content: center;
   align-content: center;
-}
+} */
 
 .contactstuff {
   position: relative; top: 20%; left: 0; height: 100%; width: 100%;
 }
 
 #text {
-  position: relative; top: -20%; height: auto; width: 40%;
+  display: flex;
+  flex-direction: column;
+  position: relative; top: -10%; height: auto; width: 40%;
   padding-left: 20px;
   padding-right: 20px;
   width: 850px;
@@ -47,8 +49,13 @@ body {
   background-color: #4286d3;
   background-image: linear-gradient(315deg,#485977 0%, #6782b4 74%);
   border-radius: .5em;
-  opacity: 0.8;
+  opacity: 0.9;
   /* animation: run 1s ease forwards; */
+}
+#icons {
+  display:flex;
+  flex-direction:row;
+  justify-content:center
 }
 /*
 @keyframes run{
@@ -197,7 +204,7 @@ a {
 #backend, #frontend, #general{
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
   position: relative;
   margin-top: 70px;
   width: 310px;
