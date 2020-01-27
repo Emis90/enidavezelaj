@@ -9,8 +9,8 @@ body {
   margin: 0 auto;
   text-align: center;
   background-color: rgb(19, 30, 55);
-  /* background-image: url('./images/city.jpg'); */
-  background-size: cover;
+  background-image: url('./images/city.jpg');
+  background-size: 100%;
   background-repeat: no-repeat;
 }
 
@@ -40,10 +40,12 @@ body {
   align-self: center;
   color: rgb(230, 230, 230);
   background-color: #4286d3;
-  background-image: linear-gradient(315deg,#485977 0%, #6782b4 74%);
+  background-image: linear-gradient(315deg,#485977 0%, #037abe 74%);
   border-radius: .5em;
   opacity: 0.9;
-
+}
+.mystory {
+  margin-top: 2em;
 }
 #icons {
   display:flex;
@@ -311,7 +313,18 @@ li span {
     padding: 0;
   }
 
+  body {
+    background-color:#009ffd;
+    background-image: linear-gradient(315deg, #ccd6f5 0%, #009ffd 64%);
+  }
+   #text {
+     margin: 1em;
+     padding-top: 1em;
+   }
 
+   .proj {
+     zoom: 1.2;
+   }
   iframe {
     overflow: -moz-hidden-unscrollable;
     max-width: fit-content;
