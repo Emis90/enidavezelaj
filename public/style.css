@@ -1,5 +1,7 @@
 * {
   font-family: 'Bitter', serif ;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -7,7 +9,7 @@ body {
   margin: 0 auto;
   text-align: center;
   background-color: rgb(19, 30, 55);
-  background-image: url('./images/city.jpg');
+  /* background-image: url('./images/city.jpg'); */
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -22,8 +24,8 @@ body {
   position: relative; top: 0%; height: 100%; width: 100%;
   justify-content: center;
   align-content: center;
-  margin-left: 20px;
-  padding-right: 20px;
+  /* margin-left: 20px;
+  padding-right: 20px; */
 
 }
 
@@ -35,8 +37,7 @@ body {
   display: flex;
   flex-direction: column;
   position: relative; top: -10%; height: auto; width: 40%;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 5%;
   width: 850px;
   text-align: justify;
   align-self: center;
@@ -45,7 +46,7 @@ body {
   background-image: linear-gradient(315deg,#485977 0%, #6782b4 74%);
   border-radius: .5em;
   opacity: 0.9;
-  /* animation: run 1s ease forwards; */
+
 }
 #icons {
   display:flex;
@@ -56,16 +57,7 @@ body {
 .title {
   margin-top: 3em;
 }
-/*
-@keyframes run{
-  0%{}
-  70%{ transform:  translateX(-1200px)}
-  100%{ transform: translateX(-1000px)}
-} */
-/* .softdev {
-  position: relative; top: 0%; left: 0; height: 100%; width: 100%;
-  align-content: flex-start;
-} */
+
 #text h1 {
   text-align: center;
 }
@@ -94,10 +86,8 @@ a {
 .skills {
   display: flex;
   flex-wrap: wrap;
-  position: relative; top: 0; left: 0; height: 100%; width: 100%;
+  position: relative; top: 5em; left: 0; height: 100%; width: 100%;
   justify-content: space-around;
-  margin: 0;
-
 }
 
 .navigation {
@@ -109,105 +99,14 @@ a {
   font-size: 25px;
 }
 
-@media only screen and (max-device-width: 480px){
-  iframe {
-  transform: scale(0.9);
-  max-width: 90%;
-  min-width: 80%;
-  zoom: .8;
-  }
-  #backend, #frontend, #general {
-    transform: scale(1);
-    flex-direction: row;
-  }
-  .skills, .projects {
-    background-image: url('./images/city.jpg');
-    min-height: 300%;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  .contact{
-    background-image: url('./images/city.jpg');
-    max-height: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  .about {
-    background-image: url('./images/city.jpg');
-    max-height: 100%;
-    background-size: cover;
-  }
-  #text {
-    margin-top: 10%;
-    margin-left: 5%;
-    margin-right: 5%;
-  }
-}
-
-@media (orientation: portrait){
-  .skills {
-    min-width: 90%;
-    max-width: 98%;
-    min-height: 300%;
-    background-image: url('./images/city.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    }
-  .projects {
-    min-width: 90%;
-    max-width: 98%;
-    min-height: 330%;
-    background-image: url('./images/city.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    }
-  .card, .back ,.front,.proj,  #backend, #frontend, #general{
-    transform: scale(.95);
-  }
-  .navigation {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-  .rootLinks {
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 5px;
-  }
-  .about {
-    min-width: 90%;
-    max-width: 98%;
-    background-image: url('./images/city.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  .contact{
-    background-image: url('./images/city.jpg');
-    max-height: 100%;
-    min-width: 90%;
-    max-width: 98%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-left: 0%;
-  }
-  .resume {
-    zoom: 0.4;
-  }
-  iframe {
-    transform: scale(0.9);
-    zoom: 1.2;
-    }
-}
-
-
 #backend, #frontend, #general{
   display: flex;
   flex-direction: column;
+  margin: 1em;
   align-items: center;
   position: relative;
-  margin-top: 70px;
-  width: 310px;
-  height: 480px;
+  width: 18em;
+  height: 26em;
   background-color: #626d7e;
   background-image: linear-gradient(315deg,  #626d7e 10%, #f5f7fa 80%) ;
   border-radius: .5em;
@@ -226,11 +125,9 @@ a {
   flex-direction: column;
   justify-content: center;
   padding: 15px;
-  /* border-radius: 50%; */
 }
 
 .proj-icon, .contact-img{
-  /* display: inline */
   margin: 20px;
   margin-top: 3em;
   border-radius: 50%;
@@ -394,4 +291,91 @@ li span {
 #resultBox {
   margin-top:50px;;
   color: rgb(120, 120, 220);
+}
+
+
+
+/* @media only screen and (max-device-width: 425px){
+  iframe {
+  transform: scale(0.9);
+  max-width: 90%;
+  min-width: 80%;
+  zoom: .8;
+  }
+  #backend, #frontend, #general {
+    transform: scale(1);
+    flex-direction: row;
+  }
+  .skills, .projects {
+    background-image: url('./images/city.jpg');
+    min-height: 300%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .contact{
+    background-image: url('./images/city.jpg');
+    max-height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .about {
+    background-image: url('./images/city.jpg');
+    max-height: 100%;
+    background-size: cover;
+  }
+  #text {
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+} */
+
+
+
+@media (orientation: portrait){
+  * {
+    font-family: 'Bitter', serif ;
+    margin: 0;
+    padding: 0;
+  }
+  /* .skills {
+    min-width: 90%;
+    max-width: 98%;
+    min-height: 300%;
+    }
+  .projects {
+    min-width: 90%;
+    max-width: 98%;
+    min-height: 330%;
+    } */
+  /* .card, .back ,.front,.proj,  #backend, #frontend, #general{
+    transform: scale(.95);
+  } */
+  /* .navigation {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  } */
+  /* .rootLinks {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+  } */
+  /* .about {
+    min-width: 90%;
+    max-width: 98%;
+  } */
+  /* .contact{
+    max-height: 100%;
+    min-width: 90%;
+    max-width: 98%;
+    margin-left: 0%;
+  } */
+  .resume {
+    zoom: 0.4;
+  }
+  iframe {
+    transform: scale(0.9);
+    zoom: 1.2;
+    }
 }
