@@ -265,11 +265,17 @@ iframe {
   height: 90%;
   width: 72%;
 }
-
+.tech-used {
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(193, 196, 204);
+}
+#tech-used {
+  padding-top: 3em;
+}
 .contribution {
   text-align: justify;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 2em;
+  padding-right: 2em;
   font-size: 14px;
 }
 .listBullet {
