@@ -264,8 +264,8 @@ button {
   background: black;
 }
 iframe {
-  height: 90%;
-  width: 72%;
+  height: 100%;
+  width: 88%;
 }
 .tech-used {
   font-family: 'Courier New', Courier, monospace;
@@ -326,9 +326,8 @@ li span {
      zoom: 1.2;
    }
   iframe {
-    overflow: -moz-hidden-unscrollable;
-    max-width: fit-content;
-    max-height: 70%;
+    max-width: 90%;
+    max-height: 100%;
     }
 }
 
