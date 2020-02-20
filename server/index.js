@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 //static middleware
 app.use(express.static(path.join(__dirname, '../public')));
 
-app.use('/√çcount', require('./count'))
+app.use('/count', require('./count'))
 
 
 app.get('*', (req, res) => {
