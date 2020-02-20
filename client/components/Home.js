@@ -1,11 +1,14 @@
 import React from 'react'
-// import Axios from 'axios';
+const countapi = require('countapi-js');
 
 
 class Home extends React.Component{
-    // componentDidMount = async() => {
-    //   await Axios.get('/count').then((res) => console.log(res.data.value))
-    // }
+    componentDidMount = async() => {
+
+        let num = await countapi.visits().then((result) => {
+          console.log(result.value)})
+
+    }
 
   render(){
      return(
