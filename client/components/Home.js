@@ -3,9 +3,9 @@ import Axios from 'axios';
 
 
 class Home extends React.Component{
-    componentDidMount = async() => {
-      await Axios.get('/count').then((res) => console.log(res.data.value))
-    }
+    // componentDidMount = async() => {
+    //   await Axios.get('/count').then((res) => console.log(res.data.value))
+    // }
 
   render(){
      return(
