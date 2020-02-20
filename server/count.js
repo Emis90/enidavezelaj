@@ -1,13 +1,14 @@
 const express = require('express');
-const app = express()
+const route = express()
 const countapi = require('countapi-js');
 
 
-app.get('/', (req, res)=> {
-  countapi.visits().then((result) => {
-    console.log(result)
-    res.json(result)
-});
+route.get('/', async(req, res)=> {
+  let num = await countapi.visits().then((result) => {
+    return result
+  });
+
+  res.json(num)
 })
 
-module.exports = app
+module.exports = route
