@@ -1,7 +1,7 @@
-public/bundle.js
-public/bundle.js.map
-public/vendors~pdfjsWorker.bundle.js
-public/vendors~pdfjsWorker.bundle.js.map
+# public/bundle.js
+# public/bundle.js.map
+# public/vendors~pdfjsWorker.bundle.js
+# public/vendors~pdfjsWorker.bundle.js.map
 node_modules
 secrets.js
 

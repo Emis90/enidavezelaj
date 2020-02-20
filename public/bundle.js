@@ -237,7 +237,7 @@ function (_React$Component) {
             case 0:
               _context.next = 2;
               return axios__WEBPACK_IMPORTED_MODULE_1___default.a.get('/count').then(function (res) {
-                return console.log(res.data);
+                return console.log(res.data.value);
               });
 
             case 2:
