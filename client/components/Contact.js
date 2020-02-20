@@ -1,7 +1,4 @@
 import React from "react"
-import {matching} from 'matchingev-one'
-
-
 
 
 class Contact extends React.PureComponent {

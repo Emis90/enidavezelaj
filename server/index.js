@@ -4,6 +4,8 @@ const path = require('path');
 const volleyball = require('volleyball');
 const bodyParser = require('body-parser');
 const app = express();
+const countapi = require('countapi-js');
+
 
 //logging middleware
 app.use(volleyball);
@@ -15,10 +17,11 @@ app.use(bodyParser.urlencoded({ extended: true }));
 //static middleware
 app.use(express.static(path.join(__dirname, '../public')));
 
+app.use('/count', require('./count'))
 
 
 app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, '../public/index.html'));
+  res.sendFile(path.join(__dirname, '../public/index.html'));
 }); // Send index.html for any other requests
 
 app.use((err, req, res, next) => {
@@ -31,6 +34,12 @@ app.use((req, res, next) => {
   error.status = 404
   next(error)
 })
+
+
+
+
+
+
 
 
 module.exports = app;

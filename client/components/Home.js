@@ -1,7 +1,11 @@
 import React from 'react'
-import Contact from './Contact'
+import Axios from 'axios';
+
 
 class Home extends React.Component{
+    componentDidMount = async() => {
+      await Axios.get('/count').then((res) => console.log(res.data))
+    }
 
   render(){
      return(
