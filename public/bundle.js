@@ -205,8 +205,6 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 
 
-var countapi = __webpack_require__(/*! countapi-js */ "./node_modules/countapi-js/index.js");
-
 var Home =
 /*#__PURE__*/
 function (_React$Component) {
@@ -265,7 +263,7 @@ function (_React$Component) {
         className: "softdev"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Enida Vezelaj"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Software engineer | NY")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "mystory"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "I am a New York based Software Developer. I taugh myself how to code for a couple of years until and I finally decided to persue this carreer and attend Grace Hopper at Fullstack Academy, where I obtained the foundations of frontend and backend development. I am experienced with Java Script, React, NERD Stack (Node.js, Express, React, Databases) and I know how to teach myself new technologies. I am passionate about what I do and I am motivated by new challanges.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "I am a New York based Software Developer. I attedned Grace Hopper at Fullstack Academy of code, an immersive training program that teaches developers technologies that are in high demand and best practices for implementing them.  I have experience pair programming and developing projects from start to finish. I am experienced with Java Script, React, NERD Stack (Node.js, Express, React, Databases). I am passionate about what I do and I am motivated by new challanges.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "icons"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://github.com/Emis90"
@@ -458,22 +456,22 @@ function (_React$Component) {
         src: "/images/museum.jpg"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Real Estate Website"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Fullstck developemt to mimic a regular real estate website where users can find a cool museum"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        id: "tech-used"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Real Estate Website"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Fullstach development where users can log in and experience the real estate hunt for amazing NYC museums."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "back"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        id: "div-stack"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         className: "tech-used"
       }, "Node.js"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         className: "tech-used"
       }, "PostgreSQL"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         className: "tech-used"
-      }, "React")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "back"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-        className: "contribution"
-      }, "Made a one time call to a public museum api, seeded my postgres database, added new info like rating, description, price and ghost presence. I set up the routes to get/change status of sold or available museums and used Passport.js for user authentication. I used React on the frontend and purposly kept all the components and map on the same page to let the client se changes in real time while searching based on preference."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://museumsofnyc.herokuapp.com"
+      }, "React")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "https://museumsofnyc.herokuapp.com",
+        className: "tech-used"
       }, "Get your own museum!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://github.com/Emis90/castelli"
+        href: "https://github.com/Emis90/castelli",
+        className: "tech-used"
       }, "GitHub"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "proj",
         id: "graceinspace"
@@ -488,8 +486,10 @@ function (_React$Component) {
         src: "/images/ship.png"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Grace in space"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Mobile VR game where the player collects items floating away in space."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        id: "tech-used"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Grace in space"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Mobile VR game where the player collects items floating away in space by tapping the screen."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "back"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        id: "div-stack"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         className: "tech-used"
       }, "Viro"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
@@ -498,12 +498,9 @@ function (_React$Component) {
         className: "tech-used"
       }, "Redux"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         className: "tech-used"
-      }, "Firebase/Firestore")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "back"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-        className: "contribution"
-      }, "Set up initial stack, buit the navigation from dynamic VR component and static React component. I set up the redux store as state management system to allow better data passing throghout the app and fix the memory leakage. Lastly I implemented user authentication with Firebase and Firestore for database to store user points."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://github.com/graceinspace/graceInSpace"
+      }, "Firebase/Firestore")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "https://github.com/graceinspace/graceInSpace",
+        className: "tech-used"
       }, "GitHub"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "proj",
         id: "gelatofinder"
@@ -518,18 +515,17 @@ function (_React$Component) {
         src: "/images/gelato.png"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Gelato finder"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Mobile application for finding the best sweet spots in the city"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        id: "tech-used"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Gelato finder"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Mobile application for finding the best sweet spots in the city"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "back"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        id: "div-stack"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         className: "tech-used"
       }, "React Native"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         className: "tech-used"
-      }, "Firebase")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "back"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-        className: "contribution"
-      }, "This was my first React Native project where I used api a public for fetching name and location coordinates of sweet spots in NYC to display on a google map. I used a tab type navigation and I implemented Firebase user authentication and Firestore badabase for saving notes."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://github.com/Emis90/GelatoFinder"
+      }, "Firebase")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "https://github.com/Emis90/GelatoFinder",
+        className: "tech-used"
       }, "GitHub"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "proj",
         id: "cupcakestore"
@@ -544,22 +540,24 @@ function (_React$Component) {
         src: "/images/cupcake.png"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Cupcake store"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "E-commerce website for out of this world cupcakes!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        id: "tech-used"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Cupcake store"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "E-commerce website for out of this world cupcakes!"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "back"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        id: "div-stack"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         className: "tech-used"
-      }, "React Native"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      }, "Node.js"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "tech-used"
+      }, "React"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         className: "tech-used"
       }, "Firebase"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         className: "tech-used"
-      }, "Firestore")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "back"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-        className: "contribution"
-      }, "I planned the schema for database tables and set up relationships between users and orders. I seeded the database with data and set up routes. I wrote routes for a non-logged user shopping experience and lastly used Flexbox for styling."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://fantasticsweetcupcakes.herokuapp.com"
+      }, "Firestore")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "https://fantasticsweetcupcakes.herokuapp.com",
+        className: "tech-used"
       }, "Buy some cupcakes!")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://github.com/fantastic-four-grace-shopper/grace-shopper"
+        href: "https://github.com/fantastic-four-grace-shopper/grace-shopper",
+        className: "tech-used"
       }, "GitHub"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "proj",
         id: "matchinev"
@@ -572,16 +570,15 @@ function (_React$Component) {
         src: "/images/npm.png"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "npm module"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Matching alorithm for two sets of elements base off of the stable marriage alorithm"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        id: "tech-used"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "npm module"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Matching alorithm for two sets of elements base off of the stable marriage alorithm"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "back"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        id: "div-stack"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         className: "tech-used"
-      }, "Node.js")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "back"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-        className: "contribution"
-      }, "Wrote and published to npm a matching algorith that will pair one group of people to the next based on each others preferene on each other."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://www.npmjs.com/package/matchingev-"
+      }, "Node.js")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "https://www.npmjs.com/package/matchingev-",
+        className: "tech-used"
       }, "GitHub"))))));
     }
   }]);
@@ -779,7 +776,7 @@ function (_React$PureComponent) {
         src: "/images/database.png"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "stack"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Node.js"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Webpack"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Babel"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Express.js"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Sequelize"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "SQL"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "PosgresQL"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Firebase/Firestore"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Node.js"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Express.js"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Sequelize.js"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "PosgresQL"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Firebase/Firestore"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "GraphQL"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "frontend"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "title"
@@ -789,7 +786,7 @@ function (_React$PureComponent) {
         src: "/images/computer.png"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "stack"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "JavaScript"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "HTML5"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "CSS3"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "React"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "React Native"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Redux"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Viro(VR/AR)"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "JavaScript"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "HTML5"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "CSS3"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "React"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "React Native"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Redux"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Apollo"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Viro(VR/AR)"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "general"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "title"
@@ -799,7 +796,7 @@ function (_React$PureComponent) {
         src: "/images/face.png"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "stack"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Problem solver"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Great at communicating"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Great team worker"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Creative"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Hard working"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Passionate"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Driven"))));
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Problem solver"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Pair programming"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Creative"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Hard working"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Passionate"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Driven"))));
     }
   }]);
 
@@ -10412,708 +10409,6 @@ __webpack_require__(/*! ../modules/web.timers */ "./node_modules/core-js/modules
 __webpack_require__(/*! ../modules/web.immediate */ "./node_modules/core-js/modules/web.immediate.js");
 __webpack_require__(/*! ../modules/web.dom.iterable */ "./node_modules/core-js/modules/web.dom.iterable.js");
 module.exports = __webpack_require__(/*! ../modules/_core */ "./node_modules/core-js/modules/_core.js");
-
-
-/***/ }),
-
-/***/ "./node_modules/countapi-js/index.js":
-/*!*******************************************!*\
-  !*** ./node_modules/countapi-js/index.js ***!
-  \*******************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! ./lib/index.js */ "./node_modules/countapi-js/lib/index.js");
-
-
-/***/ }),
-
-/***/ "./node_modules/countapi-js/lib/index.js":
-/*!***********************************************!*\
-  !*** ./node_modules/countapi-js/lib/index.js ***!
-  \***********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-const crossfetch = __webpack_require__(/*! cross-fetch */ "./node_modules/cross-fetch/dist/browser-ponyfill.js");
-
-const BASE_API_PATH = "https://api.countapi.xyz";
-const validPattern = /^[A-Za-z0-9_\-.]{3,64}$/;
-const validRegex = new RegExp(validPattern);
-
-const validatePath = module.exports.validatePath = function(namespace, key) {
-    if(typeof key === "undefined") {
-        if(typeof namespace === "undefined") {
-            return Promise.reject("Missing key");
-        }
-        key = namespace;
-        namespace = undefined;
-    }
-
-    function validName(name) {
-        return validRegex.test(name) || name === ':HOST:' || name === ':PATHNAME:';
-    }
-
-    return new Promise(function(resolve, reject) {
-        if(!validName(key)) {
-            reject(`Key must match ${validPattern}. Got '${namespace}'`);
-            return;
-        }
-        if(!validName(namespace) && typeof namespace !== "undefined" && namespace !== null) {
-            reject(`Namespace must match ${validPattern} or be empty. Got '${namespace}'`);
-            return;
-        }
-        
-        var path = '';
-        if(typeof namespace !== "undefined")
-            path += namespace + '/';
-        path += key;
-        
-        resolve({
-            path: path
-        });
-    });
-}
-
-const validateTuple = module.exports.validateTuple = function(namespace, key, value) {
-    if(typeof value === "undefined") {
-        if(typeof key === "undefined") {
-            return Promise.reject("Missing key or value");
-        }
-        value = key;
-        key = undefined;
-    }
-    if(typeof value !== "number") {
-        return Promise.reject("Value is NaN");
-    }
-
-    return validatePath(namespace, key).then(function(result) {
-        return Object.assign({}, { value: value }, result);
-    });
-}
-
-function finalize(res) {
-    const valid_responses = [200, 400, 403, 404];
-    if (valid_responses.includes(res.status)) {
-        return res.json().then(function(json) {
-            if(res.status == 400)
-                return Promise.reject(json.error);
-            return Object.assign({}, {
-                status: res.status,
-                path: res.headers.get('X-Path')
-            }, json);
-        });
-    }
-    return Promise.reject("Response from server: " + res.status);
-}
-
-function queryParams(params) {
-    return Object.keys(params || {})
-        .map(k => encodeURIComponent(k) + '=' + encodeURIComponent(params[k]))
-        .join('&');
-}
-
-module.exports.get = function(namespace, key) {
-    return validatePath(namespace, key).then(function(result) {
-        return crossfetch(`${BASE_API_PATH}/get/${result.path}`).then(finalize);
-    });
-};
-
-module.exports.set = function(namespace, key, value) {
-    return validateTuple(namespace, key, value).then(function(result) {
-        return crossfetch(`${BASE_API_PATH}/set/${result.path}?value=${result.value}`).then(finalize);
-    });
-};
-
-module.exports.update = function(namespace, key, amount) {
-    return validateTuple(namespace, key, amount).then(function(result) {
-        return crossfetch(`${BASE_API_PATH}/update/${result.path}?amount=${result.value}`).then(finalize);
-    });
-};
-
-module.exports.hit = function(namespace, key) {
-    return validatePath(namespace, key).then(function(result) {
-        return crossfetch(`${BASE_API_PATH}/hit/${result.path}`).then(finalize);
-    });
-};
-
-module.exports.info = function(namespace, key) {
-    return validatePath(namespace, key).then(function(result) {
-        return crossfetch(`${BASE_API_PATH}/info/${result.path}`).then(finalize);
-    });
-};
-
-module.exports.create = function(options) {
-    var params = queryParams(options);
-    return crossfetch(`${BASE_API_PATH}/create${params.length > 0 ? '?' + params : ''}`).then(finalize);
-};
-
-module.exports.stats = function() {
-    return crossfetch(`${BASE_API_PATH}/stats`).then(finalize);
-};
-
-module.exports.visits = function(page) {
-    return this.hit(':HOST:', page ? page : ':PATHNAME:');
-};
-
-module.exports.event = function(name) {
-    return this.hit(':HOST:', name);
-};
-
-/***/ }),
-
-/***/ "./node_modules/cross-fetch/dist/browser-ponyfill.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/cross-fetch/dist/browser-ponyfill.js ***!
-  \***********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-var __self__ = (function (root) {
-function F() {
-this.fetch = false;
-this.DOMException = root.DOMException
-}
-F.prototype = root;
-return new F();
-})(typeof self !== 'undefined' ? self : this);
-(function(self) {
-
-var irrelevant = (function (exports) {
-  var support = {
-    searchParams: 'URLSearchParams' in self,
-    iterable: 'Symbol' in self && 'iterator' in Symbol,
-    blob:
-      'FileReader' in self &&
-      'Blob' in self &&
-      (function() {
-        try {
-          new Blob();
-          return true
-        } catch (e) {
-          return false
-        }
-      })(),
-    formData: 'FormData' in self,
-    arrayBuffer: 'ArrayBuffer' in self
-  };
-
-  function isDataView(obj) {
-    return obj && DataView.prototype.isPrototypeOf(obj)
-  }
-
-  if (support.arrayBuffer) {
-    var viewClasses = [
-      '[object Int8Array]',
-      '[object Uint8Array]',
-      '[object Uint8ClampedArray]',
-      '[object Int16Array]',
-      '[object Uint16Array]',
-      '[object Int32Array]',
-      '[object Uint32Array]',
-      '[object Float32Array]',
-      '[object Float64Array]'
-    ];
-
-    var isArrayBufferView =
-      ArrayBuffer.isView ||
-      function(obj) {
-        return obj && viewClasses.indexOf(Object.prototype.toString.call(obj)) > -1
-      };
-  }
-
-  function normalizeName(name) {
-    if (typeof name !== 'string') {
-      name = String(name);
-    }
-    if (/[^a-z0-9\-#$%&'*+.^_`|~]/i.test(name)) {
-      throw new TypeError('Invalid character in header field name')
-    }
-    return name.toLowerCase()
-  }
-
-  function normalizeValue(value) {
-    if (typeof value !== 'string') {
-      value = String(value);
-    }
-    return value
-  }
-
-  // Build a destructive iterator for the value list
-  function iteratorFor(items) {
-    var iterator = {
-      next: function() {
-        var value = items.shift();
-        return {done: value === undefined, value: value}
-      }
-    };
-
-    if (support.iterable) {
-      iterator[Symbol.iterator] = function() {
-        return iterator
-      };
-    }
-
-    return iterator
-  }
-
-  function Headers(headers) {
-    this.map = {};
-
-    if (headers instanceof Headers) {
-      headers.forEach(function(value, name) {
-        this.append(name, value);
-      }, this);
-    } else if (Array.isArray(headers)) {
-      headers.forEach(function(header) {
-        this.append(header[0], header[1]);
-      }, this);
-    } else if (headers) {
-      Object.getOwnPropertyNames(headers).forEach(function(name) {
-        this.append(name, headers[name]);
-      }, this);
-    }
-  }
-
-  Headers.prototype.append = function(name, value) {
-    name = normalizeName(name);
-    value = normalizeValue(value);
-    var oldValue = this.map[name];
-    this.map[name] = oldValue ? oldValue + ', ' + value : value;
-  };
-
-  Headers.prototype['delete'] = function(name) {
-    delete this.map[normalizeName(name)];
-  };
-
-  Headers.prototype.get = function(name) {
-    name = normalizeName(name);
-    return this.has(name) ? this.map[name] : null
-  };
-
-  Headers.prototype.has = function(name) {
-    return this.map.hasOwnProperty(normalizeName(name))
-  };
-
-  Headers.prototype.set = function(name, value) {
-    this.map[normalizeName(name)] = normalizeValue(value);
-  };
-
-  Headers.prototype.forEach = function(callback, thisArg) {
-    for (var name in this.map) {
-      if (this.map.hasOwnProperty(name)) {
-        callback.call(thisArg, this.map[name], name, this);
-      }
-    }
-  };
-
-  Headers.prototype.keys = function() {
-    var items = [];
-    this.forEach(function(value, name) {
-      items.push(name);
-    });
-    return iteratorFor(items)
-  };
-
-  Headers.prototype.values = function() {
-    var items = [];
-    this.forEach(function(value) {
-      items.push(value);
-    });
-    return iteratorFor(items)
-  };
-
-  Headers.prototype.entries = function() {
-    var items = [];
-    this.forEach(function(value, name) {
-      items.push([name, value]);
-    });
-    return iteratorFor(items)
-  };
-
-  if (support.iterable) {
-    Headers.prototype[Symbol.iterator] = Headers.prototype.entries;
-  }
-
-  function consumed(body) {
-    if (body.bodyUsed) {
-      return Promise.reject(new TypeError('Already read'))
-    }
-    body.bodyUsed = true;
-  }
-
-  function fileReaderReady(reader) {
-    return new Promise(function(resolve, reject) {
-      reader.onload = function() {
-        resolve(reader.result);
-      };
-      reader.onerror = function() {
-        reject(reader.error);
-      };
-    })
-  }
-
-  function readBlobAsArrayBuffer(blob) {
-    var reader = new FileReader();
-    var promise = fileReaderReady(reader);
-    reader.readAsArrayBuffer(blob);
-    return promise
-  }
-
-  function readBlobAsText(blob) {
-    var reader = new FileReader();
-    var promise = fileReaderReady(reader);
-    reader.readAsText(blob);
-    return promise
-  }
-
-  function readArrayBufferAsText(buf) {
-    var view = new Uint8Array(buf);
-    var chars = new Array(view.length);
-
-    for (var i = 0; i < view.length; i++) {
-      chars[i] = String.fromCharCode(view[i]);
-    }
-    return chars.join('')
-  }
-
-  function bufferClone(buf) {
-    if (buf.slice) {
-      return buf.slice(0)
-    } else {
-      var view = new Uint8Array(buf.byteLength);
-      view.set(new Uint8Array(buf));
-      return view.buffer
-    }
-  }
-
-  function Body() {
-    this.bodyUsed = false;
-
-    this._initBody = function(body) {
-      this._bodyInit = body;
-      if (!body) {
-        this._bodyText = '';
-      } else if (typeof body === 'string') {
-        this._bodyText = body;
-      } else if (support.blob && Blob.prototype.isPrototypeOf(body)) {
-        this._bodyBlob = body;
-      } else if (support.formData && FormData.prototype.isPrototypeOf(body)) {
-        this._bodyFormData = body;
-      } else if (support.searchParams && URLSearchParams.prototype.isPrototypeOf(body)) {
-        this._bodyText = body.toString();
-      } else if (support.arrayBuffer && support.blob && isDataView(body)) {
-        this._bodyArrayBuffer = bufferClone(body.buffer);
-        // IE 10-11 can't handle a DataView body.
-        this._bodyInit = new Blob([this._bodyArrayBuffer]);
-      } else if (support.arrayBuffer && (ArrayBuffer.prototype.isPrototypeOf(body) || isArrayBufferView(body))) {
-        this._bodyArrayBuffer = bufferClone(body);
-      } else {
-        this._bodyText = body = Object.prototype.toString.call(body);
-      }
-
-      if (!this.headers.get('content-type')) {
-        if (typeof body === 'string') {
-          this.headers.set('content-type', 'text/plain;charset=UTF-8');
-        } else if (this._bodyBlob && this._bodyBlob.type) {
-          this.headers.set('content-type', this._bodyBlob.type);
-        } else if (support.searchParams && URLSearchParams.prototype.isPrototypeOf(body)) {
-          this.headers.set('content-type', 'application/x-www-form-urlencoded;charset=UTF-8');
-        }
-      }
-    };
-
-    if (support.blob) {
-      this.blob = function() {
-        var rejected = consumed(this);
-        if (rejected) {
-          return rejected
-        }
-
-        if (this._bodyBlob) {
-          return Promise.resolve(this._bodyBlob)
-        } else if (this._bodyArrayBuffer) {
-          return Promise.resolve(new Blob([this._bodyArrayBuffer]))
-        } else if (this._bodyFormData) {
-          throw new Error('could not read FormData body as blob')
-        } else {
-          return Promise.resolve(new Blob([this._bodyText]))
-        }
-      };
-
-      this.arrayBuffer = function() {
-        if (this._bodyArrayBuffer) {
-          return consumed(this) || Promise.resolve(this._bodyArrayBuffer)
-        } else {
-          return this.blob().then(readBlobAsArrayBuffer)
-        }
-      };
-    }
-
-    this.text = function() {
-      var rejected = consumed(this);
-      if (rejected) {
-        return rejected
-      }
-
-      if (this._bodyBlob) {
-        return readBlobAsText(this._bodyBlob)
-      } else if (this._bodyArrayBuffer) {
-        return Promise.resolve(readArrayBufferAsText(this._bodyArrayBuffer))
-      } else if (this._bodyFormData) {
-        throw new Error('could not read FormData body as text')
-      } else {
-        return Promise.resolve(this._bodyText)
-      }
-    };
-
-    if (support.formData) {
-      this.formData = function() {
-        return this.text().then(decode)
-      };
-    }
-
-    this.json = function() {
-      return this.text().then(JSON.parse)
-    };
-
-    return this
-  }
-
-  // HTTP methods whose capitalization should be normalized
-  var methods = ['DELETE', 'GET', 'HEAD', 'OPTIONS', 'POST', 'PUT'];
-
-  function normalizeMethod(method) {
-    var upcased = method.toUpperCase();
-    return methods.indexOf(upcased) > -1 ? upcased : method
-  }
-
-  function Request(input, options) {
-    options = options || {};
-    var body = options.body;
-
-    if (input instanceof Request) {
-      if (input.bodyUsed) {
-        throw new TypeError('Already read')
-      }
-      this.url = input.url;
-      this.credentials = input.credentials;
-      if (!options.headers) {
-        this.headers = new Headers(input.headers);
-      }
-      this.method = input.method;
-      this.mode = input.mode;
-      this.signal = input.signal;
-      if (!body && input._bodyInit != null) {
-        body = input._bodyInit;
-        input.bodyUsed = true;
-      }
-    } else {
-      this.url = String(input);
-    }
-
-    this.credentials = options.credentials || this.credentials || 'same-origin';
-    if (options.headers || !this.headers) {
-      this.headers = new Headers(options.headers);
-    }
-    this.method = normalizeMethod(options.method || this.method || 'GET');
-    this.mode = options.mode || this.mode || null;
-    this.signal = options.signal || this.signal;
-    this.referrer = null;
-
-    if ((this.method === 'GET' || this.method === 'HEAD') && body) {
-      throw new TypeError('Body not allowed for GET or HEAD requests')
-    }
-    this._initBody(body);
-  }
-
-  Request.prototype.clone = function() {
-    return new Request(this, {body: this._bodyInit})
-  };
-
-  function decode(body) {
-    var form = new FormData();
-    body
-      .trim()
-      .split('&')
-      .forEach(function(bytes) {
-        if (bytes) {
-          var split = bytes.split('=');
-          var name = split.shift().replace(/\+/g, ' ');
-          var value = split.join('=').replace(/\+/g, ' ');
-          form.append(decodeURIComponent(name), decodeURIComponent(value));
-        }
-      });
-    return form
-  }
-
-  function parseHeaders(rawHeaders) {
-    var headers = new Headers();
-    // Replace instances of \r\n and \n followed by at least one space or horizontal tab with a space
-    // https://tools.ietf.org/html/rfc7230#section-3.2
-    var preProcessedHeaders = rawHeaders.replace(/\r?\n[\t ]+/g, ' ');
-    preProcessedHeaders.split(/\r?\n/).forEach(function(line) {
-      var parts = line.split(':');
-      var key = parts.shift().trim();
-      if (key) {
-        var value = parts.join(':').trim();
-        headers.append(key, value);
-      }
-    });
-    return headers
-  }
-
-  Body.call(Request.prototype);
-
-  function Response(bodyInit, options) {
-    if (!options) {
-      options = {};
-    }
-
-    this.type = 'default';
-    this.status = options.status === undefined ? 200 : options.status;
-    this.ok = this.status >= 200 && this.status < 300;
-    this.statusText = 'statusText' in options ? options.statusText : 'OK';
-    this.headers = new Headers(options.headers);
-    this.url = options.url || '';
-    this._initBody(bodyInit);
-  }
-
-  Body.call(Response.prototype);
-
-  Response.prototype.clone = function() {
-    return new Response(this._bodyInit, {
-      status: this.status,
-      statusText: this.statusText,
-      headers: new Headers(this.headers),
-      url: this.url
-    })
-  };
-
-  Response.error = function() {
-    var response = new Response(null, {status: 0, statusText: ''});
-    response.type = 'error';
-    return response
-  };
-
-  var redirectStatuses = [301, 302, 303, 307, 308];
-
-  Response.redirect = function(url, status) {
-    if (redirectStatuses.indexOf(status) === -1) {
-      throw new RangeError('Invalid status code')
-    }
-
-    return new Response(null, {status: status, headers: {location: url}})
-  };
-
-  exports.DOMException = self.DOMException;
-  try {
-    new exports.DOMException();
-  } catch (err) {
-    exports.DOMException = function(message, name) {
-      this.message = message;
-      this.name = name;
-      var error = Error(message);
-      this.stack = error.stack;
-    };
-    exports.DOMException.prototype = Object.create(Error.prototype);
-    exports.DOMException.prototype.constructor = exports.DOMException;
-  }
-
-  function fetch(input, init) {
-    return new Promise(function(resolve, reject) {
-      var request = new Request(input, init);
-
-      if (request.signal && request.signal.aborted) {
-        return reject(new exports.DOMException('Aborted', 'AbortError'))
-      }
-
-      var xhr = new XMLHttpRequest();
-
-      function abortXhr() {
-        xhr.abort();
-      }
-
-      xhr.onload = function() {
-        var options = {
-          status: xhr.status,
-          statusText: xhr.statusText,
-          headers: parseHeaders(xhr.getAllResponseHeaders() || '')
-        };
-        options.url = 'responseURL' in xhr ? xhr.responseURL : options.headers.get('X-Request-URL');
-        var body = 'response' in xhr ? xhr.response : xhr.responseText;
-        resolve(new Response(body, options));
-      };
-
-      xhr.onerror = function() {
-        reject(new TypeError('Network request failed'));
-      };
-
-      xhr.ontimeout = function() {
-        reject(new TypeError('Network request failed'));
-      };
-
-      xhr.onabort = function() {
-        reject(new exports.DOMException('Aborted', 'AbortError'));
-      };
-
-      xhr.open(request.method, request.url, true);
-
-      if (request.credentials === 'include') {
-        xhr.withCredentials = true;
-      } else if (request.credentials === 'omit') {
-        xhr.withCredentials = false;
-      }
-
-      if ('responseType' in xhr && support.blob) {
-        xhr.responseType = 'blob';
-      }
-
-      request.headers.forEach(function(value, name) {
-        xhr.setRequestHeader(name, value);
-      });
-
-      if (request.signal) {
-        request.signal.addEventListener('abort', abortXhr);
-
-        xhr.onreadystatechange = function() {
-          // DONE (success or failure)
-          if (xhr.readyState === 4) {
-            request.signal.removeEventListener('abort', abortXhr);
-          }
-        };
-      }
-
-      xhr.send(typeof request._bodyInit === 'undefined' ? null : request._bodyInit);
-    })
-  }
-
-  fetch.polyfill = true;
-
-  if (!self.fetch) {
-    self.fetch = fetch;
-    self.Headers = Headers;
-    self.Request = Request;
-    self.Response = Response;
-  }
-
-  exports.Headers = Headers;
-  exports.Request = Request;
-  exports.Response = Response;
-  exports.fetch = fetch;
-
-  return exports;
-
-}({}));
-})(__self__);
-delete __self__.fetch.polyfill
-exports = __self__.fetch // To enable: import fetch from 'cross-fetch'
-exports.default = __self__.fetch // For TypeScript consumers without esModuleInterop.
-exports.fetch = __self__.fetch // To enable: import {fetch} from 'cross-fetch'
-exports.Headers = __self__.Headers
-exports.Request = __self__.Request
-exports.Response = __self__.Response
-module.exports = exports
 
 
 /***/ }),
