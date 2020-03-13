@@ -498,7 +498,10 @@ function (_React$Component) {
         className: "tech-used"
       }, "Redux"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         className: "tech-used"
-      }, "Firebase/Firestore")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      }, "Firebase/Firestore")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "https://www.youtube.com/watch?v=-HUuZn3BKrQ&feature=youtu.be",
+        className: "tech-used"
+      }, "Game Demonstration"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://github.com/graceinspace/graceInSpace",
         className: "tech-used"
       }, "GitHub"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {

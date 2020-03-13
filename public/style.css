@@ -268,9 +268,8 @@ iframe {
  width: 88%;
 }
 .tech-used {
- font-weight: bold;
  font-family: 'Courier New', Courier, monospace;
- color: rgb(193, 196, 204);
+ color: rgb(218, 222, 232);
 }
 #div-stack {
  padding: 1em;

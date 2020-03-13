@@ -51,10 +51,9 @@ class Projects extends React.Component {
                 <p className='tech-used'>Redux</p>
                 <p className='tech-used'>Firebase/Firestore</p>
               </div>
+              <a href="https://www.youtube.com/watch?v=-HUuZn3BKrQ&feature=youtu.be" className='tech-used'>Game Demonstration</a>
               <div>
-                <a href="https://github.com/graceinspace/graceInSpace" className='tech-used'>
-                  GitHub
-                </a>
+                <a href="https://github.com/graceinspace/graceInSpace" className='tech-used'>GitHub</a>
               </div>
             </div>
           </div>
