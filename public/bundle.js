@@ -263,7 +263,7 @@ function (_React$Component) {
         className: "softdev"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Enida Vezelaj"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Software engineer | NY")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "mystory"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "I am a New York based Software Developer. I attedned Grace Hopper at Fullstack Academy of code, an immersive training program that teaches developers technologies that are in high demand and best practices for implementing them.  I have experience pair programming and developing projects from start to finish. I am experienced with Java Script, React, NERD Stack (Node.js, Express, React, Databases). I am passionate about what I do and I am motivated by new challanges.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "I am a New York based Software Developer. I attedned Grace Hopper at Fullstack Academy of code, an immersive training program that teaches developers technologies that are in high demand and best practices for implementing them. I have experience pair programming and developing projects from start to finish. I am experienced with Java Script, React, NERD Stack (Node.js, Express, React, Databases). I am passionate about what I do and I am motivated by new challanges.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "icons"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://github.com/Emis90"
@@ -641,7 +641,7 @@ function (_React$PureComponent) {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
-        src: "/images/Enida_Vezelaj.pdf",
+        src: "/images/EnidaV.pdf",
         height: "80%",
         width: "80%",
         frameBorder: ".3",

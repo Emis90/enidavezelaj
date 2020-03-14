@@ -30,6 +30,7 @@
   "author": "EnidaVezelaj",
   "license": "ISC",
   "dependencies": {
+    "@mobiscroll/react-lite": "^4.10.2",
     "@progress/kendo-react-animation": "^3.4.1",
     "@progress/kendo-react-dialogs": "^3.4.1",
     "@progress/kendo-react-treeview": "^3.4.1",
@@ -44,6 +45,7 @@
     "history": "^4.9.0",
     "local-storage": "^2.0.0",
     "matchingev-one": "^1.0.4",
+    "mobiscroll": "^3.0.0-beta6",
     "morgan": "^1.9.1",
     "net": "^1.0.2",
     "passport": "^0.4.0",
