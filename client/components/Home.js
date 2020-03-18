@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { motion } from 'framer-motion';
 class Home extends React.Component {
 	componentDidMount = async () => {
 		let num = await countapi.visits().then((result) => {

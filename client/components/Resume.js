@@ -4,7 +4,7 @@ class Resume extends React.PureComponent {
 	render() {
 		return (
 			<div className="resume">
-				<iframe src="/images/EnidaV.pdf" height="80%" width="80%" frameBorder=".3" allowFullScreen />
+				<iframe src="/images/Enida-NY.pdf" height="70%" width="70%" frameBorder=".3" allowFullScreen />
 			</div>
 		);
 	}
