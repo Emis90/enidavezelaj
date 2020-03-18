@@ -349,7 +349,7 @@ li span {
 		flex-flow: row wrap;
 	}
 	.rootLinks {
-		padding: 1.2em;
+		margin: 1.2em;
 	}
 	#text {
 		margin: 1em;
