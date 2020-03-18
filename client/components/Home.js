@@ -9,7 +9,7 @@ class Home extends React.Component {
 
 	render() {
 		return (
-			<div className="about">
+			<motion.div className="about" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
 				<div id="text">
 					<div className="softdev">
 						<h1>Enida Vezelaj</h1>
@@ -37,7 +37,7 @@ class Home extends React.Component {
 						</a>
 					</div>
 				</div>
-			</div>
+			</motion.div>
 		);
 	}
 }

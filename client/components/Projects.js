@@ -1,10 +1,17 @@
 import React from 'react';
-
+import { motion } from 'framer-motion';
 class Projects extends React.Component {
 	render() {
 		return (
-			<div className="projects">
-				<div className="proj" id="museum">
+			<motion.div className="projects" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
+				<motion.div
+					className="proj"
+					id="museum"
+					initial={{ y: 200 }}
+					animate={{ y: 0 }}
+					exit={{ y: 10 }}
+					transition={{ duration: 0.5 }}
+				>
 					<div className="card">
 						<div className="front">
 							<img className="proj-icon" height="50" width="50" src="/images/museum.jpg" />
@@ -34,8 +41,15 @@ class Projects extends React.Component {
 							</div>
 						</div>
 					</div>
-				</div>
-				<div className="proj" id="graceinspace">
+				</motion.div>
+				<motion.div
+					className="proj"
+					id="graceinspace"
+					initial={{ y: 400 }}
+					animate={{ y: 0 }}
+					exit={{ y: 10 }}
+					transition={{ duration: 0.5 }}
+				>
 					<div className="card">
 						<div className="front">
 							<img className="proj-icon" height="50" width="50" src="/images/ship.png" />
@@ -68,8 +82,15 @@ class Projects extends React.Component {
 							</div>
 						</div>
 					</div>
-				</div>
-				<div className="proj" id="gelatofinder">
+				</motion.div>
+				<motion.div
+					className="proj"
+					id="gelatofinder"
+					initial={{ y: 600 }}
+					animate={{ y: 0 }}
+					exit={{ y: 10 }}
+					transition={{ duration: 0.5 }}
+				>
 					<div className="card">
 						<div className="front">
 							<img className="proj-icon" height="50" width="50" src="/images/gelato.png" />
@@ -92,9 +113,15 @@ class Projects extends React.Component {
 							</div>
 						</div>
 					</div>
-				</div>
-
-				<div className="proj" id="cupcakestore">
+				</motion.div>
+				<motion.div
+					className="proj"
+					id="cupcakestore"
+					initial={{ y: 800 }}
+					animate={{ y: 0 }}
+					exit={{ y: 10 }}
+					transition={{ duration: 0.5 }}
+				>
 					<div className="card">
 						<div className="front">
 							<img className="proj-icon" height="50" width="50" src="/images/cupcake.png" />
@@ -126,8 +153,15 @@ class Projects extends React.Component {
 							</div>
 						</div>
 					</div>
-				</div>
-				<div className="proj" id="matchinev">
+				</motion.div>
+				<motion.div
+					className="proj"
+					id="matchinev"
+					initial={{ y: 1000 }}
+					animate={{ y: 0 }}
+					exit={{ y: 10 }}
+					transition={{ duration: 0.5 }}
+				>
 					<div className="card">
 						<div className="front">
 							<img className="proj-icon" src="/images/npm.png" />
@@ -150,8 +184,8 @@ class Projects extends React.Component {
 							</div>
 						</div>
 					</div>
-				</div>
-			</div>
+				</motion.div>
+			</motion.div>
 		);
 	}
 }

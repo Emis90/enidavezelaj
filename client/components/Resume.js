@@ -1,11 +1,12 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 
 class Resume extends React.PureComponent {
 	render() {
 		return (
-			<div className="resume">
+			<motion.div className="resume" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
 				<iframe src="/images/Enida-NY.pdf" height="70%" width="70%" frameBorder=".3" allowFullScreen />
-			</div>
+			</motion.div>
 		);
 	}
 }
