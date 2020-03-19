@@ -19,7 +19,7 @@ class Projects extends React.Component {
 								<h3>Real Estate Website</h3>
 								<br />
 								<p>
-									Fullstach development where users can log in and experience the real estate hunt for
+									Fullstack development where users can log in and experience the real estate hunt for
 									amazing NYC museums.
 								</p>
 							</div>
@@ -169,7 +169,8 @@ class Projects extends React.Component {
 								<h3>npm module</h3>
 								<br />
 								<p>
-									Matching alorithm for two sets of elements base off of the stable marriage alorithm
+									Matching algorithm for two sets of elements base off of the stable marriage
+									algorithm
 								</p>
 							</div>
 						</div>

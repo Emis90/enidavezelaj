@@ -17,7 +17,7 @@ class Home extends React.Component {
 					</div>
 					<div className="mystory">
 						<p>
-							I am a New York based Software Developer. I attedned Grace Hopper at Fullstack Academy of
+							I am a New York based Software Developer. I attended Grace Hopper at Fullstack Academy of
 							code, an immersive training program that teaches developers technologies that are in high
 							demand and best practices for implementing them. I have experience pair programming and
 							developing projects from start to finish. I am experienced with Java Script, React, NERD
