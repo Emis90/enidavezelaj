@@ -97,7 +97,7 @@ class Projects extends React.Component {
 							<div className="description">
 								<h3>Gelato finder</h3>
 								<br />
-								<p>Mobile application for finding the best sweet spots in the city.</p>
+								<p>Mobile application for finding the best ice cream spots in the city</p>
 							</div>
 						</div>
 						<div className="back">
@@ -128,7 +128,7 @@ class Projects extends React.Component {
 							<div className="description">
 								<h3>Cupcake store</h3>
 								<br />
-								<p>E-commerce website for out of this world cupcakes!</p>
+								<p>E-commerce website for out of this world cupcakes</p>
 							</div>
 						</div>
 						<div className="back">
@@ -169,8 +169,7 @@ class Projects extends React.Component {
 								<h3>npm module</h3>
 								<br />
 								<p>
-									Matching algorithm for two sets of elements base off of the stable marriage
-									algorithm.
+									Matching algorithm for two sets of people based off of the stable marriage algorithm
 								</p>
 							</div>
 						</div>
