@@ -10,7 +10,7 @@ class Projects extends React.Component {
 					initial={{ y: 200 }}
 					animate={{ y: 0 }}
 					exit={{ y: 10 }}
-					transition={{ duration: 0.5 }}
+					transition={{ duration: 0.8 }}
 				>
 					<div className="card">
 						<div className="front">
@@ -48,7 +48,7 @@ class Projects extends React.Component {
 					initial={{ y: 400 }}
 					animate={{ y: 0 }}
 					exit={{ y: 10 }}
-					transition={{ duration: 0.5 }}
+					transition={{ duration: 0.8 }}
 				>
 					<div className="card">
 						<div className="front">
@@ -89,7 +89,7 @@ class Projects extends React.Component {
 					initial={{ y: 600 }}
 					animate={{ y: 0 }}
 					exit={{ y: 10 }}
-					transition={{ duration: 0.5 }}
+					transition={{ duration: 0.8 }}
 				>
 					<div className="card">
 						<div className="front">
@@ -120,7 +120,7 @@ class Projects extends React.Component {
 					initial={{ y: 800 }}
 					animate={{ y: 0 }}
 					exit={{ y: 10 }}
-					transition={{ duration: 0.5 }}
+					transition={{ duration: 0.8 }}
 				>
 					<div className="card">
 						<div className="front">
@@ -160,7 +160,7 @@ class Projects extends React.Component {
 					initial={{ y: 1000 }}
 					animate={{ y: 0 }}
 					exit={{ y: 10 }}
-					transition={{ duration: 0.5 }}
+					transition={{ duration: 0.8 }}
 				>
 					<div className="card">
 						<div className="front">

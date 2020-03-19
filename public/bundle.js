@@ -274,7 +274,7 @@ function (_React$Component) {
         className: "softdev"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Enida Vezelaj"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Software engineer | NY")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "mystory"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "I am a New York based Software Developer. I attedned Grace Hopper at Fullstack Academy of code, an immersive training program that teaches developers technologies that are in high demand and best practices for implementing them. I have experience pair programming and developing projects from start to finish. I am experienced with Java Script, React, NERD Stack (Node.js, Express, React, Databases). I am passionate about what I do and I am motivated by new challanges.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "I am a New York based Software Developer. I attended Grace Hopper at Fullstack Academy of code, an immersive training program that teaches developers technologies that are in high demand and best practices for implementing them. I have experience pair programming and developing projects from start to finish. I am experienced with Java Script, React, NERD Stack (Node.js, Express, React, Databases). I am passionate about what I do and I am motivated by new challanges.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "icons"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://github.com/Emis90"
@@ -477,7 +477,7 @@ function (_React$Component) {
           y: 10
         },
         transition: {
-          duration: 0.5
+          duration: 0.8
         }
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "card"
@@ -490,7 +490,7 @@ function (_React$Component) {
         src: "/images/museum.jpg"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Real Estate Website"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Fullstach development where users can log in and experience the real estate hunt for amazing NYC museums."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Real Estate Website"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Fullstack development where users can log in and experience the real estate hunt for amazing NYC museums."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "back"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "div-stack"
@@ -519,7 +519,7 @@ function (_React$Component) {
           y: 10
         },
         transition: {
-          duration: 0.5
+          duration: 0.8
         }
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "card"
@@ -563,7 +563,7 @@ function (_React$Component) {
           y: 10
         },
         transition: {
-          duration: 0.5
+          duration: 0.8
         }
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "card"
@@ -576,7 +576,7 @@ function (_React$Component) {
         src: "/images/gelato.png"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Gelato finder"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Mobile application for finding the best sweet spots in the city"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Gelato finder"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Mobile application for finding the best ice cream spots in the city"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "back"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "div-stack"
@@ -600,7 +600,7 @@ function (_React$Component) {
           y: 10
         },
         transition: {
-          duration: 0.5
+          duration: 0.8
         }
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "card"
@@ -613,7 +613,7 @@ function (_React$Component) {
         src: "/images/cupcake.png"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Cupcake store"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "E-commerce website for out of this world cupcakes!"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Cupcake store"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "E-commerce website for out of this world cupcakes"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "back"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "div-stack"
@@ -644,7 +644,7 @@ function (_React$Component) {
           y: 10
         },
         transition: {
-          duration: 0.5
+          duration: 0.8
         }
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "card"
@@ -655,7 +655,7 @@ function (_React$Component) {
         src: "/images/npm.png"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "description"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "npm module"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Matching alorithm for two sets of elements base off of the stable marriage alorithm"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "npm module"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Matching algorithm for two sets of people based off of the stable marriage algorithm"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "back"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "div-stack"
@@ -877,8 +877,20 @@ function (_React$PureComponent) {
         exit: {
           opacity: 0
         }
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        id: "backend"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(framer_motion__WEBPACK_IMPORTED_MODULE_1__["motion"].div, {
+        id: "backend",
+        initial: {
+          x: -600
+        },
+        animate: {
+          x: 0
+        },
+        exit: {
+          x: 200
+        },
+        transition: {
+          duration: 0.1
+        }
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "title"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -887,8 +899,20 @@ function (_React$PureComponent) {
         src: "/images/database.png"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "stack"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Node.js"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Express.js"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Sequelize.js"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "PosgresQL"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Firebase/Firestore"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "GraphQL"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        id: "frontend"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Node.js"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Express.js"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Sequelize.js"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "PosgresQL"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Firebase/Firestore"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "GraphQL"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(framer_motion__WEBPACK_IMPORTED_MODULE_1__["motion"].div, {
+        id: "frontend",
+        initial: {
+          y: 700
+        },
+        animate: {
+          y: 0
+        },
+        exit: {
+          y: -10
+        },
+        transition: {
+          duration: 0.5
+        }
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "title"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -897,8 +921,20 @@ function (_React$PureComponent) {
         src: "/images/computer.png"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "stack"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "JavaScript"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "HTML5"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "CSS3"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "React"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "React Native"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Redux"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Apollo"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Viro(VR/AR)"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        id: "general"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "JavaScript"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "HTML5"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "CSS3"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "React"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "React Native"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Redux"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Apollo"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Viro(VR/AR)"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(framer_motion__WEBPACK_IMPORTED_MODULE_1__["motion"].div, {
+        id: "general",
+        initial: {
+          x: 600
+        },
+        animate: {
+          x: 0
+        },
+        exit: {
+          x: 10
+        },
+        transition: {
+          duration: 0.8
+        }
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "title"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -47290,7 +47326,7 @@ function warning(message) {
 /*!***************************************************************!*\
   !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
   \***************************************************************/
-/*! exports provided: BrowserRouter, HashRouter, Link, NavLink, MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext */
+/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext, BrowserRouter, HashRouter, Link, NavLink */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
