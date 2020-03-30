@@ -177,134 +177,79 @@ function (_React$PureComponent) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Home; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! framer-motion */ "./node_modules/framer-motion/dist/framer-motion.es.js");
-function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
 
-function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
 
-function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
+function _iterableToArrayLimit(arr, i) { if (!(Symbol.iterator in Object(arr) || Object.prototype.toString.call(arr) === "[object Arguments]")) { return; } var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
 
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
-
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
-
-function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
 
+function Home() {
+  var _React$useState = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(false),
+      _React$useState2 = _slicedToArray(_React$useState, 2),
+      toggle = _React$useState2[0],
+      setToggle = _React$useState2[1];
 
-var Home =
-/*#__PURE__*/
-function (_React$Component) {
-  _inherits(Home, _React$Component);
-
-  function Home() {
-    var _getPrototypeOf2;
-
-    var _this;
-
-    _classCallCheck(this, Home);
-
-    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
+  var size = toggle ? 150 : 0;
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(framer_motion__WEBPACK_IMPORTED_MODULE_1__["motion"].div, {
+    className: "about",
+    initial: {
+      opacity: 0
+    },
+    animate: {
+      opacity: 1
+    },
+    exit: {
+      opacity: 0
+    },
+    transition: {
+      duration: 0.1
     }
-
-    _this = _possibleConstructorReturn(this, (_getPrototypeOf2 = _getPrototypeOf(Home)).call.apply(_getPrototypeOf2, [this].concat(args)));
-
-    _defineProperty(_assertThisInitialized(_this), "componentDidMount",
-    /*#__PURE__*/
-    _asyncToGenerator(
-    /*#__PURE__*/
-    regeneratorRuntime.mark(function _callee() {
-      var num;
-      return regeneratorRuntime.wrap(function _callee$(_context) {
-        while (1) {
-          switch (_context.prev = _context.next) {
-            case 0:
-              _context.next = 2;
-              return countapi.visits().then(function (result) {
-                console.log(result.value);
-              });
-
-            case 2:
-              num = _context.sent;
-
-            case 3:
-            case "end":
-              return _context.stop();
-          }
-        }
-      }, _callee);
-    })));
-
-    return _this;
-  }
-
-  _createClass(Home, [{
-    key: "render",
-    value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(framer_motion__WEBPACK_IMPORTED_MODULE_1__["motion"].div, {
-        className: "about",
-        initial: {
-          opacity: 0
-        },
-        animate: {
-          opacity: 1
-        },
-        exit: {
-          opacity: 0
-        }
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        id: "text"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "softdev"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Enida Vezelaj"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Software engineer | NY")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "mystory"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "I am a New York based Software Developer. I attended Grace Hopper at Fullstack Academy of code, an immersive training program that teaches developers technologies that are in high demand and best practices for implementing them. I have experience pair programming and developing projects from start to finish. I am experienced with Java Script, React, NERD Stack (Node.js, Express, React, Databases). I am passionate about what I do and I am motivated by new challanges.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        id: "icons"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://github.com/Emis90"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        className: "contact-img",
-        width: "70",
-        height: "70",
-        src: "/images/github.png"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "https://www.linkedin.com/in/enida-vezelaj/"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        className: "contact-img",
-        width: "70",
-        height: "70",
-        src: "/images/linked.png"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "mailto:enida.vezelaj@gmail.com"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        className: "contact-img",
-        width: "70",
-        height: "70",
-        src: "/images/email-icon.png"
-      })))));
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(framer_motion__WEBPACK_IMPORTED_MODULE_1__["motion"].div, {
+    id: "text",
+    onClick: function onClick() {
+      return setToggle(!toggle);
+    },
+    animate: {
+      height: size,
+      overflow: 'hidden'
     }
-  }]);
-
-  return Home;
-}(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
-
-/* harmony default export */ __webpack_exports__["default"] = (Home);
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "softdev"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Enida Vezelaj"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Software engineer | NY")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "mystory"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "I am a New York based Software Developer. I attended Grace Hopper at Fullstack Academy of code, an immersive training program that teaches developers technologies that are in high demand and best practices for implementing them. I have experience pair programming and developing projects from start to finish. I am experienced with Java Script, React, NERD Stack (Node.js, Express, React, Databases). I am passionate about what I do and I am motivated by new challanges.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    id: "icons"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://github.com/Emis90"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "contact-img",
+    width: "70",
+    height: "70",
+    src: "/images/github.png"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://www.linkedin.com/in/enida-vezelaj/"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "contact-img",
+    width: "70",
+    height: "70",
+    src: "/images/linked.png"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "mailto:enida.vezelaj@gmail.com"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "contact-img",
+    width: "70",
+    height: "70",
+    src: "/images/email-icon.png"
+  })))));
+}
 
 /***/ }),
 
