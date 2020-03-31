@@ -672,7 +672,7 @@ function (_React$PureComponent) {
           opacity: 0
         }
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
-        src: "/images/Enida-NY.pdf",
+        src: "/images/Enida_V.pdf",
         height: "70%",
         width: "70%",
         frameBorder: ".3",
