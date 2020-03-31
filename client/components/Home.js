@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 export default function Home() {
 	const [ toggle, setToggle ] = React.useState(false);
-	const size = toggle ? 150 : 0;
+	// const size = toggle ? 150 : 0;
 
 	return (
 		<motion.div
@@ -13,7 +13,7 @@ export default function Home() {
 			exit={{ opacity: 0 }}
 			transition={{ duration: 0.1 }}
 		>
-			<motion.div id="text" onClick={() => setToggle(!toggle)} animate={{ height: size, overflow: 'hidden' }}>
+			<div id="text">
 				<div className="softdev">
 					<h1>Enida Vezelaj</h1>
 					<h3>Software engineer | NY</h3>
@@ -38,7 +38,7 @@ export default function Home() {
 						<img className="contact-img" width="70" height="70" src="/images/email-icon.png" />
 					</a>
 				</div>
-			</motion.div>
+			</div>
 		</motion.div>
 	);
 }

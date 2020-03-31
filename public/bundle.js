@@ -195,9 +195,9 @@ function Home() {
   var _React$useState = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(false),
       _React$useState2 = _slicedToArray(_React$useState, 2),
       toggle = _React$useState2[0],
-      setToggle = _React$useState2[1];
+      setToggle = _React$useState2[1]; // const size = toggle ? 150 : 0;
 
-  var size = toggle ? 150 : 0;
+
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(framer_motion__WEBPACK_IMPORTED_MODULE_1__["motion"].div, {
     className: "about",
     initial: {
@@ -212,15 +212,8 @@ function Home() {
     transition: {
       duration: 0.1
     }
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(framer_motion__WEBPACK_IMPORTED_MODULE_1__["motion"].div, {
-    id: "text",
-    onClick: function onClick() {
-      return setToggle(!toggle);
-    },
-    animate: {
-      height: size,
-      overflow: 'hidden'
-    }
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    id: "text"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "softdev"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Enida Vezelaj"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Software engineer | NY")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
