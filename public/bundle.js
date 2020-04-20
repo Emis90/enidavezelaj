@@ -672,7 +672,7 @@ function (_React$PureComponent) {
           opacity: 0
         }
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
-        src: "/images/Enida_V.pdf",
+        src: "/images/EnidaVezelaj.pdf",
         height: "70%",
         width: "70%",
         frameBorder: ".3",
@@ -47264,7 +47264,7 @@ function warning(message) {
 /*!***************************************************************!*\
   !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
   \***************************************************************/
-/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext, BrowserRouter, HashRouter, Link, NavLink */
+/*! exports provided: BrowserRouter, HashRouter, Link, NavLink, MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
