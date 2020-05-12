@@ -40,7 +40,7 @@
     "express": "^4.16.4",
     "express-session": "^1.15.1",
     "graphql": "^14.5.8",
-    "heroku": "^7.33.1",
+    "heroku": "^7.41.0",
     "history": "^4.9.0",
     "local-storage": "^2.0.0",
     "matchingev-one": "^1.0.4",
