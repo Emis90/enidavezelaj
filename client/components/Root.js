@@ -5,7 +5,7 @@ import Projects from './Projects'
 import Skills from './Skills'
 import Navbar from './Navbar'
 import Resume from './Resume'
-
+import Game from './Game'
 import NotFound from './NotFound'
 import {
   BrowserRouter as Router,
@@ -27,6 +27,7 @@ return (
        <Route exact path='/resume' component={Resume}/>
        <Route exact path='/projects' component={Projects}/>
        <Route exact path='/skills' component={Skills}/>
+       <Route exact path='/game' component={Game}/>
        <Route exact path="*" component={NotFound} />
       </Switch>
 

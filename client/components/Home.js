@@ -1,15 +1,8 @@
 import React from 'react'
-const countapi = require('countapi-js');
+
 
 
 class Home extends React.Component{
-    componentDidMount = async() => {
-
-        let num = await countapi.visits().then((result) => {
-          console.log(result.value)})
-
-    }
-
   render(){
      return(
     <div className='about' >
@@ -34,7 +27,7 @@ class Home extends React.Component{
       <img className='contact-img' width="70" height="70" src="/images/linked.png"/>
       </a>
       <a href="mailto:enida.vezelaj@gmail.com">
-      <img className='contact-img' width="70" height="70" src="/images/email-icon.png"/>
+      <img className='contact-img' width="70" height="70" src="/images/kiss.png"/>
       </a>
       </div>
       </div>
