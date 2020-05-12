@@ -630,7 +630,7 @@ function (_React$PureComponent) {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "resume"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
-        src: "/images/Enida_00.pdf",
+        src: "/images/EnidaVezelaj.pdf",
         height: "80%",
         width: "80%",
         frameBorder: ".3",
