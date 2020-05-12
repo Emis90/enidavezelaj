@@ -1,13 +1,10 @@
 import React from 'react'
 
 
-
 class Home extends React.Component{
   render(){
      return(
     <div className='about' >
-
-
     <div id="text">
     <div className='softdev'>
       <h1>Enida Vezelaj</h1>
@@ -31,12 +28,11 @@ class Home extends React.Component{
       </a>
       </div>
       </div>
-
-
-
       </div>
   )
   }
 
 }
+
+
 export default Home

@@ -6,8 +6,8 @@ class Resume extends React.PureComponent {
       <div className="resume">
         <iframe
           src="/images/EnidaVezelaj.pdf"
-          height="80%"
-          width="80%"
+          height="90%"
+          width="90%"
           frameBorder=".3"
           allowFullScreen
         />
