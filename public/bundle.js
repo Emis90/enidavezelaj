@@ -182,18 +182,13 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var Game = function Game() {
-  var rows = Array(70);
+  var rows = Array(5);
   var columns = Array(120);
+  console.log(rows);
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "outerCountainer"
-  }, rows.map(function () {
-    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "row"
-    }, columns.map(function () {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "column"
-      });
-    }));
+  }, rows.map(function (el, id) {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "ciao");
   }));
 };
 
@@ -47297,7 +47292,7 @@ function warning(message) {
 /*!***************************************************************!*\
   !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
   \***************************************************************/
-/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext, BrowserRouter, HashRouter, Link, NavLink */
+/*! exports provided: BrowserRouter, HashRouter, Link, NavLink, MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

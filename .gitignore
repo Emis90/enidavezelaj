@@ -4,5 +4,5 @@
 # public/vendors~pdfjsWorker.bundle.js.map
 node_modules
 secrets.js
-
+.env
 Recipes.js

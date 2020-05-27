@@ -9,7 +9,6 @@ const app = express();
 
 //logging middleware
 app.use(volleyball);
-
 //body parsing middleware
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));

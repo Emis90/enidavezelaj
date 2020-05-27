@@ -332,6 +332,23 @@ li span {
 	margin-top: 50px;
 	color: rgb(120, 120, 220);
 }
+.outerContainer {
+	flex-direction: row;
+}
+/* .column {
+	height: 100em;
+	width: 100em;
+	border-width: 1;
+	border-color: black;
+} */
+.rows {
+	height: 3em;
+	width: 3em;
+	background-color: chocolate;
+	opacity: .5;
+	border-width: 2;
+	border-color: black;
+}
 
 @media (orientation: portrait) {
 	* {

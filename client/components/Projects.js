@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 class Projects extends React.Component {
 	render() {
 		return (
-			<motion.div className="projects" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
+			<motion.div className="projects" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} >
 				<motion.div
 					className="proj"
 					id="museum"
@@ -12,7 +12,7 @@ class Projects extends React.Component {
 					exit={{ y: 10 }}
 					transition={{ duration: 0.8 }}
 				>
-					<div className="card">
+					<div className="card" data-test="container">
 						<div className="front">
 							<img className="proj-icon" height="50" width="50" src="/images/museum.jpg" />
 							<div className="description">
