@@ -13,7 +13,7 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.jsx']
   },
-  mode: 'development',
+  mode: 'production',
   context: __dirname,
   devtool: 'source-map',
   watchOptions: {
