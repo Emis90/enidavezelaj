@@ -455,7 +455,8 @@ function (_React$Component) {
           duration: 0.8
         }
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "card"
+        className: "card",
+        "data-test": "container"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "front"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
