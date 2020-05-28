@@ -25,3 +25,7 @@ module.exports = db
 if (process.env.NODE_ENV === 'test') {
   after('close database connection', () => db.close())
 }
+//DELETE THIS LAST ONE IF THINGS BREAK
+new webpack.DefinePlugin({
+  "process.env.NODE_ENV": JSON.stringify("production")
+})
