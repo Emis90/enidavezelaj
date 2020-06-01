@@ -1,3 +1,4 @@
+
 * {
 	font-family: 'Bitter', serif;
 	margin: 0;
@@ -45,7 +46,7 @@ body {
 	flex-direction: column;
 	position: relative;
 	top: -10%;
-	height: 35%;
+	height: 40%;
 	width: 40%;
 	padding: 5%;
 	width: 850px;
@@ -57,9 +58,11 @@ body {
 	border-radius: .5em;
 	opacity: 0.9;
 }
-.mystory {
+/* .mystory {
 	margin-top: 2em;
-}
+	width: auto;
+	height: auto;
+} */
 #icons {
 	display: flex;
 	flex-direction: row;
