@@ -13,8 +13,7 @@ body {
 	text-align: center;
 	background-color: rgb(19, 30, 55);
 	background-image: url('./images/city.jpg');
-	background-size: 100%;
-	background-repeat: no-repeat;
+	background: no-repeat center center center cover;
 }
 
 .rootDiv {
@@ -258,7 +257,7 @@ a {
 	text-decoration: none;
 }
 .rootLinks:hover {
-	color: rgb(230, 231, 237);
+	color: rgb(118, 124, 159);
 }
 
 button {
