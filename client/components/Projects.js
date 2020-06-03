@@ -19,7 +19,7 @@ class Projects extends React.Component {
 								<h3>Real Estate Website</h3>
 								<br />
 								<p>
-									Fullstack development where users can log in and experience the real estate hunt for
+									Fullstack development showing the power of relational. Logged in users experience the real estate hunt for
 									amazing NYC museums.
 								</p>
 							</div>
@@ -57,7 +57,7 @@ class Projects extends React.Component {
 								<h3>Grace in space</h3>
 								<br />
 								<p>
-									Mobile VR game where the player collects items floating away in space by tapping the
+									Mobile Virtual Reality game where players collect items floating away in space by tapping the
 									screen.
 								</p>
 							</div>
@@ -97,7 +97,7 @@ class Projects extends React.Component {
 							<div className="description">
 								<h3>Gelato finder</h3>
 								<br />
-								<p>Mobile application for finding the best ice cream spots in the city</p>
+								<p>Mobile application for finding the best ice cream spots in the city using Google integrated map.</p>
 							</div>
 						</div>
 						<div className="back">
@@ -128,7 +128,7 @@ class Projects extends React.Component {
 							<div className="description">
 								<h3>Cupcake store</h3>
 								<br />
-								<p>E-commerce website for out of this world cupcakes</p>
+								<p>E-commerce website for out of this world cupcakes.</p>
 							</div>
 						</div>
 						<div className="back">
@@ -169,7 +169,7 @@ class Projects extends React.Component {
 								<h3>npm module</h3>
 								<br />
 								<p>
-									Matching algorithm for two sets of people based off of the stable marriage algorithm
+									Matching algorithm for two sets of people based off of the stable marriage problem.
 								</p>
 							</div>
 						</div>
