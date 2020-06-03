@@ -26,18 +26,17 @@ class Skills extends React.PureComponent {
 				</motion.div>
 				<motion.div
 					id="frontend"
-					initial={{ y: 700 }}
+					initial={{ y: 750 }}
 					animate={{ y: 0 }}
 					exit={{ y: -10 }}
-					transition={{ duration: 0.5 }}
+					transition={{ duration: 0.3 }}
 				>
 					<div className="title">
 						<img width="40" height="40" src="/images/computer.png" />
 					</div>
 					<div className="stack">
-						<p>JavaScript</p>
-						<p>HTML5</p>
-						<p>CSS3</p>
+						<p>JavaScript (ES6+)</p>
+						<p>HTML5/CSS3</p>
 						<p>React</p>
 						<p>React Native</p>
 						<p>Redux</p>
@@ -56,12 +55,11 @@ class Skills extends React.PureComponent {
 						<img width="50" height="50" src="/images/face.png" />
 					</div>
 					<div className="stack">
-						<p>Problem solver</p>
-						<p>Pair programming</p>
-						<p>Creative</p>
-						<p>Hard working</p>
-						<p>Passionate</p>
-						<p>Driven</p>
+						<p>Object Oriented programming</p>
+						<p>Test Driven Development</p>
+						<p>Agile approach</p>
+						<p>Abstract Thinking</p>
+						<p>Trusting the Team</p>
 					</div>
 				</motion.div>
 			</motion.div>
