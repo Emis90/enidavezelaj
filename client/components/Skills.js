@@ -59,7 +59,7 @@ class Skills extends React.PureComponent {
 						<p>Test Driven Development</p>
 						<p>Agile approach</p>
 						<p>Abstract Thinking</p>
-						<p>Trusting the Team</p>
+						<p>Deployment</p>
 					</div>
 				</motion.div>
 			</motion.div>
