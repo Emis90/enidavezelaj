@@ -28,9 +28,8 @@ return (
        <Route exact path='/projects' component={Projects}/>
        <Route exact path='/skills' component={Skills}/>
        <Route exact path='/game' component={Game}/>
-       <Route exact path="*" component={NotFound} />
+       {/* <Route exact path="*" component={NotFound} /> */}
       </Switch>
-
     </div>
 </Router>
 
