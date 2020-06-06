@@ -6,7 +6,6 @@ const bodyParser = require('body-parser');
 const app = express();
 
 
-
 //logging middleware
 app.use(volleyball);
 //body parsing middleware
