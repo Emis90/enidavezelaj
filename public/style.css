@@ -13,7 +13,10 @@ body {
 	text-align: center;
 	background-color: rgb(19, 30, 55);
 	background-image: url('./images/city.jpg');
-	background: no-repeat center center cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
 }
 
 .rootDiv {
@@ -21,6 +24,11 @@ body {
 	height: 100%;
 	width: 100%;
 	color: rgb(0, 16, 31);
+	background-image: url('./images/clouds.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
 }
 
 .contactstuff {
