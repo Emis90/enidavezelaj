@@ -16,7 +16,7 @@ class Projects extends React.Component {
 						<div className="front">
 							<img className="proj-icon" height="50" width="50" src="/images/nyclogo.jpg" />
 							<div className="description">
-								<h3>Real Estate Website</h3>
+								<h3>NYC Museum Real Estate</h3>
 								<br />
 								<p>
 									Fullstack development showing the power of relational. Logged in users experience the real estate hunt for
