@@ -6,7 +6,7 @@ const AboutMe = () => {
     <div id='about'>
     <div className='name'>
       <h1>Enida Vezelaj</h1>
-      <h3>Software engineer | NY</h3>
+      <h3>Fullstack Engineer and Web Developer</h3>
       <br/>
     </div>
     <div className='mystory'>
