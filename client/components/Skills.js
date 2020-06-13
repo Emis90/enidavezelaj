@@ -10,9 +10,9 @@ class Skills extends React.PureComponent {
 					initial={{ x: -600 }}
 					animate={{ x: 0 }}
 					exit={{ x: 200 }}
-					whileHover={{ scale: 1.3, duration:  0.8 }}
+					whileHover={{ scale: 1.3, duration: .8 }}
 					transition={{ duration: 0.1 }}
-					
+
 				>
 					<div className="title">
 						<img width="40" height="40" src="/images/database.png" />
@@ -32,7 +32,7 @@ class Skills extends React.PureComponent {
 					animate={{ y: 0 }}
 					exit={{ y: -10 }}
 					transition={{ duration: 0.3 }}
-					whileHover={{ scale: 1.3, duration:  0.8 }}
+					whileHover={{ scale: 1.3, duration: 1 }}
 				>
 					<div className="title">
 						<img width="40" height="40" src="/images/computer.png" />
@@ -53,8 +53,8 @@ class Skills extends React.PureComponent {
 					animate={{ x: 0 }}
 					exit={{ x: 10 }}
 					transition={{ duration: 0.8 }}
-					whileHover={{ scale: 1.3, duration:  0.8 }}
-	                >
+					whileHover={{ scale: 1.3, duration: 1.2 }}
+				>
 					<div className="title">
 						<img width="50" height="50" src="/images/face.png" />
 					</div>
