@@ -106,7 +106,14 @@ a {
 .projects {
 	position: relative;
 	display: flex;
+	flex-direction: row;
 	flex-wrap: wrap;
+	/* display: grid;
+	grid-template-columns: repeat(auto-fill,minmax(350px, 1fr));
+	grid-row: 30; */
+	align-items: center;
+	align-content: center;
+	align-self: center;
 	justify-content: space-around;
 }
 
@@ -127,7 +134,8 @@ a {
 	top: 1em;
 	left: 0;
 	height: 20%;
-	width: 100%;
+  width: 100%;
+  font-weight: bold;
 	justify-content: space-around;
 	padding-bottom: 20px;
 	padding-top: 20px;
@@ -150,7 +158,8 @@ a {
 	box-shadow: 5px;
 	opacity: 0.8;
 	transition: .5s ease-in-out;
-	color: black;
+  color: black;
+  font-size: 16;
 }
 
 /* #backend:hover,
@@ -183,8 +192,9 @@ a {
 .proj {
 	position: relative;
 	width: 250px;
-	height: 405px;
-	margin-top: 70px;
+	height: 300px;
+	padding-right: 10%;
+	margin-top: 30px;
 }
 
 .card {
@@ -197,7 +207,7 @@ a {
 
 }
 .card:hover {
-	transform: rotateY(180deg) scale(1.3);
+	transform: rotateY(180deg) scale(1.35);
 	overflow: -moz-hidden-unscrollable;
 	opacity: 1;
 	z-index: 1;
@@ -212,7 +222,8 @@ a {
 	margin-top: 2em;
 	width: 100%;
 	height: 100%;
-	text-align: center;
+  text-align: center;
+  font-size: 16;
 	backface-visibility: hidden;
 	color: rgb(212, 225, 226);
 	background-color: #000000;
@@ -226,15 +237,16 @@ a {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	text-align: center;
+  text-align: center;
 	width: 100%;
 	height: 100%;
 	backface-visibility: hidden;
 	color: rgb(212, 225, 226);
 	background-color: #000000;
-	background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
+	background-image: linear-gradient(147deg, #000000 0%, #0374c0 74%);
 	border-radius: .5em;
 	overflow: scroll;
+	opacity: .9;
 	-webkit-transform: rotateY(180deg);
 	-moz-transform: rotateY(180deg);
 	-o-transform: rotateY(180deg);
