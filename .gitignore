@@ -6,3 +6,5 @@ node_modules
 secrets.js
 .env
 Recipes.js
+
+client/components/nextProblem.js

@@ -1,14 +1,15 @@
 import React from 'react'
 import AboutMe from './AboutMe'
 
-class Home extends React.Component{
-  render(){
-    return(
+const Home = (props) => {
+  console.log('props   ', props.prop)
+
+  return (
     <div className='home' >
-     <AboutMe />
+      <AboutMe />
     </div>
   )
-  }
+
 
 }
 

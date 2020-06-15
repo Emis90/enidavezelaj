@@ -29,19 +29,19 @@ class Projects extends React.Component {
               <div className="description">
                 <h3>NYC Museum Real Estate</h3>
                 <br />
-                <p>
-                  Fullstack development showing the power of relational. Logged
-                  in users experience the real estate hunt for amazing NYC
-                  museums.
-                </p>
+                <div id="div-stack">
+                  <p className="tech-used">Node.js</p>
+                  <p className="tech-used">PostgreSQL</p>
+                  <p className="tech-used">React</p>
+                </div>
               </div>
             </div>
             <div className="back">
-              <div id="div-stack">
-                <p className="tech-used">Node.js</p>
-                <p className="tech-used">PostgreSQL</p>
-                <p className="tech-used">React</p>
-              </div>
+              <p>
+                Fullstack development showing the power of relational. Logged
+                in users experience the real estate hunt for amazing NYC
+                museums.
+                </p>
               <div
                 style={{
                   display: "flex",
@@ -64,7 +64,6 @@ class Projects extends React.Component {
                     height="35"
                     width="35"
                     src="/images/github.png"
-
                   />
                 </a>
               </div>
@@ -90,21 +89,22 @@ class Projects extends React.Component {
               <div className="description">
                 <h3>Grace in space</h3>
                 <br />
-                <p>
-                  Mobile Virtual Reality game where players collect items
-                  floating away in space by tapping the screen. You can chose
-                  three different levels of difficulty and collect all your best
-                  times.
-                </p>
+                <div id="div-stack">
+                  <p className="tech-used">Viro</p>
+                  <p className="tech-used">React Native</p>
+                  <p className="tech-used">Redux</p>
+                  <p className="tech-used">Firebase</p>
+                  <p className="tech-used">Firestore</p>
+                </div>
               </div>
             </div>
             <div className="back">
-              <div id="div-stack">
-                <p className="tech-used">Viro</p>
-                <p className="tech-used">React Native</p>
-                <p className="tech-used">Redux</p>
-                <p className="tech-used">Firebase/Firestore</p>
-              </div>
+              <p>
+                Mobile Virtual Reality game where players collect items
+                floating away in space by tapping the screen. You can chose
+                three different levels of difficulty and collect all your best
+                times.
+                </p>
               <br />
               <div
                 style={{
@@ -153,19 +153,18 @@ class Projects extends React.Component {
               <div className="description">
                 <h3>My ReactBank</h3>
                 <br />
-                <p>
-                  React Exercise using a faker server to make api calls and test
-                  react hooks. Make transactions or change your credentials
-                  using the provided validated forms.
-                </p>
+                <div id="div-stack">
+                  <p className="tech-used">React</p>
+                  <p className="tech-used">Miragejs</p>
+                </div>
               </div>
             </div>
             <div className="back">
-              <div id="div-stack">
-                <p className="tech-used">React Native</p>
-                <p className="tech-used">Miragejs</p>
-                <p className="tech-used">Firebase</p>
-              </div>
+              <p>
+                React Exercise using a faker server to make api calls and test
+                react hooks. Make transactions or change your credentials
+                using the provided validated forms.
+              </p>
               <div
                 style={{
                   display: "flex",
@@ -213,19 +212,18 @@ class Projects extends React.Component {
               <div className="description">
                 <h3>Cupcake store</h3>
                 <br />
-                <p>
-                  E-commerce website for out of this world cupcakes, available
-                  for purchace for both guest users and logged in users.
-                </p>
+                <div id="div-stack">
+                  <p className="tech-used">Node.js</p>
+                  <p className="tech-used">React</p>
+                  <p className="tech-used">PostgreSQL</p>
+                </div>
               </div>
             </div>
             <div className="back">
-              <div id="div-stack">
-                <p className="tech-used">Node.js</p>
-                <p className="tech-used">React</p>
-                <p className="tech-used">Firebase</p>
-                <p className="tech-used">Firestore</p>
-              </div>
+              <p>
+                E-commerce website for out of this world cupcakes, available
+                for purchace for both guest users and logged in users.
+                </p>
               <div
                 style={{
                   display: "flex",
@@ -268,23 +266,23 @@ class Projects extends React.Component {
                 className="proj-icon"
                 height="50"
                 width="50"
-                src="/images/gelato.png"
+                src="/images/orange.png"
               />
               <div className="description">
                 <h3>Sweet Spot</h3>
                 <br />
-                <p>
-                  Mobile development for finding all the best gelato spots in NYC and save a list of your favorite places.
-                </p>
+                <div id="div-stack">
+                  <p className="tech-used">React Native</p>
+                  <p className="tech-used">Firebase</p>
+                  <p className="tech-used">Firestore</p>
+                  <p>Maps</p>
+                </div>
               </div>
             </div>
             <div className="back">
-              <div id="div-stack">
-                <p className="tech-used">React Native</p>
-                <p className="tech-used">Firebase</p>
-                <p className="tech-used">Firestore</p>
-                <p>Maps</p>
-              </div>
+              <p>
+                Mobile development for finding all the best gelato spots in NYC and save a list of your favorite places.
+              </p>
               <div
                 style={{
                   display: "flex",
@@ -319,17 +317,18 @@ class Projects extends React.Component {
               <div className="description">
                 <h3>npm module</h3>
                 <br />
-                <p>
-                  Matching algorithm for two sets of people based off of the
-                  stable marriage problem.
-                </p>
+                <div id="div-stack">
+                  <p className="tech-used">Node.js</p>
+                  <p className="tech-used">npm</p>
+                </div>
               </div>
             </div>
             <div className="back">
-              <div id="div-stack">
-                <p className="tech-used">Node.js</p>
-              </div>
-              <br />
+              <p>
+                Matching algorithm for two sets of people based off of the
+                stable marriage problem.
+              </p>
+              <p>(  ... work in progress  )</p>
               <div
                 style={{
                   display: "flex",
