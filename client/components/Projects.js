@@ -28,28 +28,14 @@ class Projects extends React.Component {
               />
               <div className="description">
                 <h3>NYC Museum Real Estate</h3>
-                <br />
+                <p className='p'>Backend project testing routes</p>
                 <div id="div-stack">
                   <p className="tech-used">Node.js</p>
                   <p className="tech-used">PostgreSQL</p>
                   <p className="tech-used">React</p>
                 </div>
               </div>
-            </div>
-            <div className="back">
-              <p>
-                Fullstack development showing the power of relational. Logged
-                in users experience the real estate hunt for amazing NYC
-                museums.
-                </p>
-              <div
-                style={{
-                  display: "flex",
-                  flexDirection: "row",
-                  alignContent: "center",
-                  justifyContent: 'center',
-                }}
-              >
+              <div className='links'>
                 <a href="https://museumsofnyc.herokuapp.com">
                   <img
                     className="proj-icon"
@@ -67,6 +53,14 @@ class Projects extends React.Component {
                   />
                 </a>
               </div>
+            </div>
+            <div className="back">
+              <p>
+                Fullstack development showing the power of relational. Logged
+                in users experience the real estate hunt for amazing NYC
+                museums.
+                </p>
+
             </div>
           </div>
         </motion.div>
@@ -88,7 +82,8 @@ class Projects extends React.Component {
               />
               <div className="description">
                 <h3>Grace in space</h3>
-                <br />
+                <p className='p'>Virtual reality game with 3 levels</p>
+
                 <div id="div-stack">
                   <p className="tech-used">Viro</p>
                   <p className="tech-used">React Native</p>
@@ -97,23 +92,7 @@ class Projects extends React.Component {
                   <p className="tech-used">Firestore</p>
                 </div>
               </div>
-            </div>
-            <div className="back">
-              <p>
-                Mobile Virtual Reality game where players collect items
-                floating away in space by tapping the screen. You can chose
-                three different levels of difficulty and collect all your best
-                times.
-                </p>
-              <br />
-              <div
-                style={{
-                  display: "flex",
-                  flexDirection: "row",
-                  alignContent: "center",
-                  justifyContent: 'center',
-                }}
-              >
+              <div className="links">
                 <a href="https://www.youtube.com/watch?v=-HUuZn3BKrQ&feature=youtu.be">
                   <img
                     className="proj-icon"
@@ -131,6 +110,14 @@ class Projects extends React.Component {
                   />
                 </a>
               </div>
+            </div>
+            <div className="back">
+              <p>
+                Mobile Virtual Reality game where players collect items
+                floating away in space by tapping the screen. You can chose
+                three different levels of difficulty and collect all your best
+                times.
+                </p>
             </div>
           </div>
         </motion.div>
@@ -152,7 +139,7 @@ class Projects extends React.Component {
               />
               <div className="description">
                 <h3>Goodie</h3>
-                <br />
+                <p className='p'>Mobile app for dessert lovers</p>
                 <div id="div-stack">
                   <p className="tech-used">React Native</p>
                   <p className="tech-used">Firebase</p>
@@ -160,19 +147,7 @@ class Projects extends React.Component {
                   <p className="tech-used">Maps</p>
                 </div>
               </div>
-            </div>
-            <div className="back">
-              <p>
-                Mobile development for finding and saving all the best dessert spots in New York City and checking out the latest dessert recipes.
-              </p>
-              <div
-                style={{
-                  display: "flex",
-                  flexDirection: "row",
-                  alignContent: "center",
-                  justifyContent: 'center',
-                }}
-              >
+              <div className='links'>
                 <a href="https://github.com/Emis90/Sweet">
                   <img
                     className="proj-icon"
@@ -182,6 +157,12 @@ class Projects extends React.Component {
                   />
                 </a>
               </div>
+            </div>
+            <div className="back">
+              <p>
+                Mobile development for finding and saving all the best dessert spots in New York City and checking out the latest dessert recipes.
+              </p>
+
             </div>
           </div>
         </motion.div>
@@ -203,27 +184,13 @@ class Projects extends React.Component {
               />
               <div className="description">
                 <h3>My ReactBank</h3>
-                <br />
+                <p className='p'>Testing React hooks and forms</p>
                 <div id="div-stack">
                   <p className="tech-used">React</p>
                   <p className="tech-used">Miragejs</p>
                 </div>
               </div>
-            </div>
-            <div className="back">
-              <p>
-                React Exercise using a faker server to make api calls and test
-                react hooks. Make transactions or change your credentials
-                using the provided validated forms.
-              </p>
-              <div
-                style={{
-                  display: "flex",
-                  flexDirection: "row",
-                  alignContent: "center",
-                  justifyContent: 'center',
-                }}
-              >
+              <div className='links'>
                 <a href="https://myreactbank-1c7ef.web.app/">
                   <img
                     className="proj-icon"
@@ -241,6 +208,14 @@ class Projects extends React.Component {
                   />
                 </a>
               </div>
+            </div>
+            <div className="back">
+              <p>
+                React Exercise using a faker server to make api calls and test
+                react hooks. Make transactions or change your credentials
+                using the provided validated forms.
+              </p>
+
             </div>
           </div>
         </motion.div>
@@ -262,27 +237,14 @@ class Projects extends React.Component {
               />
               <div className="description">
                 <h3>Cupcake store</h3>
-                <br />
+                <p className='p'>E-commerce website for fancy cupcakes</p>
                 <div id="div-stack">
                   <p className="tech-used">Node.js</p>
                   <p className="tech-used">React</p>
                   <p className="tech-used">PostgreSQL</p>
                 </div>
               </div>
-            </div>
-            <div className="back">
-              <p>
-                E-commerce website for out of this world cupcakes, available
-                for purchace for both guest users and logged in users.
-                </p>
-              <div
-                style={{
-                  display: "flex",
-                  flexDirection: "row",
-                  alignContent: "center",
-                  justifyContent: 'center',
-                }}
-              >
+              <div className='links'>
                 <a href="https://fantasticsweetcupcakes.herokuapp.com">
                   <img
                     className="proj-icon"
@@ -301,6 +263,13 @@ class Projects extends React.Component {
                 </a>
               </div>
             </div>
+            <div className="back">
+              <p>
+                E-commerce website for out of this world cupcakes, available
+                for purchace for both guest users and logged in users.
+                </p>
+
+            </div>
           </div>
         </motion.div>
         <motion.div
@@ -316,27 +285,13 @@ class Projects extends React.Component {
               <img className="proj-icon" src="/images/npm.png" />
               <div className="description">
                 <h3>npm module</h3>
-                <br />
+                <p className='p'>Matching algorithm </p>
                 <div id="div-stack">
                   <p className="tech-used">Node.js</p>
                   <p className="tech-used">npm</p>
                 </div>
               </div>
-            </div>
-            <div className="back">
-              <p>
-                Matching algorithm for two sets of people based off of the
-                stable marriage problem.
-              </p>
-              <p>(  ... work in progress  )</p>
-              <div
-                style={{
-                  display: "flex",
-                  flexDirection: "row",
-                  alignContent: "center",
-                  justifyContent: 'center',
-                }}
-              >
+              <div className='links'>
                 <a href="https://www.npmjs.com/package/matchingev-">
                   <img
                     className="proj-icon"
@@ -346,6 +301,14 @@ class Projects extends React.Component {
                   />
                 </a>
               </div>
+            </div>
+            <div className="back">
+              <p>
+                Matching algorithm for two sets of people based off of the
+                stable marriage problem.
+              </p>
+              <p>(  ... work in progress  )</p>
+
             </div>
           </div>
         </motion.div>
