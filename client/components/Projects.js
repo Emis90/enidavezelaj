@@ -136,11 +136,62 @@ class Projects extends React.Component {
         </motion.div>
         <motion.div
           className="proj"
-          id="gelatofinder"
+          id="gelatoFinder"
           initial={{ y: 600 }}
           animate={{ y: 0 }}
           exit={{ y: 10 }}
           transition={{ duration: 1.2 }}
+        >
+          <div className="card" data-test="container">
+            <div className="front">
+              <img
+                className="proj-icon"
+                height="50"
+                width="50"
+                src="/images/orange.png"
+              />
+              <div className="description">
+                <h3>Goodie</h3>
+                <br />
+                <div id="div-stack">
+                  <p className="tech-used">React Native</p>
+                  <p className="tech-used">Firebase</p>
+                  <p className="tech-used">Firestore</p>
+                  <p className="tech-used">Maps</p>
+                </div>
+              </div>
+            </div>
+            <div className="back">
+              <p>
+                Mobile development for finding and saving all the best dessert spots in New York City and checking out the latest dessert recipes.
+              </p>
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "row",
+                  alignContent: "center",
+                  justifyContent: 'center',
+                }}
+              >
+                <a href="https://github.com/Emis90/Sweet">
+                  <img
+                    className="proj-icon"
+                    height="35"
+                    width="35"
+                    src="/images/github.png"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </motion.div>
+        <motion.div
+          className="proj"
+          id="gelatofinder"
+          initial={{ y: 1000 }}
+          animate={{ y: 0 }}
+          exit={{ y: 10 }}
+          transition={{ duration: 1.6 }}
         >
           <div className="card">
             <div className="front">
@@ -241,57 +292,6 @@ class Projects extends React.Component {
                   />
                 </a>
                 <a href="https://github.com/fantastic-four-grace-shopper/grace-shopper">
-                  <img
-                    className="proj-icon"
-                    height="35"
-                    width="35"
-                    src="/images/github.png"
-                  />
-                </a>
-              </div>
-            </div>
-          </div>
-        </motion.div>
-        <motion.div
-          className="proj"
-          id="gelatoFinder"
-          initial={{ y: 1000 }}
-          animate={{ y: 0 }}
-          exit={{ y: 10 }}
-          transition={{ duration: 1.6 }}
-        >
-          <div className="card" data-test="container">
-            <div className="front">
-              <img
-                className="proj-icon"
-                height="50"
-                width="50"
-                src="/images/orange.png"
-              />
-              <div className="description">
-                <h3>Sweet Spot</h3>
-                <br />
-                <div id="div-stack">
-                  <p className="tech-used">React Native</p>
-                  <p className="tech-used">Firebase</p>
-                  <p className="tech-used">Firestore</p>
-                  <p>Maps</p>
-                </div>
-              </div>
-            </div>
-            <div className="back">
-              <p>
-                Mobile development for finding all the best gelato spots in NYC and save a list of your favorite places.
-              </p>
-              <div
-                style={{
-                  display: "flex",
-                  flexDirection: "row",
-                  alignContent: "center",
-                  justifyContent: 'center',
-                }}
-              >
-                <a href="https://github.com/Emis90/GelatoFinder">
                   <img
                     className="proj-icon"
                     height="35"
