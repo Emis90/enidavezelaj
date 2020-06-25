@@ -5,7 +5,7 @@ class Resume extends React.PureComponent {
     return (
       <div className="resume">
         <iframe
-          src="/images/EniV.pdf"
+          src="/images/Enida_Resume.pdf"
           height="90%"
           width="80%"
           frameBorder=".2"
@@ -17,3 +17,5 @@ class Resume extends React.PureComponent {
 }
 
 export default Resume
+
+

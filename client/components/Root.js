@@ -5,6 +5,7 @@ import Projects from './Projects'
 import Skills from './Skills'
 import Navbar from './Navbar'
 import Resume from './Resume'
+import Flat from './Flat'
 import Game from './Game'
 import NotFound from './NotFound'
 import {
@@ -12,26 +13,28 @@ import {
   Route,
   Switch,
 } from 'react-router-dom'
+import MyProjects from "./MyProjects"
 
 
 const Root = () => {
-return (
-  <Router>
-  <div className='rootDiv'>
-    <nav className='navbar'>
-      <Navbar />
-      </nav>
-      <Switch>
-       <Route exact path='/' component={Home}/>
-       <Route exact path='/contact' component={Contact}/>
-       <Route exact path='/resume' component={Resume}/>
-       <Route exact path='/projects' component={Projects}/>
-       <Route exact path='/skills' component={Skills}/>
-       <Route exact path='/game' component={Game}/>
-       {/* <Route exact path="*" component={NotFound} /> */}
-      </Switch>
-    </div>
-</Router>
+  return (
+    <Router>
+      <div className='rootDiv'>
+        <nav className='navbar'>
+          <Navbar />
+        </nav>
+        <Switch>
+          <Route exact path='/' component={Home} />
+          <Route exact path='/contact' component={Contact} />
+          <Route exact path='/resume' component={Resume} />
+          <Route exact path='/projects' component={Projects} />
+          <Route exact path='/skills' component={Skills} />
+          <Route exact path='/game' component={Game} />
+          <Route exact path='/proj' component={MyProjects} />
+          {/* <Route exact path="*" component={NotFound} /> */}
+        </Switch>
+      </div>
+    </Router>
 
   )
 }

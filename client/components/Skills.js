@@ -14,7 +14,7 @@ class Skills extends React.PureComponent {
 					transition={{ duration: 0.1 }}
 
 				>
-					<div className="title">
+					<div style={{ paddingTop: 5 }}>
 						<img width="40" height="40" src="/images/database.png" />
 					</div>
 					<div className="stack">
@@ -34,7 +34,7 @@ class Skills extends React.PureComponent {
 					transition={{ duration: 0.3 }}
 					whileHover={{ scale: 1.3, duration: 1 }}
 				>
-					<div className="title">
+					<div style={{ paddingTop: 5 }}>
 						<img width="40" height="40" src="/images/computer.png" />
 					</div>
 					<div className="stack">
@@ -55,7 +55,7 @@ class Skills extends React.PureComponent {
 					transition={{ duration: 0.8 }}
 					whileHover={{ scale: 1.3, duration: 1.2 }}
 				>
-					<div className="title">
+					<div style={{ paddingTop: 5 }}>
 						<img width="50" height="50" src="/images/face.png" />
 					</div>
 					<div className="stack">
