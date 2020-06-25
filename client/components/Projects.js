@@ -11,7 +11,7 @@ class Projects extends React.Component {
               width="50"
               src="/images/nyclogo.jpg"
             />
-            <h3>NYC Museum Real Estate</h3>
+            <h3>NYC Real Estate</h3>
           </div>
           <div className="description">
             <div className='testo'>
