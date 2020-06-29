@@ -11,7 +11,7 @@ body {
 	width: 100%;
 	margin: 0 auto;
 	text-align: center;
-	background-color: rgb(19, 30, 55);
+	background-color: #3da2dd;
 	background-image: url('./images/city.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -19,12 +19,11 @@ body {
 	background-size: cover;
 	padding-bottom: 5%;
 }
-
 .rootDiv {
 	position: absolute;
 	height: 100%;
 	width: 100%;
-	color: rgb(0, 16, 31);
+	color: rgb(103, 165, 223);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
@@ -178,7 +177,6 @@ a {
 }
 
 .proj {
-	/* display: flex; */
 	flex-direction: column;
 	align-items: center;
 	padding: 1em;
@@ -196,7 +194,7 @@ a {
 	-webkit-transition: all .4s ease-out;
 }
 .proj:hover {
-	height: 14em;
+	height: 16.5em;
 	border-radius: .5em;
 	opacity: .9;
 	transition: all .4 ease-in;
@@ -213,7 +211,7 @@ a {
 	display: flex;
 	flex-direction: row;
 	width: 6em;
-	justify-items: space-between;
+	align-items: center;
 	justify-content: space-between;
 	padding: 1em;
 }
@@ -221,6 +219,10 @@ a {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
+}
+.testo {
+	width: 45%;
+	flex-wrap: wrap;	
 }
 
 .title {
@@ -366,7 +368,6 @@ li span {
 		border-radius: .5em;
 		opacity: 0.9;
 		overflow-y: hidden;
-		text-align: center;
 		transition: all .4s ease-out;
 		-webkit-transition: all .4s ease-out;
 	}
@@ -379,12 +380,13 @@ li span {
 	}
 	.testo {
 		width: 90%;
-		flex-wrap: wrap;	
+		flex-wrap: wrap;
+		text-align: left;	
 	}
 	.description {
 		display: flex;
 		flex-direction: column;
 		justify-content: space-around;
-	  align-items: center ;
+	  align-items: center;
 	}
 } 

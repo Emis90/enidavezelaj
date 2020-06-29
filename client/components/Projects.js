@@ -4,6 +4,49 @@ class Projects extends React.Component {
   render() {
     return (
       <div id='projects'>
+        <div
+          className="proj"
+          initial={{ y: 600 }}
+          animate={{ y: 0 }}
+          exit={{ y: 10 }}
+          transition={{ duration: 1.2 }}
+        >
+          <div className="title">
+            <img
+              className="proj-icon"
+              height="50"
+              width="50"
+              src="/images/orange.png"
+            />
+            <h3>Goodie</h3>
+          </div>
+          <div className="description">
+            <div className='testo'>
+              <p>
+                Mobile development for finding and saving all the best dessert spots in New York City and checking out the latest dessert recipes.
+                I utilized three different pulic apis: weather, stores locations, dessert recipes.
+                Users can only access through login, managed by Firebase.
+                Submitting the wrong credentials will throw an error.
+              </p>
+            </div>
+            <ul id="div-stack">
+              <li className="tech-used">React Native</li>
+              <li className="tech-used">Firebase</li>
+              <li className="tech-used">REST api (3rd party)</li>
+              <li className="tech-used">Maps</li>
+            </ul>
+            <div className='links'>
+              <a href="https://github.com/Emis90/Sweet">
+                <img
+                  className="proj-icon"
+                  height="35"
+                  width="35"
+                  src="/images/github.png"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
         <div className="proj">
           <div className='title'>
             <img className="proj-icon"
@@ -17,15 +60,17 @@ class Projects extends React.Component {
             <div className='testo'>
               <p className='p'>Backend project testing routes</p>
               <p>
-                Fullstack development showing the power of relational. Logged
-                in users experience the real estate hunt for amazing NYC
-                museums.
+                Fullstack development focused on building REST api endpoints, React Hooks and Pagination.
+                You can look up for the perfect museum based on location, price, rating and ghost presence.
+                Log in to make a purchace.
             </p>
             </div>
             <ul id="div-stack">
               <li className="tech-used">Node.js</li>
+              <li className="tech-used">Express</li>
               <li className="tech-used">PostgreSQL</li>
               <li className="tech-used">React</li>
+              <li className="tech-used">Maps</li>
             </ul>
             <div className='links'>
               <a href="https://museumsofnyc.herokuapp.com">
@@ -66,12 +111,10 @@ class Projects extends React.Component {
           </div>
           <div className="description">
             <div className='testo'>
-              <p className='p'>Virtual reality game with 3 levels</p>
               <p>
-                Mobile Virtual Reality game where players collect items
-                floating away in space by tapping the screen. You can chose
-                three different levels of difficulty and collect all your best
-                times.
+                Mobile Virtual Reality game with 3 levels of difficulty where players race against the clock to collect items
+                floating away in space (around you) by tapping the screen.
+                I planned the architecture of the game, set up Navigation and the Redux store, implemented Firebase for Oath and  Firestore database for keeping track of winning times.
                 </p>
             </div>
             <ul id="div-stack">
@@ -101,51 +144,9 @@ class Projects extends React.Component {
             </div>
           </div>
         </div>
-        <div
+
+        {/* <div
           className="proj"
-          id="gelatoFinder"
-          initial={{ y: 600 }}
-          animate={{ y: 0 }}
-          exit={{ y: 10 }}
-          transition={{ duration: 1.2 }}
-        >
-          <div className="title">
-            <img
-              className="proj-icon"
-              height="50"
-              width="50"
-              src="/images/orange.png"
-            />
-            <h3>Goodie</h3>
-          </div>
-          <div className="description">
-            <div className='testo'>
-              <p className='p'>Mobile app for dessert lovers</p>
-              <p>
-                Mobile development for finding and saving all the best dessert spots in New York City and checking out the latest dessert recipes.
-              </p>
-            </div>
-            <ul id="div-stack">
-              <li className="tech-used">React Native</li>
-              <li className="tech-used">Firebase</li>
-              <li className="tech-used">Firestore</li>
-              <li className="tech-used">Maps</li>
-            </ul>
-            <div className='links'>
-              <a href="https://github.com/Emis90/Sweet">
-                <img
-                  className="proj-icon"
-                  height="35"
-                  width="35"
-                  src="/images/github.png"
-                />
-              </a>
-            </div>
-          </div>
-        </div>
-        <div
-          className="proj"
-          id="gelatofinder"
           initial={{ y: 1000 }}
           animate={{ y: 0 }}
           exit={{ y: 10 }}
@@ -162,11 +163,9 @@ class Projects extends React.Component {
           </div>
           <div className="description">
             <div className='testo'>
-              <p className='p'>Testing React hooks and forms</p>
               <p>
-                React Exercise using a faker server to make api calls and test
-                react hooks. Make transactions or change your credentials
-                using the provided validated forms.
+                React Exercise for testing React hooks and forms. I used a faker server as backend.
+                Input fields are validated, feel free to add a transaction or chanche your credentials.
               </p>
             </div>
             <div id="div-stack">
@@ -192,7 +191,7 @@ class Projects extends React.Component {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
         <div
           className="proj"
           id="cupcakestore"
@@ -212,16 +211,18 @@ class Projects extends React.Component {
           </div>
           <div className="description">
             <div className='testo'>
-              <p className='p'>E-commerce website for fancy cupcakes</p>
               <p>
                 E-commerce website for out of this world cupcakes, available
                 for purchace for both guest users and logged in users.
+                It used relational database, user oath, state management and flexbox for styling.
               </p>
             </div>
             <ul id="div-stack">
               <li className="tech-used">Node.js</li>
               <li className="tech-used">React</li>
+              <li className="tech-used">Redux</li>
               <li className="tech-used">PostgreSQL</li>
+              <li className="tech-used">Passport</li>
             </ul>
             <div className='links'>
               <a href="https://fantasticsweetcupcakes.herokuapp.com">
@@ -261,7 +262,6 @@ class Projects extends React.Component {
           </div>
           <div className="description">
             <div className='testo'>
-              <p className='p'>Matching algorithm </p>
               <p>
                 Matching algorithm for two sets of people based off of the
                 stable marriage problem.

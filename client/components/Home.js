@@ -1,16 +1,12 @@
 import React from 'react'
 import AboutMe from './AboutMe'
 
-const Home = (props) => {
-  console.log('props   ', props.prop)
-
+const Home = () => {
   return (
     <div className='home' >
       <AboutMe />
     </div>
   )
-
-
 }
 
 

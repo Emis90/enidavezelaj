@@ -8,6 +8,7 @@ import Resume from './Resume'
 import Flat from './Flat'
 import Game from './Game'
 import NotFound from './NotFound'
+import ParticlesBg from 'particles-bg'
 import {
   BrowserRouter as Router,
   Route,
@@ -20,6 +21,8 @@ const Root = () => {
   return (
     <Router>
       <div className='rootDiv'>
+        {/* <ParticlesBg color='#A3D9FF' num={150} type='cobweb' bg={true} />
+        <ParticlesBg color='#A3D9FF' num={150} type='polygon' bg={true} /> */}
         <nav className='navbar'>
           <Navbar />
         </nav>
