@@ -271,7 +271,7 @@ class Projects extends React.Component {
               <ul id="div-stack">
                 <li className="tech-used">Node.js</li>
                 <a href="https://www.npmjs.com/package/matchingev-one">
-                  <li className="tech-used">npm</li>
+                  <li className="tech-used" style={{ fontWeight: 'bold' }}>npm</li>
                 </a>
               </ul>
             </div>
