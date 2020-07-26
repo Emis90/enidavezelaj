@@ -266,21 +266,14 @@ class Projects extends React.Component {
                 Matching algorithm for two sets of people based off of the
                 stable marriage problem.
               </p>
-              <p>(  ... work in progress  )</p>
             </div>
-            <ul id="div-stack">
-              <li className="tech-used">Node.js</li>
-              <li className="tech-used">npm</li>
-            </ul>
-            <div className='links'>
-              <a href="https://www.npmjs.com/package/matchingev-">
-                <img
-                  className="proj-icon"
-                  height="35"
-                  width="35"
-                  src="/images/world.png"
-                />
-              </a>
+            <div>
+              <ul id="div-stack">
+                <li className="tech-used">Node.js</li>
+                <a href="https://www.npmjs.com/package/matchingev-one">
+                  <li className="tech-used">npm</li>
+                </a>
+              </ul>
             </div>
           </div>
         </div>
