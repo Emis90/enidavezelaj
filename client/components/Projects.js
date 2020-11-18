@@ -4,6 +4,39 @@ class Projects extends React.Component {
   render() {
     return (
       <div id='projects'>
+                <div
+          className="proj"
+          id="matchinev"
+          initial={{ y: 1200 }}
+          animate={{ y: 0 }}
+          exit={{ y: 10 }}
+          transition={{ duration: 1.7 }}
+        >
+          <div className='title'>
+            <img className="proj-icon"
+              src="/images/npm.png"
+              height="50"
+              width="50"
+            />
+            <h3>npm module</h3>
+          </div>
+          <div className="description">
+            <div className='testo'>
+              <p>
+                Matching algorithm for two sets of people based off of the
+                stable marriage problem.
+              </p>
+            </div>
+            <div>
+              <ul id="div-stack">
+                <li className="tech-used">Node.js</li>
+                <a href="https://www.npmjs.com/package/matchingev-one">
+                  <li className="tech-used" style={{ fontWeight: 'bold' }}>npm</li>
+                </a>
+              </ul>
+            </div>
+          </div>
+        </div>
         <div
           className="proj"
           initial={{ y: 600 }}
@@ -241,39 +274,6 @@ class Projects extends React.Component {
                   src="/images/github.png"
                 />
               </a>
-            </div>
-          </div>
-        </div>
-        <div
-          className="proj"
-          id="matchinev"
-          initial={{ y: 1200 }}
-          animate={{ y: 0 }}
-          exit={{ y: 10 }}
-          transition={{ duration: 1.7 }}
-        >
-          <div className='title'>
-            <img className="proj-icon"
-              src="/images/npm.png"
-              height="50"
-              width="50"
-            />
-            <h3>npm module</h3>
-          </div>
-          <div className="description">
-            <div className='testo'>
-              <p>
-                Matching algorithm for two sets of people based off of the
-                stable marriage problem.
-              </p>
-            </div>
-            <div>
-              <ul id="div-stack">
-                <li className="tech-used">Node.js</li>
-                <a href="https://www.npmjs.com/package/matchingev-one">
-                  <li className="tech-used" style={{ fontWeight: 'bold' }}>npm</li>
-                </a>
-              </ul>
             </div>
           </div>
         </div>

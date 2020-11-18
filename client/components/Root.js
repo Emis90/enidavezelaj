@@ -5,7 +5,6 @@ import Projects from './Projects'
 import Skills from './Skills'
 import Navbar from './Navbar'
 import Resume from './Resume'
-import Flat from './Flat'
 import Game from './Game'
 import NotFound from './NotFound'
 import ParticlesBg from 'particles-bg'
@@ -14,7 +13,6 @@ import {
   Route,
   Switch,
 } from 'react-router-dom'
-import MyProjects from "./MyProjects"
 
 
 const Root = () => {
@@ -33,7 +31,6 @@ const Root = () => {
           <Route exact path='/projects' component={Projects} />
           <Route exact path='/skills' component={Skills} />
           <Route exact path='/game' component={Game} />
-          <Route exact path='/proj' component={MyProjects} />
           {/* <Route exact path="*" component={NotFound} /> */}
         </Switch>
       </div>

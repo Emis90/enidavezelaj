@@ -17,9 +17,11 @@ const Skills = () => {
 					<p>Node.js</p>
 					<p>Express.js</p>
 					<p>Sequelize.js</p>
-					<p>PosgresQL</p>
+					<p>PosgreSQL</p>
+					<p>SQL</p>
 					<p>Firebase/Firestore</p>
 					<p>GraphQL</p>
+					<p>Twilio</p>
 				</div>
 			</motion.div>
 			<motion.div
