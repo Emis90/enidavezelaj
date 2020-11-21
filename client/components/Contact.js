@@ -10,9 +10,6 @@ class Contact extends React.PureComponent {
   render() {
     return (
       <div className="contact">
-        {/* <div className="contactstuff">
-      <h1>Enida Vezelaj</h1>
-      <h3>Software engineer | NY</h3> */}
         <div id="icons">
           <a href='https://github.com/Emis90'>
             <img className='contact-img' width="70" height="70" src="/images/github.png" />

@@ -1,12 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
 const Navbar = function () {
 	return (
 		<div className="navigation">
 			<div>
 				<Link className="rootLinks" to="/" prop={1234567}>
-					Home
+					About
 				</Link>
 			</div>
 

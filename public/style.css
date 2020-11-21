@@ -1,5 +1,5 @@
 * {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -10,8 +10,7 @@ body {
   width: 100%;
   margin: 0 auto;
   text-align: center;
-  background-color: #3da2dd;
-  background-image: url("images/future.png");
+  background-color: rgb(34, 45, 80);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -58,28 +57,39 @@ body {
   flex-wrap: nowrap;
   text-align: justify;
   align-items: center;
-  padding: 2%;
-  top: -10%;
+  padding: 5%;
+  top: -20%;
   height: 40%;
-  width: 60%;
+  width: 90%;
   margin-top: 5em;
-  color: rgb(230, 230, 230);
-  background-color: #4286d3;
-  background-image: linear-gradient(315deg, #485977 0%, #037abe 74%);
-  border-radius: 0.5em;
+  font-weight: 800;
+  color: rgb(34, 45, 80);
+  background-color: #aab9cf;
+  /* border-radius: 0.5em; */
   opacity: 0.9;
 }
 .mystory {
   position: relative;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 #icons {
+  /* margin-top: 0.5em; */
   position: relative;
+}
+.proj-icon,
+.contact-img {
+  color: white;
+  font-size: 2.7em;
+  padding-bottom: 0.2em;
+  border-radius: 50%;
 }
 .mystory {
   margin: 30;
 }
 .mystory p {
   letter-spacing: 0.05em;
+  font-weight: bold;
 }
 
 #text h1 {
@@ -139,8 +149,7 @@ a {
   position: relative;
   width: 18em;
   height: 24em;
-  background-color: #626d7e;
-  background-image: linear-gradient(315deg, #626d7e 10%, #f5f7fa 80%);
+  background-color: #aab9cf;
   border-radius: 0.5em;
   box-shadow: 5px;
   opacity: 0.8;
@@ -157,14 +166,6 @@ a {
   padding: 0.5em;
 }
 
-.proj-icon,
-.contact-img {
-  border-radius: 50%;
-}
-.contact-img {
-  padding: 1em;
-}
-
 #projects {
   position: relative;
   margin-top: 2em;
@@ -177,52 +178,50 @@ a {
 }
 
 .proj {
+  display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 1em;
-  margin-bottom: 1.2em;
-  height: 5em;
-  width: 60%;
-  margin-top: 1em;
-  color: rgb(230, 230, 230);
-  background-color: #4286d3;
-  background-image: linear-gradient(315deg, #485977 0%, #037abe 74%);
+  height: 6em;
+  width: 50%;
+  margin-top: 0.8em;
+  color: rgb(34, 45, 80);
+  background-color: #aab9cf;
   border-radius: 0.5em;
   text-align: justify;
   opacity: 0.9;
   overflow-y: hidden;
-  transition: all 0.4s ease-out;
-  -webkit-transition: all 0.4s ease-out;
+  transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
 }
 .proj:hover {
-  height: 16.5em;
+  height: 16em;
   border-radius: 0.5em;
   opacity: 0.9;
   transition: all 0.4 ease-in;
-  -webkit-transition: all 0.4s ease-out;
+  -webkit-transition: all 3s ease-out;
 }
 .description {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  width: 99%;
+  justify-content: space-evenly;
 }
 
 .links {
   display: flex;
   flex-direction: row;
-  width: 6em;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1em;
+  width: auto;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
-#div-stack {
+.div-stack {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 .testo {
-  width: 45%;
+  width: 65%;
   flex-wrap: wrap;
 }
 
@@ -232,7 +231,7 @@ a {
   flex-direction: column;
   margin-bottom: 1em;
   padding-top: 0.5em;
-  padding-bottom: 0.5em;
+  /* padding-bottom: 0.5em; */
   align-items: center;
   align-content: center;
 }
@@ -266,7 +265,7 @@ a {
   text-decoration: none;
 }
 .rootLinks:hover {
-  color: rgb(177, 177, 177);
+  color: #aab9cf;
   font-weight: bolder;
   text-decoration: none;
 }
@@ -309,7 +308,7 @@ iframe {
 }
 .tech-used {
   font-family: "Courier New", Courier, monospace;
-  color: rgb(212, 225, 226);
+  color: rgb(34, 45, 80);
 }
 
 .contribution {
@@ -361,9 +360,9 @@ li span {
     align-items: center;
     padding: 1em;
     height: 5.6em;
-    width: 80%;
+    width: 85%;
     margin-top: 1em;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     color: rgb(230, 230, 230);
     background-color: #4286d3;
     background-image: linear-gradient(315deg, #485977 0%, #037abe 74%);
