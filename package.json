@@ -101,7 +101,7 @@
     "jest": "^26.0.1",
     "jest-enzyme": "^7.1.2",
     "lint-staged": "^8.1.5",
-    "mocha": "^6.2.3",
+    "mocha": "^10.2.0",
     "nodemon": "^1.18.3",
     "npm-merge-driver": "^2.3.6",
     "prettier": "1.11.1",
